@@ -14,21 +14,23 @@ original by SMRTG Studios. Recommended OpenBVE Version: 1.7.0.3
 ```
 - Railway (Route)
   - Airport Express Line (TrainVision Compatible*)
+  - Airport Express Line (CBTC/TrainVision Compatible*) *NEW*
   - Changi Airport Line (TrainVision/STARiS 2 Compatible*)
+  - Changi Airport Line (CBTC/TrainVision/STARiS 2 Compatible*) *NEW*
   - Harbourvale Line (TrainVision/STARiS 2 Compatible*)
+  - Harbourvale Line (CBTC/TrainVision/STARiS 2 Compatible*) *NEW*
   - Yishun LRT (STARiS 2 Compatible*)
 
 - Train
   - Refurbished C651
   - SMRTG C651A
   - SMRTG C651B
+  - SMRTG C651C *NEW*
   - YL150/A/B
 
 * Note:
-STARiS 2 is available for: Changi Airport Line, Harbourvale Line, Yishun LRT
-TrainVision is available for: Airport Express Line, Changi Airport Line, Harbourvale Line
-
-Package Size: 921MB (approximately)
+Availability of STARiS/TrainVision systems can be found here: 
+https://discord.com/channels/824127625491906580/838303890206228480/838307233535098900
 ```
 
 
