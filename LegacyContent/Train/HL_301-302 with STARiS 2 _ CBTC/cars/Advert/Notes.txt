@@ -1,0 +1,12 @@
+Folder 0 - 5 refers to Train Car 0 to 5. This remove the need to rename files whenever there is a change in train car number (Create new trains / miscoupled trains)
+
+Train Car 0 = Most front end train car.
+
+Train Car 5 = Most back end train car.
+
+Example: In 219-220 trainset, 3219 car will be Train Car 0 and 3220 will be Train 5.
+
+Then the subfolder 1 - 3 refers to Front most to back most train interior of a particular train car.
+
+
+Example: In set 219-220, to make adverts on train car 3219 nearest to TO cabin, go to Advert\0\1. Likewise, to adjust the advert on center interior of train car 1219, go to Advert\1\2 folder.

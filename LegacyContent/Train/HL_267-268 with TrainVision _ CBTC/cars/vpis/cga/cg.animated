@@ -1,0 +1,4 @@
+[Object]
+States = cg.csv
+StateFunction = if[destination==1704,0,-1]
+

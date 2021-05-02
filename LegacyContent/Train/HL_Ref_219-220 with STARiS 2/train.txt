@@ -1,10 +1,10 @@
-SMRT Siemens C651 Version 4.0
-Trainset: 217/218
+SMRTG Refurbished C651 (Normal)
+Set 219 - 220
 
-In service since 1994.
+Constructed: 1994
+Refurbished: 2018
 
-Train by jcqh.
-Image by jcqh.
-Enhancement by Samuel Lee.
-Edit by Clarence Huang, SMRTG Corp (Virtual Operator).
-Press "PageUp" & "PageDown" to change the modes between OFF, ATO, ATPM, RMR, RMF.
+Maximum speed: 90km/h
+Service speed: 80km/h
+
+Modified by: SMRTG Virtual

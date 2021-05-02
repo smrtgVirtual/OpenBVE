@@ -1,0 +1,50 @@
+;CG2;
+[Object]
+States = L_TS.csv
+StateFunction = if[destination==1700,0,-1]
+
+
+;CG1 Next;
+[Object]
+States = L_OS.csv
+StateFunction = if[destination==1701,0,-1]
+
+
+;CG1;
+[Object]
+States = L_OS.csv
+StateFunction = if[destination==1702,0,-1]
+
+
+;CG Next;
+[Object]
+States = L_TS.csv
+StateFunction = if[destination==1703,0,-1]
+
+
+;CG;
+[Object]
+States = L_TS.csv
+StateFunction = if[destination==1704,0,-1]
+
+
+;Interchanges - VFD will show the message, STARiS remains;
+;CG1DTL;
+[Object]
+States = L_OS.csv
+StateFunction = if[destination==1705,0,-1]
+
+;CG1DTLARR;
+[Object]
+States = L_OS.csv
+StateFunction = if[destination==1706,0,-1]
+
+;CGTerm;
+[Object]
+States = L_TS.csv
+StateFunction = if[destination==1707,0,-1]
+
+;CGTermArr;
+[Object]
+States = L_TS.csv
+StateFunction = if[destination==1708,0,-1]

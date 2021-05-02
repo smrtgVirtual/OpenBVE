@@ -1,0 +1,70 @@
+; AEL beacons
+; This file contains two sections: speed limit beacons, and station stop beacons. 
+; Details on beacons: https://github.com/joeyfoo/SgATC/wiki/Beacons
+
+; -- SPEED LIMIT BEACONS --
+; Provides speed limits for ATP
+
+;AE1 > AE2
+0
+.beacon 31; -1; ; 045050
+
+175
+.beacon 31; -1; ; 055060
+
+255
+.beacon 31; -1; ; 065070
+
+1300
+.beacon 31; -1; ;050055
+
+;AE2 > AE3
+1370
+.beacon 31; -1; ; 065070
+
+2620
+.beacon 31; -1; ; 050055
+
+
+;AE3 > AE4
+3240
+.beacon 31; -1; ; 065070
+
+4020
+.beacon 31; -1; ; 050055
+
+
+
+
+; -- STATION STOP BEACONS --
+; Provides stopping position for ATO. Also used for dropping speed code to 0 at stations.
+; Located 500, 25, and 2 meters from stop point.
+
+1370
+.beacon 33; -1; ; 500
+1845
+.beacon 33; -1; ; 25
+1867.67
+.beacon 33; -1; ; 2
+1870
+; stop point
+
+3240
+.beacon 33; -1; ; 500
+3715
+.beacon 33; -1; ; 25
+3737.67
+.beacon 33; -1; ; 2
+3740
+; stop point
+
+
+4044
+.beacon 33; -1; ; 500
+4519
+.beacon 33; -1; ; 25
+4541.67
+.beacon 33; -1; ; 2
+4544
+; stop point
+

@@ -1,0 +1,57 @@
+CreateMeshBuilder,
+AddVertex, 0.24, 0.03, -0.076
+AddVertex, -0.24, 0.03, -0.076
+AddVertex, -0.24, 0.11, -0.076
+AddVertex, 0.24, 0.11, -0.076
+AddFace2,0,1,2,3
+LoadTexture, doorsclosing.png
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,0,1
+SetDecalTransparentColor, 0, 0, 0
+SetEmissiveColor,255,255,255
+
+CreateMeshBuilder,
+AddVertex, 0.24, 0.03, -0.0765
+AddVertex, -0.24, 0.03, -0.0765
+AddVertex, -0.24, 0.11, -0.0765
+AddVertex, 0.24, 0.11, -0.0765
+AddFace2,0,1,2,3
+LoadTexture, doorsclosing.png
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,0,1
+SetDecalTransparentColor, 0, 0, 0
+SetEmissiveColor,255,255,255
+SetBlendMode,Additive,0,
+
+CreateMeshBuilder,
+AddVertex, -0.24, 0.03, 0.076
+AddVertex, 0.24, 0.03, 0.076
+AddVertex, 0.24, 0.11, 0.076
+AddVertex, -0.24, 0.11, 0.076
+AddFace2,0,1,2,3
+LoadTexture, doorsclosing.png
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,0,1
+SetDecalTransparentColor, 0, 0, 0
+SetEmissiveColor,255,255,255
+
+CreateMeshBuilder,
+AddVertex, -0.24, 0.03, 0.0765
+AddVertex, 0.24, 0.03, 0.0765
+AddVertex, 0.24, 0.11, 0.0765
+AddVertex, -0.24, 0.11, 0.0765
+AddFace2,0,1,2,3
+LoadTexture, doorsclosing.png
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,0,1
+SetDecalTransparentColor, 0, 0, 0
+SetEmissiveColor,255,255,255
+SetBlendMode,Additive,0,

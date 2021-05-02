@@ -1,0 +1,13 @@
+[Object]
+
+States = scroll.csv
+
+StateFunction = -1
+TextureShiftXFunction = value+0.1*delta
+
+[include]
+harbourvale/hl16.animated
+harbourvale/nxt_hl15.animated
+harbourvale/hl15.animated
+harbourvale/nxt_hl14.animated
+harbourvale/hl14.animated

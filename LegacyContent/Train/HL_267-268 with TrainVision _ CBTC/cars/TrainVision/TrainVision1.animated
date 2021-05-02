@@ -1,0 +1,137 @@
+;;
+[Include]
+blankrt.csv
+Position = 0,0,6.16
+
+[Include]
+cgl\TrainVisionR.animated
+Position = -0.001,0,6.16
+
+[Include]
+hbl\TrainVisionR.animated
+Position = -0.001,0,6.16
+
+[Include]
+ael\TrainVisionR.animated
+Position = -0.001,0,6.16
+
+;;
+[Include]
+blanklt.csv
+Position = 0,0,-6.36
+
+[Include]
+cgl\TrainVisionL.animated
+Position = 0.001,0,-6.36
+
+[Include]
+hbl\TrainVisionL.animated
+Position = 0.001,0,-6.36
+
+[Include]
+ael\TrainVisionL.animated
+Position = 0.001,0,-6.36
+
+;;
+[Include]
+blanklt.csv
+Position = 0,0,-1.04
+
+[Include]
+cgl\TrainVisionL.animated
+Position = 0.001,0,-1.04
+
+[Include]
+hbl\TrainVisionL.animated
+Position = 0.001,0,-1.04
+
+[Include]
+ael\TrainVisionL.animated
+Position = 0.001,0,-1.04
+
+;;
+[Include]
+blankrt.csv
+Position = 0,0,0.76
+
+[Include]
+cgl\TrainVisionR.animated
+Position = -0.001,0,0.76
+
+[Include]
+hbl\TrainVisionR.animated
+Position = -0.001,0,0.76
+
+[Include]
+ael\TrainVisionR.animated
+Position = -0.001,0,0.76
+
+;;
+[Include]
+blanklt.csv
+Position = 0,0,4.36
+
+[Include]
+cgl\TrainVisionL.animated
+Position = 0.001,0,4.36
+
+[Include]
+hbl\TrainVisionL.animated
+Position = 0.001,0,4.36
+
+[Include]
+ael\TrainVisionL.animated
+Position = 0.001,0,4.36
+
+;;
+[Include]
+blankrt.csv
+Position = 0,0,-4.66
+
+[Include]
+cgl\TrainVisionR.animated
+Position = -0.001,0,-4.66
+
+[Include]
+hbl\TrainVisionR.animated
+Position = -0.001,0,-4.66
+
+[Include]
+ael\TrainVisionR.animated
+Position = -0.001,0,-4.66
+
+
+;;
+[Include]
+blanklt.csv
+Position = 0,0,9.74
+
+[Include]
+cgl\TrainVisionL.animated
+Position = 0.001,0,9.74
+
+[Include]
+hbl\TrainVisionL.animated
+Position = 0.001,0,9.74
+
+[Include]
+ael\TrainVisionL.animated
+Position = 0.001,0,9.74
+
+
+;;
+[Include]
+blankrt.csv
+Position = 0,0,-10
+
+[Include]
+cgl\TrainVisionR.animated
+Position = -0.001,0,-10
+
+[Include]
+hbl\TrainVisionR.animated
+Position = -0.001,0,-10
+
+[Include]
+ael\TrainVisionR.animated
+Position = -0.001,0,-10

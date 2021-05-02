@@ -1,0 +1,7 @@
+[Object]
+
+States = ae4Plat.csv
+
+StateFunction = if[destination==1407,0,-1]
+
+TextureShiftXFunction = value+0.1*delta

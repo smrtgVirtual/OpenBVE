@@ -1,0 +1,14 @@
+[Object]
+States = handgripsMaroon.csv
+Position = 0, 3.41, 0.22
+RotateXFunction = acceleration/10
+RotateXDamping = 5, 0.3
+
+
+[Object]
+States = handgripsMaroon.csv
+Position = 0, 3.41, 0.66
+RotateXFunction = acceleration/10
+RotateXDamping = 5, 0.3
+
+;;

@@ -1,0 +1,7 @@
+* (1) -> Invert version.
+
+* -1 -> Front most advert panel towards TO cabin.
+
+* -2 -> Second Front most advert panel towards TO cabin.
+
+* In sub folder 1, 2 and 3 -> Follows intwall naming scheme.

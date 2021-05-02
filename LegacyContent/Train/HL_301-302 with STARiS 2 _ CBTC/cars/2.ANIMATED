@@ -1,0 +1,531 @@
+;STARIS
+;;
+[Object]
+Position = 0,0,6.69
+States = starisrt.csv, starisro.csv
+StateFunction = pluginstate[102]
+
+;Main Panel Blank;
+[Object]
+Position = -0.025,-0.002,10.40
+States = starisPanelR.csv
+
+[Include]
+STARIS 2\cgl\STARIS2R.animated
+Position = -0.001,0,6.69
+
+[Include]
+STARIS 2\hbl\STARIS2R.animated
+Position = -0.001,0,6.69
+
+;;
+[Object]
+Position = 0,0,-5.83
+States = starislt.csv, starislo.csv
+StateFunction = pluginstate[102]
+
+;Main Panel Blank;
+[Object]
+Position = 0.025,-0.002,10.32
+States = starisPanel.csv
+
+[Include]
+STARIS 2\cgl\STARIS2L.animated
+Position = 0.001,0,-5.83
+
+[Include]
+STARIS 2\hbl\STARIS2L.animated
+Position = 0.001,0,-5.83
+
+
+;;
+[Object]
+Position = 0,0,1.28
+States = starisrt.csv, starisro.csv
+StateFunction = pluginstate[102]
+
+;Main Panel Blank;
+[Object]
+Position = -0.025,-0.002,4.99
+States = starisPanelR.csv
+
+[Include]
+STARIS 2\cgl\STARIS2R.animated
+Position = -0.001,0,1.28
+
+[Include]
+STARIS 2\hbl\STARIS2R.animated
+Position = -0.001,0,1.28
+
+
+
+;;
+[Object]
+Position = 0,0,4.9
+States = starislt.csv, starislo.csv
+StateFunction = pluginstate[107]
+
+;Main Panel Blank;
+[Object]
+Position = 0.025,-0.002,4.895
+States = starisPanel.csv
+
+[Include]
+STARIS 2\cgl\STARIS2L.animated
+Position = 0.001,0,4.9
+
+[Include]
+STARIS 2\hbl\STARIS2L.animated
+Position = 0.001,0,4.9
+
+
+;;
+[Object]
+Position = 0,0,-4.06
+States = starisrt.csv, starisro.csv
+StateFunction = pluginstate[102]
+
+;Main Panel Blank;
+[Object]
+Position = -0.025,-0.002,-0.35
+States = starisPanelR.csv
+
+[Include]
+STARIS 2\cgl\STARIS2R.animated
+Position = -0.001,0,-4.06
+
+[Include]
+STARIS 2\hbl\STARIS2R.animated
+Position = -0.001,0,-4.06
+
+
+;;
+[Object]
+Position = 0,0,10.32
+States = starislt.csv, starislo.csv
+StateFunction = pluginstate[107]
+
+;Main Panel Blank;
+[Object]
+Position = 0.025,-0.002,-0.405
+States = starisPanel.csv
+
+[Include]
+STARIS 2\cgl\STARIS2L.animated
+Position = 0.001,0,10.32
+
+[Include]
+STARIS 2\hbl\STARIS2L.animated
+Position = 0.001,0,10.32
+
+
+;;
+[Object]
+Position = 0,0,-9.3
+States = starisrt.csv, starisro.csv
+StateFunction = pluginstate[102]
+
+;Main Panel Blank;
+[Object]
+Position = -0.025,-0.002,-5.595
+States = starisPanelR.csv
+
+[Include]
+STARIS 2\cgl\STARIS2R.animated
+Position = -0.001,0,-9.3
+
+[Include]
+STARIS 2\hbl\STARIS2R.animated
+Position = -0.001,0,-9.3
+
+
+;;
+[Object]
+Position = 0,0,-0.4
+States = starislt.csv, starislo.csv
+StateFunction = pluginstate[107]
+
+;Main Panel Blank;
+[Object]
+Position = 0.025,-0.002,-5.83
+States = starisPanel.csv
+
+[Include]
+STARIS 2\cgl\STARIS2L.animated
+Position = 0.001,0,-0.4
+
+[Include]
+STARIS 2\hbl\STARIS2L.animated
+Position = 0.001,0,-0.4
+
+;;
+[Include]
+dcindicator\dcindicatorR.animated
+Position = 1.45,3.265,-8.56
+
+[Include]
+dcindicator\dcindicatorL.animated
+Position = -1.45,3.265,-8.56
+
+;;
+[Include]
+dcindicator\dcindicatorR.animated
+Position = 1.45,3.265,-3.22
+
+[Include]
+dcindicator\dcindicatorL.animated
+Position = -1.45,3.265,-3.22
+
+;;
+[Include]
+dcindicator\dcindicatorR.animated
+Position = 1.45,3.265,2.19
+
+[Include]
+dcindicator\dcindicatorL.animated
+Position = -1.45,3.265,2.19
+
+;;
+[Include]
+dcindicator\dcindicatorR.animated
+Position = 1.45,3.265,7.59
+
+[Include]
+dcindicator\dcindicatorL.animated
+Position = -1.45,3.265,7.59
+
+[Include]
+aircons.csv
+position = 0,0,-12.3
+
+[Include]
+vpis/vpis_shell.animated
+position = 0,3.45,4.2
+
+[Include]
+vpis/vpis_shell.animated
+position = 0,3.45,-5.8
+
+[Include]
+vpis/dooropenside.animated
+position = 0,3.45,4.2
+
+[Include]
+vpis/dooropenside.animated
+position = 0,3.45,-5.8
+
+[Include]
+vpis/doorclosing.animated
+position = 0,3.45,-5.8
+
+[Include]
+vpis/doorclosing.animated
+position = 0,3.45,4.2
+
+[Include]
+vpis/scroll.animated
+position = 0,3.45,-5.8
+
+[Include]
+vpis/scroll.animated
+position = 0,3.45,4.2
+
+
+
+
+[Include]
+handgripsGreen.animated
+Position = 0, -0.005, 7.1
+
+[Include]
+handgrips halfGreen.animated
+Position = 0, -0.015, 5.95
+
+[Include]
+handgripsGreen.animated
+Position = 0, -0.005, 2.9
+
+[Include]
+handgripsGreen.animated
+Position = 0, -0.005, 1.18
+
+[Include]
+handgrips halfGreen.animated
+Position = 0, -0.010, 0.25
+
+[Include]
+handgrips halfGreen.animated
+Position = 0, -0.005, -1.6
+
+[Include]
+handgrips halfGreen.animated
+Position = 0, -0.005, -3.85
+
+[Include]
+handgrips halfGreen.animated
+Position = 0, -0.005, -5.95
+
+[Include]
+handgrips halfGreen.animated
+Position = 0, -0.005, -7.85
+
+
+
+;Wheels;
+[Object]
+States = wheels.csv
+RotateXFunction = value + delta * speedometer / 0.505
+Position = 0.744,0.655,-10.4
+
+[Object]
+States = wheels.csv
+RotateXFunction = value + delta * speedometer / 0.505
+Position = -0.744,0.655,-10.4
+
+[Object]
+States = wheels.csv
+RotateXFunction = value + delta * speedometer / 0.505
+Position = 0.744,0.655,-8.9
+
+[Object]
+States = wheels.csv
+RotateXFunction = value + delta * speedometer / 0.505
+Position = -0.744,0.655,-8.9
+
+
+[Object]
+States = wheels.csv
+RotateXFunction = value + delta * speedometer / 0.505
+Position = 0.744,0.655,6.6
+
+[Object]
+States = wheels.csv
+RotateXFunction = value + delta * speedometer / 0.505
+Position = -0.744,0.655,6.6
+
+[Object]
+States = wheels.csv
+RotateXFunction = value + delta * speedometer / 0.505
+Position = 0.744,0.655,8.1
+
+[Object]
+States = wheels.csv
+RotateXFunction = value + delta * speedometer / 0.505
+Position = -0.744,0.655,8.1
+
+[Object]
+States = 2.csv
+Position = 0,0,-12.4
+
+[Object]
+States = roofside25.csv
+Position = 0,0,-12.4
+
+;Interior Walls;
+[Object]
+States = intwall530-2-3.csv
+Position = 0,0,-5.79
+
+[Object]
+States = intwall540-2-2.csv
+Position = 0,0,-0.49
+
+[Object]
+States = intwall540-2-1.csv
+Position = 0,0,4.91
+
+[Object]
+States = intwall2-2.csv
+Position = 0,0,1.27
+
+;;
+[Object]
+States = poles.csv
+Position = 0,1.20,-7.8
+
+;;
+[Object]
+States = tripole.csv
+Position = 0,1.20,-5.8
+
+[Object]
+States = tripole.csv
+Position = 0,1.20,-1.1
+
+[Object]
+States = tripole.csv
+Position = 0,1.20,4.2
+
+
+;Door Light;
+
+[Object]
+Position = 0,0,1.25
+States = doorlight_2R.csv,doorlight_1R.csv
+statefunction = Ceiling[doors] != 1
+
+[Object]
+Position = 0,0,1.25
+States = doorlight_2L.csv,doorlight_1L.csv
+statefunction = Ceiling[doors] != 1
+
+;Door 1;
+
+[Object]
+States = drsl_left-2.csv
+Position = 0.008,0,-8.5
+TranslateZFunction = -0.966*if[leftdoorstarget==0,if[leftdoors<1 & leftdoors>0.4 ,0.45*sin[3.6*leftdoors-2.03]+0.45,if[leftdoors<0.4,0.5*leftdoors,0.9]],if[leftdoors<0.8,0.9*sin[1.82438*leftdoors-1.5708]+0.9,0.5*leftdoors+0.4]]
+
+[Object]
+States = drsl_right-2.csv
+Position = 0.008,0,-8.5
+TranslateZFunction = 0.966*if[leftdoorstarget==0,if[leftdoors<1 & leftdoors>0.4 ,0.45*sin[3.6*leftdoors-2.03]+0.45,if[leftdoors<0.4,0.5*leftdoors,0.9]],if[leftdoors<0.8,0.9*sin[1.82438*leftdoors-1.5708]+0.9,0.5*leftdoors+0.4]]
+
+[Object]
+States = doorbottom_left.csv
+Position = 0,0,-8.5
+
+[Object]
+States = drsr_left-2.csv
+Position = -0.008,0,-8.5
+TranslateZFunction = -0.966*if[rightdoorstarget==0,if[rightdoors<1 & rightdoors>0.4 ,0.45*sin[3.6*rightdoors-2.03]+0.45,if[rightdoors<0.4,0.5*rightdoors,0.9]],if[rightdoors<0.8,0.9*sin[1.82438*rightdoors-1.5708]+0.9,0.5*rightdoors+0.4]]
+
+[Object]
+States = drsr_right-2.csv
+Position = -0.008,0,-8.5
+TranslateZFunction = 0.966*if[rightdoorstarget==0,if[rightdoors<1 & rightdoors>0.4 ,0.45*sin[3.6*rightdoors-2.03]+0.45,if[rightdoors<0.4,0.5*rightdoors,0.9]],if[rightdoors<0.8,0.9*sin[1.82438*rightdoors-1.5708]+0.9,0.5*rightdoors+0.4]]
+
+[Object]
+States = doorbottom_right.csv
+Position = 0,0,-8.5
+
+;Door 2;
+
+[Object]
+States = drsl_left-2.csv
+Position = 0.008,0,-3.2
+TranslateZFunction = -0.966*if[leftdoorstarget==0,if[leftdoors<1 & leftdoors>0.4 ,0.45*sin[3.6*leftdoors-2.03]+0.45,if[leftdoors<0.4,0.5*leftdoors,0.9]],if[leftdoors<0.8,0.9*sin[1.82438*leftdoors-1.5708]+0.9,0.5*leftdoors+0.4]]
+
+[Object]
+States = drsl_right-2.csv
+Position = 0.008,0,-3.2
+TranslateZFunction = 0.966*if[leftdoorstarget==0,if[leftdoors<1 & leftdoors>0.4 ,0.45*sin[3.6*leftdoors-2.03]+0.45,if[leftdoors<0.4,0.5*leftdoors,0.9]],if[leftdoors<0.8,0.9*sin[1.82438*leftdoors-1.5708]+0.9,0.5*leftdoors+0.4]]
+
+[Object]
+States = doorbottom_left.csv
+Position = 0,0,-3.2
+
+[Object]
+States = drsr_left-2.csv
+Position = -0.008,0,-3.2
+TranslateZFunction = -0.966*if[rightdoorstarget==0,if[rightdoors<1 & rightdoors>0.4 ,0.45*sin[3.6*rightdoors-2.03]+0.45,if[rightdoors<0.4,0.5*rightdoors,0.9]],if[rightdoors<0.8,0.9*sin[1.82438*rightdoors-1.5708]+0.9,0.5*rightdoors+0.4]]
+
+[Object]
+States = drsr_right-2.csv
+Position = -0.008,0,-3.2
+TranslateZFunction = 0.966*if[rightdoorstarget==0,if[rightdoors<1 & rightdoors>0.4 ,0.45*sin[3.6*rightdoors-2.03]+0.45,if[rightdoors<0.4,0.5*rightdoors,0.9]],if[rightdoors<0.8,0.9*sin[1.82438*rightdoors-1.5708]+0.9,0.5*rightdoors+0.4]]
+
+[Object]
+States = doorbottom_right.csv
+Position = 0,0,-3.2
+
+;Door 3;
+
+[Object]
+States = drsl_left-2PB.csv
+Position = 0.008,0,2.2
+TranslateZFunction = -0.966*if[leftdoorstarget==0,if[leftdoors<1 & leftdoors>0.4 ,0.45*sin[3.6*leftdoors-2.03]+0.45,if[leftdoors<0.4,0.5*leftdoors,0.9]],if[leftdoors<0.8,0.9*sin[1.82438*leftdoors-1.5708]+0.9,0.5*leftdoors+0.4]]
+
+[Object]
+States = drsl_right-2PA.csv
+Position = 0.008,0,2.2
+TranslateZFunction = 0.966*if[leftdoorstarget==0,if[leftdoors<1 & leftdoors>0.4 ,0.45*sin[3.6*leftdoors-2.03]+0.45,if[leftdoors<0.4,0.5*leftdoors,0.9]],if[leftdoors<0.8,0.9*sin[1.82438*leftdoors-1.5708]+0.9,0.5*leftdoors+0.4]]
+
+[Object]
+States = doorbottom_left.csv
+Position = 0,0,2.2
+
+[Object]
+States = drsr_left-2PB.csv
+Position = -0.008,0,2.2
+TranslateZFunction = -0.966*if[rightdoorstarget==0,if[rightdoors<1 & rightdoors>0.4 ,0.45*sin[3.6*rightdoors-2.03]+0.45,if[rightdoors<0.4,0.5*rightdoors,0.9]],if[rightdoors<0.8,0.9*sin[1.82438*rightdoors-1.5708]+0.9,0.5*rightdoors+0.4]]
+
+[Object]
+States = drsr_right-2PA.csv
+Position = -0.008,0,2.2
+TranslateZFunction = 0.966*if[rightdoorstarget==0,if[rightdoors<1 & rightdoors>0.4 ,0.45*sin[3.6*rightdoors-2.03]+0.45,if[rightdoors<0.4,0.5*rightdoors,0.9]],if[rightdoors<0.8,0.9*sin[1.82438*rightdoors-1.5708]+0.9,0.5*rightdoors+0.4]]
+
+[Object]
+States = doorbottom_right.csv
+Position = 0,0,2.2
+
+;Door 4;
+
+[Object]
+States = drsl_left-2PA.csv
+Position = 0.008,0,7.6
+TranslateZFunction = -0.966*if[leftdoorstarget==0,if[leftdoors<1 & leftdoors>0.4 ,0.45*sin[3.6*leftdoors-2.03]+0.45,if[leftdoors<0.4,0.5*leftdoors,0.9]],if[leftdoors<0.8,0.9*sin[1.82438*leftdoors-1.5708]+0.9,0.5*leftdoors+0.4]]
+
+[Object]
+States = drsl_right-2PB.csv
+Position = 0.008,0,7.6
+TranslateZFunction = 0.966*if[leftdoorstarget==0,if[leftdoors<1 & leftdoors>0.4 ,0.45*sin[3.6*leftdoors-2.03]+0.45,if[leftdoors<0.4,0.5*leftdoors,0.9]],if[leftdoors<0.8,0.9*sin[1.82438*leftdoors-1.5708]+0.9,0.5*leftdoors+0.4]]
+
+[Object]
+States = doorbottom_left.csv
+Position = 0,0,7.6
+
+[Object]
+States = drsr_left-2PA.csv
+Position = -0.008,0,7.6
+TranslateZFunction = -0.966*if[rightdoorstarget==0,if[rightdoors<1 & rightdoors>0.4 ,0.45*sin[3.6*rightdoors-2.03]+0.45,if[rightdoors<0.4,0.5*rightdoors,0.9]],if[rightdoors<0.8,0.9*sin[1.82438*rightdoors-1.5708]+0.9,0.5*rightdoors+0.4]]
+
+[Object]
+States = drsr_right-2PB.csv
+Position = -0.008,0,7.6
+TranslateZFunction = 0.966*if[rightdoorstarget==0,if[rightdoors<1 & rightdoors>0.4 ,0.45*sin[3.6*rightdoors-2.03]+0.45,if[rightdoors<0.4,0.5*rightdoors,0.9]],if[rightdoors<0.8,0.9*sin[1.82438*rightdoors-1.5708]+0.9,0.5*rightdoors+0.4]]
+
+[Object]
+States = doorbottom_right.csv
+Position = 0,0,7.6
+
+;Seats;
+[Include]
+green/long.animated
+Position = 0,0.65,3.32
+
+[Include]
+green/long.animated
+Position = 0,0.65,-2.08
+
+[Include]
+green/long.animated
+Position = 0,0.65,-7.43
+
+[Include]
+green/long_left.animated
+Position = -0.01,0.65,3.32
+
+[Include]
+green/long_left.animated
+Position = -0.01,0.65,-2.08
+
+[Include]
+green/long_left.animated
+Position = -0.01,0.65,-7.43
+
+[Include]
+green/long_left-1.animated
+Position = -0.01,0.65,8.9
+
+[Include]
+green/long_left-2.animated
+Position = -0.01,0.65,-10.34
+
+[Include]
+green/long-2.animated
+Position = 0,0.65,-10.34
+
+[Include]
+green/long-1.animated
+Position = 0,0.65,8.9

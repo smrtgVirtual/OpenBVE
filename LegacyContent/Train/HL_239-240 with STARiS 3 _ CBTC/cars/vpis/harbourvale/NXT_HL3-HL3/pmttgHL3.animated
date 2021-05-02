@@ -1,0 +1,7 @@
+[Object]
+
+States = pmttgHL3.csv
+
+StateFunction = if[destination==1544,0,-1]
+
+TextureShiftXFunction = value+0.1*delta

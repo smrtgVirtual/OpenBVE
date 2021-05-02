@@ -1,21 +1,9 @@
-SMRT Kawasaki Heavy Industries/Nippon Sharyo C751B
-Set 311 - 312 (Kawasaki Heavy Industries)
+SMRTG C651B (Normal)
+Set 267 - 268
 
-Constructed: 1999 - 2001
-In service: 28 January 2000 - Current
+Constructed: 2019
 
 Maximum speed: 90km/h
 Service speed: 80km/h
 
-Traction system: IGBT-VVVF (Fuji Electric)
-
-Electric system: 750 V DC 3rd rail
-
-Car length: 23M
-Width: 3.2M
-Height: 3.7M
-Weight: 34.8t (Trailer car)
-	39t (Motor car)
-
-Created by: Mushmom / SBS7322B
-Thanks: yellowflip999 (BETA Tester and Co-Developer)
+Modified by: SMRTG Virtual

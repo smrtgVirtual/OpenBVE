@@ -1,0 +1,8 @@
+createmeshbuilder,
+cube,0.5,0.5,0.5
+setcolor,0,0,255,50
+
+createmeshbuilder,
+cube,0.5,0.5,0.5
+setcolor,0,255,0,100
+translate,0,0,1

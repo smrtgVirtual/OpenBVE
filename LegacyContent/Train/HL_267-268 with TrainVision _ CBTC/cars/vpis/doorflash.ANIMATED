@@ -1,0 +1,4 @@
+[Object]
+States = blanks.csv, doorsclosing.csv
+StateFunction = value == 0
+RefreshRate = 2

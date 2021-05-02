@@ -1,0 +1,30 @@
+[Object]
+States = blanks.csv, doorsclosing.csv
+StateFunction = if[((leftDoors[0]+leftDoorsTarget)<1)&((leftDoors[0]+leftDoorsTarget)>0),1,0]
+
+[Object]
+States = blanks.csv, doorsclosing1.csv
+StateFunction = if[((leftDoors[0]<0.45)&(leftDoors[0]+leftDoorsTarget)>0),1,0]
+
+[Object]
+States = blanks.csv, doorsclosing2.csv
+StateFunction = if[((leftDoors[0]<0.35)&(leftDoors[0]+leftDoorsTarget)>0),1,0]
+
+
+[Object]
+States = blanks.csv, doorsclosing.csv
+StateFunction = if[((rightDoors[0]+rightDoorsTarget)<1)&((rightDoors[0]+rightDoorsTarget)>0),1,0]
+
+[Object]
+States = blanks.csv, doorsclosing1.csv
+StateFunction = if[rightDoors,if[rightDoorsTarget,0,value == 0],0]
+RefreshRate = 3
+
+[Object]
+States = blanks.csv, doorsclosing2.csv
+StateFunction = if[rightDoors,if[rightDoorsTarget,0,value == 0],0]
+RefreshRate = 3.3
+
+[Object]
+States = blanks.csv, doorsclosing3.csv
+StateFunction = if[leftdoorstarget>0,if[leftdoors==1,0,1],0]

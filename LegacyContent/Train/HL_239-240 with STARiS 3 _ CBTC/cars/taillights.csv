@@ -1,0 +1,31 @@
+CreateMeshBuilder,
+AddVertex,1.1, 1.2, 11.8,
+AddVertex,0.55, 1.2, 11.8,
+AddVertex,0.55, 0.7, 11.8,
+AddVertex,1.1, 0.7, 11.8,
+AddFace2,0,1,2,3,
+LoadTexture,glow_red.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetEmissiveColor,255,255,255,
+SetBlendMode,Additive,0,
+Translate,0.4,0.8,0
+
+CreateMeshBuilder,
+AddVertex,-0.55, 1.2, 11.8,
+AddVertex,-1.1, 1.2, 11.8,
+AddVertex,-1.1, 0.7, 11.8,
+AddVertex,-0.55, 0.7, 11.8,
+AddFace2,0,1,2,3,
+LoadTexture,glow_red.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetEmissiveColor,255,255,255,
+SetBlendMode,Additive,0,
+Translate,-0.7,0.8,0
+
+TranslateAll, 0,0.1,0

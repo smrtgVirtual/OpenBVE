@@ -1,0 +1,46 @@
+1531 - Reserved
+1532 - ChangeAEL Nxt
+	1503 >ANN
+	1532
+	1503
+
+1533 - ChangeAEL
+	1504
+	1533
+	1504
+
+1534 - HL14 PMTTG
+	1534
+	1504
+
+;;
+
+1535 - ChangeNWL Nxt
+	1505 >ANN
+	1535
+	1505
+
+1536 - CrossSc
+	1506
+	1536
+	1506
+
+1537 - HL13 PMTTG
+	1537
+	1506
+
+;;
+
+1538 - ChangeNWL Nxt
+	1507 >ANN
+	1538
+	1507
+
+1539 - CrossSc
+	1508
+	1539
+	1508
+
+1540 - HL13 PMTTG
+	1540
+	1508

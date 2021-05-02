@@ -1,0 +1,4 @@
+[Object]
+States = closing.csv, closing1.csv, closing2.csv, closing3.csv, closing4.csv, closing5.csv, closing6.csv, closing7.csv, closing8.csv, welcome.csv, welcome.csv, welcome.csv, welcome.csv, welcome.csv, welcome.csv, welcome.csv, welcome.csv, welcome.csv, welcome.csv, welcome.csv, welcome.csv
+StateFunction = if[klaxon == 2, mod[value + 1, 21],-1]
+refreshrate = 0.65

@@ -1,0 +1,12 @@
+intwall5X-Y series for train interior has renamed into:
+
+intwall5X-Y-Z 
+
+* intwall5X -> Length of the interior (530cm, 535cm or 540cm)
+
+* -Y -> Train Car Index without specify exact Train Car number (In set 219-220, 3219 is first train car giving index of 0).
+
+* -Z -> 1 refers to first (Front most), 2 and so forth.
+
+
+All STARIS main panel (Background) = 2.75m with more tilted towards JKN side (Based on left side)

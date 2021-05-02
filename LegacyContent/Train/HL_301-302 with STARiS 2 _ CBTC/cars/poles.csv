@@ -1,0 +1,130 @@
+;horizontal pole;
+CreateMeshBuilder
+Cylinder, 10, 0.015, 0.028, 18.025
+SetColor, 120,120,120
+SetEmissiveColor,50,50,50
+Rotate,1,0,0,90
+translate,0,1.95,6.997
+
+;joints;
+
+;Start from Back;
+;1;
+CreateMeshBuilder
+Cylinder, 10, 0.032, 0.019, 0.12
+SetColor, 120,120,120
+SetEmissiveColor,50,50,50
+translate,0,2.07,-2
+
+CreateMeshBuilder
+Cylinder, 10, 0.015, 0.015, 0.12
+SetColor, 120,120,120
+SetEmissiveColor,50,50,50
+translate,0,2.02,-2
+
+;2;
+CreateMeshBuilder
+Cylinder, 10, 0.032, 0.019, 0.12
+SetColor, 120,120,120
+SetEmissiveColor,50,50,50
+translate,0,2.07,-0.02
+
+CreateMeshBuilder
+Cylinder, 10, 0.015, 0.015, 0.12
+SetColor, 120,120,120
+SetEmissiveColor,50,50,50
+translate,0,2.02,-0.02
+
+;3;
+CreateMeshBuilder
+Cylinder, 10, 0.032, 0.019, 0.12
+SetColor, 120,120,120
+SetEmissiveColor,50,50,50
+translate,0,2.07,2
+
+CreateMeshBuilder
+Cylinder, 10, 0.015, 0.015, 0.12
+SetColor, 120,120,120
+SetEmissiveColor,50,50,50
+translate,0,2.02,2
+
+
+;4;
+CreateMeshBuilder
+Cylinder, 10, 0.032, 0.019, 0.12
+SetColor, 120,120,120
+SetEmissiveColor,50,50,50
+translate,0,2.07,4.5
+
+CreateMeshBuilder
+Cylinder, 10, 0.015, 0.015, 0.12
+SetColor, 120,120,120
+SetEmissiveColor,50,50,50
+translate,0,2.02,4.5
+
+;5;
+CreateMeshBuilder
+Cylinder, 10, 0.032, 0.019, 0.12
+SetColor, 120,120,120
+SetEmissiveColor,50,50,50
+translate,0,2.07,6.7
+
+CreateMeshBuilder
+Cylinder, 10, 0.015, 0.015, 0.12
+SetColor, 120,120,120
+SetEmissiveColor,50,50,50
+translate,0,2.02,6.7
+
+;6;
+CreateMeshBuilder
+Cylinder, 10, 0.032, 0.019, 0.12
+SetColor, 120,120,120
+SetEmissiveColor,50,50,50
+translate,0,2.07,9.4
+
+CreateMeshBuilder
+Cylinder, 10, 0.015, 0.015, 0.12
+SetColor, 120,120,120
+SetEmissiveColor,50,50,50
+translate,0,2.02,9.4
+
+;;
+CreateMeshBuilder
+Cylinder, 10, 0.032, 0.019, 0.12
+SetColor, 120,120,120
+SetEmissiveColor,50,50,50
+translate,0,2.07,12
+
+CreateMeshBuilder
+Cylinder, 10, 0.015, 0.015, 0.12
+SetColor, 120,120,120
+SetEmissiveColor,50,50,50
+translate,0,2.02,12
+
+;;
+CreateMeshBuilder
+Cylinder, 10, 0.032, 0.019, 0.12
+SetColor, 120,120,120
+SetEmissiveColor,50,50,50
+translate,0,2.07,14
+
+CreateMeshBuilder
+Cylinder, 10, 0.015, 0.015, 0.12
+SetColor, 120,120,120
+SetEmissiveColor,50,50,50
+translate,0,2.02,14
+
+;;
+CreateMeshBuilder
+Cylinder, 10, 0.032, 0.019, 0.12
+SetColor, 120,120,120
+SetEmissiveColor,50,50,50
+translate,0,2.07,16
+
+CreateMeshBuilder
+Cylinder, 10, 0.015, 0.015, 0.12
+SetColor, 120,120,120
+SetEmissiveColor,50,50,50
+translate,0,2.02,16
+
+ScaleAll,1,1.13,1

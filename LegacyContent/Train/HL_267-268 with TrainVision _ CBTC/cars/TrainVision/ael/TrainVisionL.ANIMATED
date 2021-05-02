@@ -1,0 +1,55 @@
+[Object]
+States = DoorClosing\trnvL1.csv, DoorClosing\trnvL2.csv, DoorClosing\trnvL3.csv, DoorClosing\trnvL4.csv, DoorClosing\trnvL5.csv, DoorClosing\trnvL6.csv, DoorClosing\trnvL7.csv, DoorClosing\trnvL8.csv, DoorClosing\trnvL9.csv, DoorClosing\trnvL9.csv, DoorClosing\trnvL9.csv
+StateFunction = if[klaxon == 2, mod[value + 1, 21],-1]
+refreshrate = 0.65
+Position = 0.001,0,0
+
+;AE1;
+[Object]
+States = Arr\ae1ts.csv, Arr\ae1tsb.csv
+StateFunction = if[destination==1400,value==0,-1]
+refreshrate = 0.8
+
+;AE2 Next;
+[Object]
+States = Nxt\ae2nxtos.csv, Nxt\ae2nxtosb1.csv, Nxt\ae2nxtos.csv, Nxt\ae2nxtosb1.csv, Nxt\ae2nxtos.csv, Nxt\ae2nxtosb1.csv, Nxt\ae2nxtosb2.csv, Nxt\ae2nxtosb3.csv, Nxt\ae2nxtosb2.csv, Nxt\ae2nxtosb3.csv, Nxt\ae2nxtosb2.csv, Nxt\ae2nxtosb3.csv
+StateFunction = if[destination==1401,mod[value + 1, 12],-1]
+refreshrate = 1.0
+
+;AE2;
+[Object]
+States = Arr\ae2os.csv, Arr\ae2osb.csv
+StateFunction = if[destination==1402,value==0,-1]
+refreshrate = 0.8
+
+;AE3 Next;
+[Object]
+States = Nxt\ae3nxtos.csv, Nxt\ae3nxtosb1.csv, Nxt\ae3nxtos.csv, Nxt\ae3nxtosb1.csv, Nxt\ae3nxtos.csv, Nxt\ae3nxtosb1.csv, Nxt\ae3nxtosb2.csv, Nxt\ae3nxtosb3.csv, Nxt\ae3nxtosb2.csv, Nxt\ae3nxtosb3.csv, Nxt\ae3nxtosb2.csv, Nxt\ae3nxtosb3.csv
+StateFunction = if[destination==1403,mod[value + 1, 12],-1]
+refreshrate = 1.0
+
+;AE3;
+[Object]
+States = Arr\ae3os.csv, Arr\ae3osb.csv
+StateFunction = if[destination==1404,value==0,-1]
+refreshrate = 0.8
+
+;AE4 Next;
+[Object]
+States = Nxt\ae4nxtos.csv, Nxt\ae4nxtosb1.csv, Nxt\ae4nxtos.csv, Nxt\ae4nxtosb1.csv, Nxt\ae4nxtos.csv, Nxt\ae4nxtosb1.csv, Nxt\ae4nxtosb2.csv, Nxt\ae4nxtosb3.csv, Nxt\ae4nxtosb2.csv, Nxt\ae4nxtosb3.csv, Nxt\ae4nxtosb2.csv, Nxt\ae4nxtosb3.csv
+StateFunction = if[destination==1405,mod[value + 1, 12],-1]
+refreshrate = 1.0
+
+;AE4;
+[Object]
+States = Arr\ae4os.csv, Arr\ae4osb.csv
+StateFunction = if[destination==1406,value==0,-1]
+refreshrate = 0.8
+
+;Interchanges - VFD will show the message, TrainVision remains;
+
+;AE4;
+[Object]
+States = Arr\ae4os.csv, Arr\ae4osb.csv
+StateFunction = if[destination==1407,value==0,-1]
+refreshrate = 0.8

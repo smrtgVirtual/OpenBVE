@@ -1,0 +1,5 @@
+[Object]
+
+States = hl11.csv
+
+StateFunction = if[destination==1516,0,-1]

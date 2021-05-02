@@ -1,0 +1,13 @@
+CreateMeshBuilder,
+GenerateNormals,
+Cylinder,20,0.505,0.505,0.1,
+LoadTexture,blackgrey.png,
+Rotate,0,0,1,90,
+SetEmissiveColor,0,0,0,
+
+CreateMeshBuilder,
+GenerateNormals,
+Cylinder,20,0.405,0.405,0.11,
+LoadTexture,brown.png,
+Rotate,0,0,1,90,
+SetEmissiveColor,0,0,0,

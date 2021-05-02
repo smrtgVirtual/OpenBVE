@@ -1,0 +1,25 @@
+[Object]
+States = handgripsBlue.csv
+Position = 0, 3.42, -0.22
+RotateXFunction = acceleration/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = handgripsBlue.csv
+Position = 0, 3.42, -0.66
+RotateXFunction = acceleration/10
+RotateXDamping = 5, 0.3
+
+
+[Object]
+States = handgripsBlue.csv
+Position = 0, 3.42, -1.11
+RotateXFunction = acceleration/10
+RotateXDamping = 5, 0.3
+
+
+[Object]
+States = handgripsBlue.csv
+Position = 0, 3.42, -1.55
+RotateXFunction = acceleration/10
+RotateXDamping = 5, 0.3

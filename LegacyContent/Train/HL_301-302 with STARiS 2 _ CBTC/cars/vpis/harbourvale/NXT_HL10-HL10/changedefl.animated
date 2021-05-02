@@ -1,0 +1,7 @@
+[Object]
+
+States = changedefl.csv
+
+StateFunction = if[destination==1518,0,-1]
+
+TextureShiftXFunction = value+0.1*delta

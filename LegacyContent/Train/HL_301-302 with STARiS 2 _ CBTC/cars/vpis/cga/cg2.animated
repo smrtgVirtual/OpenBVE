@@ -1,0 +1,5 @@
+[Object]
+
+States = cg2.csv
+
+StateFunction = if[destination==1700,0,-1]

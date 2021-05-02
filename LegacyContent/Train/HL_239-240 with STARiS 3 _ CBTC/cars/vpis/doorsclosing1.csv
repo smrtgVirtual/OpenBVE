@@ -1,0 +1,16 @@
+CreateMeshBuilder,
+AddVertex, 0.24, 0.03, -0.075
+AddVertex, -0.24, 0.03, -0.075
+AddVertex, -0.24, 0.11, -0.075
+AddVertex, 0.24, 0.11, -0.075
+AddFace2,0,1,2,3
+SetColor,0,0,0
+
+CreateMeshBuilder,
+AddVertex, -0.24, 0.03, 0.075
+AddVertex, 0.24, 0.03, 0.075
+AddVertex, 0.24, 0.11, 0.075
+AddVertex, -0.24, 0.11, 0.075
+AddFace2,0,1,2,3
+LoadTexture, doorsclosing.png
+SetColor,0,0,0

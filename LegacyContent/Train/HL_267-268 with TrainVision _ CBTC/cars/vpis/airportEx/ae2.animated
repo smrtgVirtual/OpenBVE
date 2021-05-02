@@ -1,0 +1,5 @@
+[Object]
+
+States = ae2.csv
+
+StateFunction = if[destination==1402,0,-1]

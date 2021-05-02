@@ -1,0 +1,7 @@
+[Object]
+
+States = changednwl.csv
+
+StateFunction = if[destination==1509,0,-1]
+
+TextureShiftXFunction = value+0.1*delta

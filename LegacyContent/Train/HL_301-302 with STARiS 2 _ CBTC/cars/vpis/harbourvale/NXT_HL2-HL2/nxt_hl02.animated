@@ -1,0 +1,7 @@
+[Object]
+
+States = nxt_hl02.csv
+
+StateFunction = if[destination==1545,0,-1]
+
+TextureShiftXFunction = value+0.1*delta

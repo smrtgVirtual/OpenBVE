@@ -1,0 +1,29 @@
+CreateMeshBuilder,
+AddVertex, 0.26, 0.02, -0.074
+AddVertex, -0.26, 0.02, -0.074
+AddVertex, -0.26, 0.10, -0.074
+AddVertex, 0.26, 0.10, -0.074
+AddFace2,0,1,2,3
+LoadTexture, closing.png
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,0,1
+SetEmissiveColor,255,255,255
+
+
+CreateMeshBuilder,
+AddVertex, 0.26, 0.02, -0.0745
+AddVertex, -0.26, 0.02, -0.0745
+AddVertex, -0.26, 0.10, -0.0745
+AddVertex, 0.26, 0.10, -0.0745
+AddFace2,0,1,2,3
+LoadTexture, closing.png
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,0,1
+SetEmissiveColor,255,255,255
+SetBlendMode,Additive,0,
+
+rotateall,1,0,0,-5

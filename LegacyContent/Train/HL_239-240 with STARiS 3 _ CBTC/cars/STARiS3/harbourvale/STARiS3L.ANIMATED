@@ -1,0 +1,311 @@
+[Object]
+States = starislt1.csv, starislt2.csv, starislt3.csv, starislt4.csv, starislt5.csv, starislt6.csv, starislt7.csv, starislt8.csv, starislt9.csv, starislt9.csv, starislt9.csv
+StateFunction = if[klaxon == 2, mod[value + 1, 21],-1]
+refreshrate = 0.65
+Position = 0.001,0,0
+
+;HL16;
+[Object]
+States = hl16lt.csv
+StateFunction = if[destination==1500,0,-1]
+
+;;;;;;;;;
+
+;HL15 Next;
+[Object]
+States = hl15nxtlt.csv, hl15nxtltb.csv
+StateFunction = if[destination==1501,value==0,-1]
+refreshrate = 0.8
+
+;HL15;
+[Object]
+States = hl15lt.csv
+StateFunction = if[destination==1502,0,-1]
+
+;;;;;;;;;
+
+;HL14 Next;
+[Object]
+States = hl14nxtlt.csv, hl14nxtltb.csv
+StateFunction = if[destination==1503,value==0,-1]
+refreshrate = 0.8
+
+;HL14 Next;
+[Object]
+States = hl14nxtlt.csv, hl14nxtltb.csv
+StateFunction = if[destination==1504,value==0,-1]
+refreshrate = 0.8
+
+;HL14;
+[Object]
+States = hl14lt.csv
+StateFunction = if[destination==1505,0,-1]
+
+;HL14;
+[Object]
+States = hl14lt.csv
+StateFunction = if[destination==1506,0,-1]
+
+;HL14;
+[Object]
+States = hl14lt.csv
+StateFunction = if[destination==1507,0,-1]
+
+;;;;;;;;;
+
+;HL13 Next;
+[Object]
+States = hl13nxtlt.csv, hl13nxtltb.csv
+StateFunction = if[destination==1508,value==0,-1]
+refreshrate = 0.8
+
+;HL13 Next;
+[Object]
+States = hl13nxtlt.csv, hl13nxtltb.csv
+StateFunction = if[destination==1509,value==0,-1]
+refreshrate = 0.8
+
+;HL13;
+[Object]
+States = hl13lt.csv
+StateFunction = if[destination==1510,0,-1]
+
+;HL13;
+[Object]
+States = hl13lt.csv
+StateFunction = if[destination==1511,0,-1]
+
+;HL13;
+[Object]
+States = hl13lt.csv
+StateFunction = if[destination==1512,0,-1]
+
+;;;;;;;;;
+
+;HL12 Next;
+[Object]
+States = hl12nxtlt.csv, hl12nxtltb.csv
+StateFunction = if[destination==1513,value==0,-1]
+refreshrate = 0.8
+
+;HL12;
+[Object]
+States = hl12lt.csv
+StateFunction = if[destination==1514,0,-1]
+
+
+;;;;;;;;;
+
+;HL11 Next;
+[Object]
+States = hl11nxtlt.csv, hl11nxtltb.csv
+StateFunction = if[destination==1515,value==0,-1]
+refreshrate = 0.8
+
+;HL11;
+[Object]
+States = hl11lt.csv, hl11ltb.csv
+StateFunction = if[destination==1516,value==0,-1]
+refreshrate = 0.8
+
+;;;;;;;;;
+
+;HL10 Next;
+[Object]
+States = hl10nxtlt.csv, hl10nxtltb.csv
+StateFunction = if[destination==1517,value==0,-1]
+refreshrate = 0.8
+
+;HL10 Next;
+[Object]
+States = hl10nxtlt.csv, hl10nxtltb.csv
+StateFunction = if[destination==1518,value==0,-1]
+refreshrate = 0.8
+
+;HL10;
+[Object]
+States = hl10lt.csv
+StateFunction = if[destination==1519,0,-1]
+
+;HL10;
+[Object]
+States = hl10lt.csv
+StateFunction = if[destination==1520,0,-1]
+
+
+;;;;;;;;;
+
+;HL09 Next;
+[Object]
+States = hl09nxtlt.csv, hl09nxtltb.csv
+StateFunction = if[destination==1521,value==0,-1]
+refreshrate = 0.8
+
+;HL09;
+[Object]
+States = hl09lt.csv
+StateFunction = if[destination==1522,0,-1]
+
+;;;;;;;;;
+
+;HL08 Next;
+[Object]
+States = hl08nxtlt.csv, hl08nxtltb.csv
+StateFunction = if[destination==1523,value==0,-1]
+refreshrate = 0.8
+
+;HL08 Next;
+[Object]
+States = hl08nxtlt.csv, hl08nxtltb.csv
+StateFunction = if[destination==1524,value==0,-1]
+refreshrate = 0.8
+
+;HL08;
+[Object]
+States = hl08lt.csv
+StateFunction = if[destination==1525,0,-1]
+
+;HL08;
+[Object]
+States = hl08lt.csv
+StateFunction = if[destination==1526,0,-1]
+
+;HL08;
+[Object]
+States = hl08lt.csv
+StateFunction = if[destination==1527,0,-1]
+
+;;;;;;;;;
+
+;HL07 Next;
+[Object]
+States = hl07nxtlt.csv, hl07nxtltb.csv
+StateFunction = if[destination==1528,value==0,-1]
+refreshrate = 0.8
+
+;HL07;
+[Object]
+States = hl07lt.csv
+StateFunction = if[destination==1529,0,-1]
+
+;HL07;
+[Object]
+States = hl07lt.csv
+StateFunction = if[destination==1530,0,-1]
+
+;;;;;;;;;
+
+;HL06 Next;
+[Object]
+States = hl06nxtlt.csv, hl06nxtltb.csv
+StateFunction = if[destination==1531,value==0,-1]
+refreshrate = 0.8
+
+;HL06 Next;
+[Object]
+States = hl06nxtlt.csv, hl06nxtltb.csv
+StateFunction = if[destination==1532,value==0,-1]
+refreshrate = 0.8
+
+;HL06;
+[Object]
+States = hl06lt.csv
+StateFunction = if[destination==1533,0,-1]
+
+;HL06;
+[Object]
+States = hl06lt.csv
+StateFunction = if[destination==1534,0,-1]
+
+;HL06;
+[Object]
+States = hl06lt.csv
+StateFunction = if[destination==1535,0,-1]
+
+;;;;;;;;;
+
+;HL05 Next;
+[Object]
+States = hl05nxtlt.csv, hl05nxtltb.csv
+StateFunction = if[destination==1536,value==0,-1]
+refreshrate = 0.8
+
+;HL05;
+[Object]
+States = hl05lt.csv, hl05ltb.csv
+StateFunction = if[destination==1537,value==0,-1]
+refreshrate = 0.8
+
+;HL05;
+[Object]
+States = hl05lt.csv, hl05ltb.csv
+StateFunction = if[destination==1538,value==0,-1]
+refreshrate = 0.8
+
+;;;;;;;;;
+
+;HL04 Next;
+[Object]
+States = hl04nxtlt.csv, hl04nxtltb.csv
+StateFunction = if[destination==1539,value==0,-1]
+refreshrate = 0.8
+
+;HL04;
+[Object]
+States = hl04lt.csv
+StateFunction = if[destination==1540,0,-1]
+
+;HL04;
+[Object]
+States = hl04lt.csv
+StateFunction = if[destination==1541,0,-1]
+
+;;;;;;;;;
+
+;HL03 Next;
+[Object]
+States = hl03nxtlt.csv, hl03nxtltb.csv
+StateFunction = if[destination==1542,value==0,-1]
+refreshrate = 0.8
+
+;HL03;
+[Object]
+States = hl03lt.csv
+StateFunction = if[destination==1543,0,-1]
+
+;HL03;
+[Object]
+States = hl03lt.csv
+StateFunction = if[destination==1544,0,-1]
+
+;;;;;;;;;
+
+;HL02 Next;
+[Object]
+States = hl02nxtlt.csv, hl02nxtltb.csv
+StateFunction = if[destination==1545,value==0,-1]
+refreshrate = 0.8
+
+;HL02;
+[Object]
+States = hl02lt.csv
+StateFunction = if[destination==1546,0,-1]
+
+;HL02;
+[Object]
+States = hl02lt.csv
+StateFunction = if[destination==1547,0,-1]
+
+;;;;;;;;;
+
+;HL01 Next;
+[Object]
+States = hl01nxtlt.csv, hl01nxtltb.csv
+StateFunction = if[destination==1548,value==0,-1]
+refreshrate = 0.8
+
+;HL01;
+[Object]
+States = hl01lt.csv, hl01ltb.csv
+StateFunction = if[destination==1549,value==0,-1]
+refreshrate = 0.8

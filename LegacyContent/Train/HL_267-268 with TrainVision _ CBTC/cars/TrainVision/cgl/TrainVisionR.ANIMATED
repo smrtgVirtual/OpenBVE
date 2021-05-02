@@ -1,0 +1,60 @@
+[Object]
+States = DoorClosing\trnvR1.csv, DoorClosing\trnvR2.csv, DoorClosing\trnvR3.csv, DoorClosing\trnvR4.csv, DoorClosing\trnvR5.csv, DoorClosing\trnvR6.csv, DoorClosing\trnvR7.csv, DoorClosing\trnvR8.csv, DoorClosing\trnvR9.csv, DoorClosing\trnvR9.csv, DoorClosing\trnvR9.csv
+StateFunction = if[klaxon == 2, mod[value + 1, 21],-1]
+refreshrate = 0.65
+Position = -0.001,0,0
+
+;CG2;
+[Object]
+States = CG2_CG1NXT\cg2rt.csv, CG2_CG1NXT\cg2rtb.csv
+StateFunction = if[destination==1700,value==0,-1]
+refreshrate = 0.8
+
+;CG1 Next;
+[Object]
+States = CG2_CG1NXT\cg1nxtrt.csv, CG2_CG1NXT\cg1nxtrtb.csv, CG2_CG1NXT\cg1nxtrt.csv, CG2_CG1NXT\cg1nxtrtb.csv, CG2_CG1NXT\cg1nxtrt.csv, CG2_CG1NXT\cg1nxtrtb.csv, CG2_CG1NXT\cg1nxtrtb2.csv, CG2_CG1NXT\cg1nxtrtb3.csv, CG2_CG1NXT\cg1nxtrtb2.csv, CG2_CG1NXT\cg1nxtrtb3.csv, CG2_CG1NXT\cg1nxtrtb2.csv, CG2_CG1NXT\cg1nxtrtb3.csv
+StateFunction = if[destination==1701,mod[value + 1, 12],-1]
+refreshrate = 1.0
+
+;CG1;
+[Object]
+States = CG1_CGNXT\cg1rt.csv, CG1_CGNXT\cg1rtb.csv
+StateFunction = if[destination==1702,value==0,-1]
+refreshrate = 0.8
+
+;CG Next;
+[Object]
+States = CG1_CGNXT\cgnxtrt.csv, CG1_CGNXT\cgnxtrtb.csv, CG1_CGNXT\cgnxtrt.csv, CG1_CGNXT\cgnxtrtb.csv, CG1_CGNXT\cgnxtrt.csv, CG1_CGNXT\cgnxtrtb.csv, CG1_CGNXT\cgnxtrtb2.csv, CG1_CGNXT\cgnxtrtb3.csv, CG1_CGNXT\cgnxtrtb2.csv, CG1_CGNXT\cgnxtrtb3.csv, CG1_CGNXT\cgnxtrtb2.csv, CG1_CGNXT\cgnxtrtb3.csv
+StateFunction = if[destination==1703,mod[value + 1, 12],-1]
+refreshrate = 1.0
+
+;CG;
+[Object]
+States = CG\cgrt.csv, CG\cgrtb.csv
+StateFunction = if[destination==1704,value==0,-1]
+refreshrate = 0.8
+
+;Interchanges - VFD will show the message, TrainVision remains;
+;CG1DTL;
+[Object]
+States = CG2_CG1NXT\cg1nxtrt.csv, CG2_CG1NXT\cg1nxtrtb.csv, CG2_CG1NXT\cg1nxtrt.csv, CG2_CG1NXT\cg1nxtrtb.csv, CG2_CG1NXT\cg1nxtrt.csv, CG2_CG1NXT\cg1nxtrtb.csv, CG2_CG1NXT\cg1nxtrtb2.csv, CG2_CG1NXT\cg1nxtrtb3.csv, CG2_CG1NXT\cg1nxtrtb2.csv, CG2_CG1NXT\cg1nxtrtb3.csv, CG2_CG1NXT\cg1nxtrtb2.csv, CG2_CG1NXT\cg1nxtrtb3.csv
+StateFunction = if[destination==1705,mod[value + 1, 12],-1]
+refreshrate = 1.0
+
+;CG1DTLARR;
+[Object]
+States = CG1_CGNXT\cg1rt.csv, CG1_CGNXT\cg1rtb.csv
+StateFunction = if[destination==1706,value==0,-1]
+refreshrate = 0.8
+
+;CGTerm;
+[Object]
+States = CG1_CGNXT\cgnxtrt.csv, CG1_CGNXT\cgnxtrtb.csv, CG1_CGNXT\cgnxtrt.csv, CG1_CGNXT\cgnxtrtb.csv, CG1_CGNXT\cgnxtrt.csv, CG1_CGNXT\cgnxtrtb.csv, CG1_CGNXT\cgnxtrtb2.csv, CG1_CGNXT\cgnxtrtb3.csv, CG1_CGNXT\cgnxtrtb2.csv, CG1_CGNXT\cgnxtrtb3.csv, CG1_CGNXT\cgnxtrtb2.csv, CG1_CGNXT\cgnxtrtb3.csv
+StateFunction = if[destination==1707,mod[value + 1, 12],-1]
+refreshrate = 1.0
+
+;CGTermArr;
+[Object]
+States = CG\cgrt.csv, CG\cgrtb.csv
+StateFunction = if[destination==1708,value==0,-1]
+refreshrate = 0.8

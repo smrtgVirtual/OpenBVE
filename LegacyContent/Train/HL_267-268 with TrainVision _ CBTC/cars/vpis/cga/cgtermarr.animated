@@ -1,0 +1,5 @@
+[Object]
+States = cgtoTWL.csv, cgtoPSR.csv
+StateFunction = if[destination==1708,mod[value + 1, 2],-1]
+RefreshRate = 4.0
+

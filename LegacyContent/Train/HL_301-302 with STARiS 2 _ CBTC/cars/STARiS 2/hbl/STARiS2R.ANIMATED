@@ -1,0 +1,343 @@
+[Include]
+DoorIndicator\STARiS2R.animated
+
+[Object]
+States = DoorClosing\DC_R1.csv, DoorClosing\DC_R2.csv, DoorClosing\DC_R3.csv, DoorClosing\DC_R4.csv, DoorClosing\DC_R5.csv, DoorClosing\DC_R6.csv, DoorClosing\DC_R7.csv, DoorClosing\DC_R8.csv, DoorClosing\DC_R9.csv,DoorClosing\DC_R8.csv, DoorClosing\DC_R9.csv
+StateFunction = if[klaxon == 2, mod[value + 1, 21],-1]
+refreshrate = 1.00
+Position = -0.0253,-0.002,0
+
+;HL16;
+[Object]
+States = HL16_HL15NXT\hl16rt.csv
+StateFunction = if[destination==1500,0,-1]
+Position = -0.0252,-0.002,0
+
+
+;HL15 Next;
+[Object]
+States = HL16_HL15NXT\hl15nxtrt.csv, HL16_HL15NXT\hl15nxtrtb.csv, HL16_HL15NXT\hl15nxtrtb2.csv, HL16_HL15NXT\hl15nxtrtb.csv, HL16_HL15NXT\hl15nxtrtb2.csv, HL16_HL15NXT\hl15nxtrtb.csv, HL16_HL15NXT\hl15nxtrtb2.csv, HL16_HL15NXT\hl15nxtrtb.csv, HL16_HL15NXT\hl15nxtrtb2.csv, HL16_HL15NXT\hl15nxtrtb.csv, HL16_HL15NXT\hl15nxtrtb2.csv, HL16_HL15NXT\hl15nxtrtb.csv, HL16_HL15NXT\hl15nxtrtb2.csv, HL16_HL15NXT\hl15nxtrtb.csv, HL16_HL15NXT\hl15nxtrtb2.csv, HL16_HL15NXT\hl15nxtrtb.csv, HL16_HL15NXT\hl15nxtrtb2.csv, HL16_HL15NXT\hl15nxtrtb.csv, HL16_HL15NXT\hl15nxtrtb2.csv, HL16_HL15NXT\hl15nxtrtb3.csv
+StateFunction = if[destination==1501,mod[value + 1, 20],-1]
+refreshrate = 0.5
+Position = -0.0252,-0.002,0
+
+;HL15;
+[Object]
+States = HL15_HL14NXT\hl15rt.csv
+StateFunction = if[destination==1502,0,-1]
+Position = -0.0252,-0.002,0
+
+
+;HL14 Next;
+[Object]
+States = HL15_HL14NXT\hl14nxtrt.csv, HL15_HL14NXT\hl14nxtrtb.csv, HL15_HL14NXT\hl14nxtrtb2.csv, HL15_HL14NXT\hl14nxtrtb.csv, HL15_HL14NXT\hl14nxtrtb2.csv, HL15_HL14NXT\hl14nxtrtb.csv, HL15_HL14NXT\hl14nxtrtb2.csv, HL15_HL14NXT\hl14nxtrtb.csv, HL15_HL14NXT\hl14nxtrtb2.csv, HL15_HL14NXT\hl14nxtrtb.csv, HL15_HL14NXT\hl14nxtrtb2.csv, HL15_HL14NXT\hl14nxtrtb.csv, HL15_HL14NXT\hl14nxtrtb2.csv, HL15_HL14NXT\hl14nxtrtb.csv, HL15_HL14NXT\hl14nxtrtb2.csv, HL15_HL14NXT\hl14nxtrtb.csv, HL15_HL14NXT\hl14nxtrtb2.csv, HL15_HL14NXT\hl14nxtrtb.csv, HL15_HL14NXT\hl14nxtrtb2.csv, HL15_HL14NXT\hl14nxtrtb3.csv
+StateFunction = if[destination==1503,mod[value + 1, 20],-1]
+refreshrate = 0.5
+Position = -0.0252,-0.002,0
+
+;HL14 Next (Change);
+[Object]
+States = HL15_HL14NXT\hl14nxtrt.csv, HL15_HL14NXT\hl14nxtrtb.csv, HL15_HL14NXT\hl14nxtrtb2.csv, HL15_HL14NXT\hl14nxtrtb.csv, HL15_HL14NXT\hl14nxtrtb2.csv, HL15_HL14NXT\hl14nxtrtb.csv, HL15_HL14NXT\hl14nxtrtb2.csv, HL15_HL14NXT\hl14nxtrtb.csv, HL15_HL14NXT\hl14nxtrtb2.csv, HL15_HL14NXT\hl14nxtrtb.csv, HL15_HL14NXT\hl14nxtrtb2.csv, HL15_HL14NXT\hl14nxtrtb.csv, HL15_HL14NXT\hl14nxtrtb2.csv, HL15_HL14NXT\hl14nxtrtb.csv, HL15_HL14NXT\hl14nxtrtb2.csv, HL15_HL14NXT\hl14nxtrtb.csv, HL15_HL14NXT\hl14nxtrtb2.csv, HL15_HL14NXT\hl14nxtrtb.csv, HL15_HL14NXT\hl14nxtrtb2.csv, HL15_HL14NXT\hl14nxtrtb3.csv
+StateFunction = if[destination==1504,mod[value + 1, 20],-1]
+refreshrate = 0.5
+Position = -0.0252,-0.002,0
+
+;HL14;
+[Object]
+States = HL14_HL13NXT\hl14rt.csv
+StateFunction = if[destination==1505,0,-1]
+Position = -0.0252,-0.002,0
+
+;HL14 (Change);
+[Object]
+States = HL14_HL13NXT\hl14rt.csv
+StateFunction = if[destination==1506,0,-1]
+Position = -0.0252,-0.002,0
+
+;HL14 (PMTTG);
+[Object]
+States = HL14_HL13NXT\hl14rt.csv
+StateFunction = if[destination==1507,0,-1]
+Position = -0.0252,-0.002,0
+
+
+;HL13 Next;
+[Object]
+States = HL14_HL13NXT\hl13nxtrt.csv, HL14_HL13NXT\hl13nxtrtb.csv, HL14_HL13NXT\hl13nxtrtb2.csv, HL14_HL13NXT\hl13nxtrtb.csv, HL14_HL13NXT\hl13nxtrtb2.csv, HL14_HL13NXT\hl13nxtrtb.csv, HL14_HL13NXT\hl13nxtrtb2.csv, HL14_HL13NXT\hl13nxtrtb.csv, HL14_HL13NXT\hl13nxtrtb2.csv, HL14_HL13NXT\hl13nxtrtb.csv, HL14_HL13NXT\hl13nxtrtb2.csv, HL14_HL13NXT\hl13nxtrtb.csv, HL14_HL13NXT\hl13nxtrtb2.csv, HL14_HL13NXT\hl13nxtrtb.csv, HL14_HL13NXT\hl13nxtrtb2.csv, HL14_HL13NXT\hl13nxtrtb.csv, HL14_HL13NXT\hl13nxtrtb2.csv, HL14_HL13NXT\hl13nxtrtb.csv, HL14_HL13NXT\hl13nxtrtb2.csv, HL14_HL13NXT\hl13nxtrtb3.csv
+StateFunction = if[destination==1508,mod[value + 1, 20],-1]
+refreshrate = 0.5
+Position = -0.0252,-0.002,0
+
+;HL13 Next (Change);
+[Object]
+States = HL14_HL13NXT\hl13nxtrt.csv, HL14_HL13NXT\hl13nxtrtb.csv, HL14_HL13NXT\hl13nxtrtb2.csv, HL14_HL13NXT\hl13nxtrtb.csv, HL14_HL13NXT\hl13nxtrtb2.csv, HL14_HL13NXT\hl13nxtrtb.csv, HL14_HL13NXT\hl13nxtrtb2.csv, HL14_HL13NXT\hl13nxtrtb.csv, HL14_HL13NXT\hl13nxtrtb2.csv, HL14_HL13NXT\hl13nxtrtb.csv, HL14_HL13NXT\hl13nxtrtb2.csv, HL14_HL13NXT\hl13nxtrtb.csv, HL14_HL13NXT\hl13nxtrtb2.csv, HL14_HL13NXT\hl13nxtrtb.csv, HL14_HL13NXT\hl13nxtrtb2.csv, HL14_HL13NXT\hl13nxtrtb.csv, HL14_HL13NXT\hl13nxtrtb2.csv, HL14_HL13NXT\hl13nxtrtb.csv, HL14_HL13NXT\hl13nxtrtb2.csv, HL14_HL13NXT\hl13nxtrtb3.csv
+StateFunction = if[destination==1509,mod[value + 1, 20],-1]
+refreshrate = 0.5
+Position = -0.0252,-0.002,0
+
+;HL13;
+[Object]
+States = HL13_HL12NXT\hl13rt.csv
+StateFunction = if[destination==1510,0,-1]
+Position = -0.0252,-0.002,0
+
+;HL13 (Change);
+[Object]
+States = HL13_HL12NXT\hl13rt.csv
+StateFunction = if[destination==1511,0,-1]
+Position = -0.0252,-0.002,0
+
+;HL13 (PMTTG);
+[Object]
+States = HL13_HL12NXT\hl13rt.csv
+StateFunction = if[destination==1512,0,-1]
+Position = -0.0252,-0.002,0
+
+
+;HL12 Next;
+[Object]
+States = HL13_HL12NXT\hl12nxtrt.csv, HL13_HL12NXT\hl12nxtrtb.csv, HL13_HL12NXT\hl12nxtrtb2.csv, HL13_HL12NXT\hl12nxtrtb.csv, HL13_HL12NXT\hl12nxtrtb2.csv, HL13_HL12NXT\hl12nxtrtb.csv, HL13_HL12NXT\hl12nxtrtb2.csv, HL13_HL12NXT\hl12nxtrtb.csv, HL13_HL12NXT\hl12nxtrtb2.csv, HL13_HL12NXT\hl12nxtrtb.csv, HL13_HL12NXT\hl12nxtrtb2.csv, HL13_HL12NXT\hl12nxtrtb.csv, HL13_HL12NXT\hl12nxtrtb2.csv, HL13_HL12NXT\hl12nxtrtb.csv, HL13_HL12NXT\hl12nxtrtb2.csv, HL13_HL12NXT\hl12nxtrtb.csv, HL13_HL12NXT\hl12nxtrtb2.csv, HL13_HL12NXT\hl12nxtrtb.csv, HL13_HL12NXT\hl12nxtrtb2.csv, HL13_HL12NXT\hl12nxtrtb3.csv
+StateFunction = if[destination==1513,mod[value + 1, 20],-1]
+refreshrate = 0.5
+Position = -0.0252,-0.002,0
+
+;HL12;
+[Object]
+States = HL12_HL11NXT\hl12rt.csv
+StateFunction = if[destination==1514,0,-1]
+Position = -0.0252,-0.002,0
+
+
+;HL11 Next;
+[Object]
+States = HL12_HL11NXT\hl11nxtrt.csv, HL12_HL11NXT\hl11nxtrtb.csv, HL12_HL11NXT\hl11nxtrtb2.csv, HL12_HL11NXT\hl11nxtrtb.csv, HL12_HL11NXT\hl11nxtrtb2.csv, HL12_HL11NXT\hl11nxtrtb.csv, HL12_HL11NXT\hl11nxtrtb2.csv, HL12_HL11NXT\hl11nxtrtb.csv, HL12_HL11NXT\hl11nxtrtb2.csv, HL12_HL11NXT\hl11nxtrtb.csv, HL12_HL11NXT\hl11nxtrtb2.csv, HL12_HL11NXT\hl11nxtrtb.csv, HL12_HL11NXT\hl11nxtrtb2.csv, HL12_HL11NXT\hl11nxtrtb.csv, HL12_HL11NXT\hl11nxtrtb2.csv, HL12_HL11NXT\hl11nxtrtb.csv, HL12_HL11NXT\hl11nxtrtb2.csv, HL12_HL11NXT\hl11nxtrtb.csv, HL12_HL11NXT\hl11nxtrtb2.csv, HL12_HL11NXT\hl11nxtrtb3.csv
+StateFunction = if[destination==1515,mod[value + 1, 20],-1]
+refreshrate = 0.5
+Position = -0.0252,-0.002,0
+
+;HL11;
+[Object]
+States = HL11_HL10NXT\hl11rt.csv
+StateFunction = if[destination==1516,0,-1]
+Position = -0.0252,-0.002,0
+
+
+;HL10 Next;
+[Object]
+States = HL11_HL10NXT\hl10nxtrt.csv, HL11_HL10NXT\hl10nxtrtb.csv, HL11_HL10NXT\hl10nxtrtb2.csv, HL11_HL10NXT\hl10nxtrtb.csv, HL11_HL10NXT\hl10nxtrtb2.csv, HL11_HL10NXT\hl10nxtrtb.csv, HL11_HL10NXT\hl10nxtrtb2.csv, HL11_HL10NXT\hl10nxtrtb.csv, HL11_HL10NXT\hl10nxtrtb2.csv, HL11_HL10NXT\hl10nxtrtb.csv, HL11_HL10NXT\hl10nxtrtb2.csv, HL11_HL10NXT\hl10nxtrtb.csv, HL11_HL10NXT\hl10nxtrtb2.csv, HL11_HL10NXT\hl10nxtrtb.csv, HL11_HL10NXT\hl10nxtrtb2.csv, HL11_HL10NXT\hl10nxtrtb.csv, HL11_HL10NXT\hl10nxtrtb2.csv, HL11_HL10NXT\hl10nxtrtb.csv, HL11_HL10NXT\hl10nxtrtb2.csv, HL11_HL10NXT\hl10nxtrtb3.csv
+StateFunction = if[destination==1517,mod[value + 1, 20],-1]
+refreshrate = 0.5
+Position = -0.0252,-0.002,0
+
+;HL10 Next (Change);
+[Object]
+States = HL11_HL10NXT\hl10nxtrt.csv, HL11_HL10NXT\hl10nxtrtb.csv, HL11_HL10NXT\hl10nxtrtb2.csv, HL11_HL10NXT\hl10nxtrtb.csv, HL11_HL10NXT\hl10nxtrtb2.csv, HL11_HL10NXT\hl10nxtrtb.csv, HL11_HL10NXT\hl10nxtrtb2.csv, HL11_HL10NXT\hl10nxtrtb.csv, HL11_HL10NXT\hl10nxtrtb2.csv, HL11_HL10NXT\hl10nxtrtb.csv, HL11_HL10NXT\hl10nxtrtb2.csv, HL11_HL10NXT\hl10nxtrtb.csv, HL11_HL10NXT\hl10nxtrtb2.csv, HL11_HL10NXT\hl10nxtrtb.csv, HL11_HL10NXT\hl10nxtrtb2.csv, HL11_HL10NXT\hl10nxtrtb.csv, HL11_HL10NXT\hl10nxtrtb2.csv, HL11_HL10NXT\hl10nxtrtb.csv, HL11_HL10NXT\hl10nxtrtb2.csv, HL11_HL10NXT\hl10nxtrtb3.csv
+StateFunction = if[destination==1518,mod[value + 1, 20],-1]
+refreshrate = 0.5
+Position = -0.0252,-0.002,0
+
+;HL10;
+[Object]
+States = HL10_HL9NXT\hl10rt.csv
+StateFunction = if[destination==1519,0,-1]
+Position = -0.0252,-0.002,0
+
+;HL10 (Change);
+[Object]
+States = HL10_HL9NXT\hl10rt.csv
+StateFunction = if[destination==1520,0,-1]
+Position = -0.0252,-0.002,0
+
+
+;HL9 Next;
+[Object]
+States = HL10_HL9NXT\hl9nxtrt.csv, HL10_HL9NXT\hl9nxtrtb.csv, HL10_HL9NXT\hl9nxtrtb2.csv, HL10_HL9NXT\hl9nxtrtb.csv, HL10_HL9NXT\hl9nxtrtb2.csv, HL10_HL9NXT\hl9nxtrtb.csv, HL10_HL9NXT\hl9nxtrtb2.csv, HL10_HL9NXT\hl9nxtrtb.csv, HL10_HL9NXT\hl9nxtrtb2.csv, HL10_HL9NXT\hl9nxtrtb.csv, HL10_HL9NXT\hl9nxtrtb2.csv, HL10_HL9NXT\hl9nxtrtb.csv, HL10_HL9NXT\hl9nxtrtb2.csv, HL10_HL9NXT\hl9nxtrtb.csv, HL10_HL9NXT\hl9nxtrtb2.csv, HL10_HL9NXT\hl9nxtrtb.csv, HL10_HL9NXT\hl9nxtrtb2.csv, HL10_HL9NXT\hl9nxtrtb.csv, HL10_HL9NXT\hl9nxtrtb2.csv, HL10_HL9NXT\hl9nxtrtb3.csv
+StateFunction = if[destination==1521,mod[value + 1, 20],-1]
+refreshrate = 0.5
+Position = -0.0252,-0.002,0
+
+;HL9;
+[Object]
+States = HL9_HL8NXT\hl9rt.csv
+StateFunction = if[destination==1522,0,-1]
+Position = -0.0252,-0.002,0
+
+
+;HL8 Next;
+[Object]
+States = HL9_HL8NXT\hl8nxtrt.csv, HL9_HL8NXT\hl8nxtrtb.csv, HL9_HL8NXT\hl8nxtrtb2.csv, HL9_HL8NXT\hl8nxtrtb.csv, HL9_HL8NXT\hl8nxtrtb2.csv, HL9_HL8NXT\hl8nxtrtb.csv, HL9_HL8NXT\hl8nxtrtb2.csv, HL9_HL8NXT\hl8nxtrtb.csv, HL9_HL8NXT\hl8nxtrtb2.csv, HL9_HL8NXT\hl8nxtrtb.csv, HL9_HL8NXT\hl8nxtrtb2.csv, HL9_HL8NXT\hl8nxtrtb.csv, HL9_HL8NXT\hl8nxtrtb2.csv, HL9_HL8NXT\hl8nxtrtb.csv, HL9_HL8NXT\hl8nxtrtb2.csv, HL9_HL8NXT\hl8nxtrtb.csv, HL9_HL8NXT\hl8nxtrtb2.csv, HL9_HL8NXT\hl8nxtrtb.csv, HL9_HL8NXT\hl8nxtrtb2.csv, HL9_HL8NXT\hl8nxtrtb3.csv
+StateFunction = if[destination==1523,mod[value + 1, 20],-1]
+refreshrate = 0.5
+Position = -0.0252,-0.002,0
+
+;HL8 Next (Change);
+[Object]
+States = HL9_HL8NXT\hl8nxtrt.csv, HL9_HL8NXT\hl8nxtrtb.csv, HL9_HL8NXT\hl8nxtrtb2.csv, HL9_HL8NXT\hl8nxtrtb.csv, HL9_HL8NXT\hl8nxtrtb2.csv, HL9_HL8NXT\hl8nxtrtb.csv, HL9_HL8NXT\hl8nxtrtb2.csv, HL9_HL8NXT\hl8nxtrtb.csv, HL9_HL8NXT\hl8nxtrtb2.csv, HL9_HL8NXT\hl8nxtrtb.csv, HL9_HL8NXT\hl8nxtrtb2.csv, HL9_HL8NXT\hl8nxtrtb.csv, HL9_HL8NXT\hl8nxtrtb2.csv, HL9_HL8NXT\hl8nxtrtb.csv, HL9_HL8NXT\hl8nxtrtb2.csv, HL9_HL8NXT\hl8nxtrtb.csv, HL9_HL8NXT\hl8nxtrtb2.csv, HL9_HL8NXT\hl8nxtrtb.csv, HL9_HL8NXT\hl8nxtrtb2.csv, HL9_HL8NXT\hl8nxtrtb3.csv
+StateFunction = if[destination==1524,mod[value + 1, 20],-1]
+refreshrate = 0.5
+Position = -0.0252,-0.002,0
+
+;HL8;
+[Object]
+States = HL8_HL7NXT\hl8rt.csv
+StateFunction = if[destination==1525,0,-1]
+Position = -0.0252,-0.002,0
+
+;HL8 (Change);
+[Object]
+States = HL8_HL7NXT\hl8rt.csv
+StateFunction = if[destination==1526,0,-1]
+Position = -0.0252,-0.002,0
+
+;HL8 (PMTTG);
+[Object]
+States = HL8_HL7NXT\hl8rt.csv
+StateFunction = if[destination==1527,0,-1]
+Position = -0.0252,-0.002,0
+
+
+;HL7 Next (Change);
+[Object]
+States = HL8_HL7NXT\hl7nxtrt.csv, HL8_HL7NXT\hl7nxtrtb.csv, HL8_HL7NXT\hl7nxtrtb2.csv, HL8_HL7NXT\hl7nxtrtb.csv, HL8_HL7NXT\hl7nxtrtb2.csv, HL8_HL7NXT\hl7nxtrtb.csv, HL8_HL7NXT\hl7nxtrtb2.csv, HL8_HL7NXT\hl7nxtrtb.csv, HL8_HL7NXT\hl7nxtrtb2.csv, HL8_HL7NXT\hl7nxtrtb.csv, HL8_HL7NXT\hl7nxtrtb2.csv, HL8_HL7NXT\hl7nxtrtb.csv, HL8_HL7NXT\hl7nxtrtb2.csv, HL8_HL7NXT\hl7nxtrtb.csv, HL8_HL7NXT\hl7nxtrtb2.csv, HL8_HL7NXT\hl7nxtrtb.csv, HL8_HL7NXT\hl7nxtrtb2.csv, HL8_HL7NXT\hl7nxtrtb.csv, HL8_HL7NXT\hl7nxtrtb2.csv, HL8_HL7NXT\hl7nxtrtb3.csv
+StateFunction = if[destination==1528,mod[value + 1, 20],-1]
+refreshrate = 0.5
+Position = -0.0252,-0.002,0
+
+;HL7;
+[Object]
+States = HL7_HL6NXT\hl7rt.csv
+StateFunction = if[destination==1529,0,-1]
+Position = -0.0252,-0.002,0
+
+;HL7 (PMTTG);
+[Object]
+States = HL7_HL6NXT\hl7rt.csv
+StateFunction = if[destination==1530,0,-1]
+Position = -0.0252,-0.002,0
+
+
+;HL6 Next;
+[Object]
+States = HL7_HL6NXT\hl6nxtrt.csv, HL7_HL6NXT\hl6nxtrtb.csv, HL7_HL6NXT\hl6nxtrtb2.csv, HL7_HL6NXT\hl6nxtrtb.csv, HL7_HL6NXT\hl6nxtrtb2.csv, HL7_HL6NXT\hl6nxtrtb.csv, HL7_HL6NXT\hl6nxtrtb2.csv, HL7_HL6NXT\hl6nxtrtb.csv, HL7_HL6NXT\hl6nxtrtb2.csv, HL7_HL6NXT\hl6nxtrtb.csv, HL7_HL6NXT\hl6nxtrtb2.csv, HL7_HL6NXT\hl6nxtrtb.csv, HL7_HL6NXT\hl6nxtrtb2.csv, HL7_HL6NXT\hl6nxtrtb.csv, HL7_HL6NXT\hl6nxtrtb2.csv, HL7_HL6NXT\hl6nxtrtb.csv, HL7_HL6NXT\hl6nxtrtb2.csv, HL7_HL6NXT\hl6nxtrtb.csv, HL7_HL6NXT\hl6nxtrtb2.csv, HL7_HL6NXT\hl6nxtrtb3.csv
+StateFunction = if[destination==1531,mod[value + 1, 20],-1]
+refreshrate = 0.5
+Position = -0.0252,-0.002,0
+
+;HL6 Next (Change);
+[Object]
+States = HL7_HL6NXT\hl6nxtrt.csv, HL7_HL6NXT\hl6nxtrtb.csv, HL7_HL6NXT\hl6nxtrtb2.csv, HL7_HL6NXT\hl6nxtrtb.csv, HL7_HL6NXT\hl6nxtrtb2.csv, HL7_HL6NXT\hl6nxtrtb.csv, HL7_HL6NXT\hl6nxtrtb2.csv, HL7_HL6NXT\hl6nxtrtb.csv, HL7_HL6NXT\hl6nxtrtb2.csv, HL7_HL6NXT\hl6nxtrtb.csv, HL7_HL6NXT\hl6nxtrtb2.csv, HL7_HL6NXT\hl6nxtrtb.csv, HL7_HL6NXT\hl6nxtrtb2.csv, HL7_HL6NXT\hl6nxtrtb.csv, HL7_HL6NXT\hl6nxtrtb2.csv, HL7_HL6NXT\hl6nxtrtb.csv, HL7_HL6NXT\hl6nxtrtb2.csv, HL7_HL6NXT\hl6nxtrtb.csv, HL7_HL6NXT\hl6nxtrtb2.csv, HL7_HL6NXT\hl6nxtrtb3.csv
+StateFunction = if[destination==1532,mod[value + 1, 20],-1]
+refreshrate = 0.5
+Position = -0.0252,-0.002,0
+
+;HL6;
+[Object]
+States = HL6_HL5NXT\hl6rt.csv
+StateFunction = if[destination==1533,0,-1]
+Position = -0.0252,-0.002,0
+
+;HL6 (Change);
+[Object]
+States = HL6_HL5NXT\hl6rt.csv
+StateFunction = if[destination==1534,0,-1]
+Position = -0.0252,-0.002,0
+
+;HL6 (PMTTG);
+[Object]
+States = HL6_HL5NXT\hl6rt.csv
+StateFunction = if[destination==1535,0,-1]
+Position = -0.0252,-0.002,0
+
+
+;HL5 Next;
+[Object]
+States = HL6_HL5NXT\hl5nxtrt.csv, HL6_HL5NXT\hl5nxtrtb.csv, HL6_HL5NXT\hl5nxtrtb2.csv, HL6_HL5NXT\hl5nxtrtb.csv, HL6_HL5NXT\hl5nxtrtb2.csv, HL6_HL5NXT\hl5nxtrtb.csv, HL6_HL5NXT\hl5nxtrtb2.csv, HL6_HL5NXT\hl5nxtrtb.csv, HL6_HL5NXT\hl5nxtrtb2.csv, HL6_HL5NXT\hl5nxtrtb.csv, HL6_HL5NXT\hl5nxtrtb2.csv, HL6_HL5NXT\hl5nxtrtb.csv, HL6_HL5NXT\hl5nxtrtb2.csv, HL6_HL5NXT\hl5nxtrtb.csv, HL6_HL5NXT\hl5nxtrtb2.csv, HL6_HL5NXT\hl5nxtrtb.csv, HL6_HL5NXT\hl5nxtrtb2.csv, HL6_HL5NXT\hl5nxtrtb.csv, HL6_HL5NXT\hl5nxtrtb2.csv, HL6_HL5NXT\hl5nxtrtb3.csv
+StateFunction = if[destination==1536,mod[value + 1, 20],-1]
+refreshrate = 0.5
+Position = -0.0252,-0.002,0
+
+;HL5;
+[Object]
+States = HL5_HL4NXT\hl5rt.csv
+StateFunction = if[destination==1537,0,-1]
+Position = -0.0252,-0.002,0
+
+;HL5 (PMTTG);
+[Object]
+States = HL5_HL4NXT\hl5rt.csv
+StateFunction = if[destination==1538,0,-1]
+Position = -0.0252,-0.002,0
+
+
+;HL4 Next;
+[Object]
+States = HL5_HL4NXT\hl4nxtrt.csv, HL5_HL4NXT\hl4nxtrtb.csv, HL5_HL4NXT\hl4nxtrtb2.csv, HL5_HL4NXT\hl4nxtrtb.csv, HL5_HL4NXT\hl4nxtrtb2.csv, HL5_HL4NXT\hl4nxtrtb.csv, HL5_HL4NXT\hl4nxtrtb2.csv, HL5_HL4NXT\hl4nxtrtb.csv, HL5_HL4NXT\hl4nxtrtb2.csv, HL5_HL4NXT\hl4nxtrtb.csv, HL5_HL4NXT\hl4nxtrtb2.csv, HL5_HL4NXT\hl4nxtrtb.csv, HL5_HL4NXT\hl4nxtrtb2.csv, HL5_HL4NXT\hl4nxtrtb.csv, HL5_HL4NXT\hl4nxtrtb2.csv, HL5_HL4NXT\hl4nxtrtb.csv, HL5_HL4NXT\hl4nxtrtb2.csv, HL5_HL4NXT\hl4nxtrtb.csv, HL5_HL4NXT\hl4nxtrtb2.csv, HL5_HL4NXT\hl4nxtrtb3.csv
+StateFunction = if[destination==1539,mod[value + 1, 20],-1]
+refreshrate = 0.5
+Position = -0.0252,-0.002,0
+
+;HL4;
+[Object]
+States = HL4_HL3NXT\hl4rt.csv
+StateFunction = if[destination==1540,0,-1]
+Position = -0.0252,-0.002,0
+
+;HL4 (PMTTG);
+[Object]
+States = HL4_HL3NXT\hl4rt.csv
+StateFunction = if[destination==1541,0,-1]
+Position = -0.0252,-0.002,0
+
+
+;HL3 Next;
+[Object]
+States = HL4_HL3NXT\hl3nxtrt.csv, HL4_HL3NXT\hl3nxtrtb.csv, HL4_HL3NXT\hl3nxtrtb2.csv, HL4_HL3NXT\hl3nxtrtb.csv, HL4_HL3NXT\hl3nxtrtb2.csv, HL4_HL3NXT\hl3nxtrtb.csv, HL4_HL3NXT\hl3nxtrtb2.csv, HL4_HL3NXT\hl3nxtrtb.csv, HL4_HL3NXT\hl3nxtrtb2.csv, HL4_HL3NXT\hl3nxtrtb.csv, HL4_HL3NXT\hl3nxtrtb2.csv, HL4_HL3NXT\hl3nxtrtb.csv, HL4_HL3NXT\hl3nxtrtb2.csv, HL4_HL3NXT\hl3nxtrtb.csv, HL4_HL3NXT\hl3nxtrtb2.csv, HL4_HL3NXT\hl3nxtrtb.csv, HL4_HL3NXT\hl3nxtrtb2.csv, HL4_HL3NXT\hl3nxtrtb.csv, HL4_HL3NXT\hl3nxtrtb2.csv, HL4_HL3NXT\hl3nxtrtb3.csv
+StateFunction = if[destination==1542,mod[value + 1, 20],-1]
+refreshrate = 0.5
+Position = -0.0252,-0.002,0
+
+;HL3;
+[Object]
+States = HL3_HL2NXT\hl3rt.csv
+StateFunction = if[destination==1543,0,-1]
+Position = -0.0252,-0.002,0
+
+;HL3 (PMTTG);
+[Object]
+States = HL3_HL2NXT\hl3rt.csv
+StateFunction = if[destination==1544,0,-1]
+Position = -0.0252,-0.002,0
+
+
+;HL2 Next;
+[Object]
+States = HL3_HL2NXT\hl2nxtrt.csv, HL3_HL2NXT\hl2nxtrtb.csv, HL3_HL2NXT\hl2nxtrtb2.csv, HL3_HL2NXT\hl2nxtrtb.csv, HL3_HL2NXT\hl2nxtrtb2.csv, HL3_HL2NXT\hl2nxtrtb.csv, HL3_HL2NXT\hl2nxtrtb2.csv, HL3_HL2NXT\hl2nxtrtb.csv, HL3_HL2NXT\hl2nxtrtb2.csv, HL3_HL2NXT\hl2nxtrtb.csv, HL3_HL2NXT\hl2nxtrtb2.csv, HL3_HL2NXT\hl2nxtrtb.csv, HL3_HL2NXT\hl2nxtrtb2.csv, HL3_HL2NXT\hl2nxtrtb.csv, HL3_HL2NXT\hl2nxtrtb2.csv, HL3_HL2NXT\hl2nxtrtb.csv, HL3_HL2NXT\hl2nxtrtb2.csv, HL3_HL2NXT\hl2nxtrtb.csv, HL3_HL2NXT\hl2nxtrtb2.csv, HL3_HL2NXT\hl2nxtrtb3.csv
+StateFunction = if[destination==1545,mod[value + 1, 20],-1]
+refreshrate = 0.5
+Position = -0.0252,-0.002,0
+
+;HL2;
+[Object]
+States = HL2_HL1NXT\hl2rt.csv
+StateFunction = if[destination==1546,0,-1]
+Position = -0.0252,-0.002,0
+
+;HL2 (PMTTG);
+[Object]
+States = HL2_HL1NXT\hl2rt.csv
+StateFunction = if[destination==1547,0,-1]
+Position = -0.0252,-0.002,0
+
+
+;HL1 Next;
+[Object]
+States = HL2_HL1NXT\hl1nxtrt.csv, HL2_HL1NXT\hl1nxtrtb.csv, HL2_HL1NXT\hl1nxtrtb2.csv, HL2_HL1NXT\hl1nxtrtb.csv, HL2_HL1NXT\hl1nxtrtb2.csv, HL2_HL1NXT\hl1nxtrtb.csv, HL2_HL1NXT\hl1nxtrtb2.csv, HL2_HL1NXT\hl1nxtrtb.csv, HL2_HL1NXT\hl1nxtrtb2.csv, HL2_HL1NXT\hl1nxtrtb.csv, HL2_HL1NXT\hl1nxtrtb2.csv, HL2_HL1NXT\hl1nxtrtb.csv, HL2_HL1NXT\hl1nxtrtb2.csv, HL2_HL1NXT\hl1nxtrtb.csv, HL2_HL1NXT\hl1nxtrtb2.csv, HL2_HL1NXT\hl1nxtrtb.csv, HL2_HL1NXT\hl1nxtrtb2.csv, HL2_HL1NXT\hl1nxtrtb.csv, HL2_HL1NXT\hl1nxtrtb2.csv, HL2_HL1NXT\hl1nxtrtb3.csv
+StateFunction = if[destination==1548,mod[value + 1, 20],-1]
+refreshrate = 0.5
+Position = -0.0252,-0.002,0
+
+;HL1;
+[Object]
+States = HL1\hl1rt.csv
+StateFunction = if[destination==1549,0,-1]
+Position = -0.0252,-0.002,0

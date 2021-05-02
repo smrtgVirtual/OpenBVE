@@ -1,0 +1,4 @@
+[Object]
+States = on.csv, off.csv
+statefunction = if[(Klaxon==2 | Klaxon==3) & leftdoors == 1,value==0,1] & if[leftdoors < 1 & leftdoors > 0 & leftDoorsTarget==0,value==0,1]
+RefreshRate = 0.5

@@ -1,0 +1,322 @@
+; HBL beacons
+; This file contains two sections: speed limit beacons, and station stop beacons. 
+; Details on beacons: https://github.com/joeyfoo/SgATC/wiki/Beacons
+
+; -- SPEED LIMIT BEACONS --
+; Provides speed limits for ATP
+
+;HLS > HL16
+0
+.beacon 31; -1; ; 030035
+
+
+200
+.beacon 31; -1; ; 015020
+
+
+;HL16 > HL15
+270
+.beacon 31; -1; ; 065070
+
+920
+.beacon 31; -1; ; 050055
+
+
+;HL15 > HL14
+1185
+.beacon 31; -1; ; 065070
+
+1246
+.beacon 31; -1; ; 050055
+
+
+;HL14 > HL13
+1870
+.beacon 31; -1; ; 065070
+
+1975
+.beacon 31; -1; ; 040045
+
+2050
+.beacon 31; -1; ; 050055
+
+
+;HL13 > HL12
+2620
+.beacon 31; -1; ; 065070
+
+2820
+.beacon 31; -1; ; 050055
+
+
+;HL12 > HL11
+3300
+.beacon 31; -1; ; 065070
+
+3920
+.beacon 31; -1; ; 050055
+
+
+;HL11 > HL10
+4000
+.beacon 31; -1; ; 065070
+
+4520
+.beacon 31; -1; ; 050055
+
+
+;HL10 > HL9
+4600
+.beacon 31; -1; ; 065070
+
+5220
+.beacon 31; -1; ; 050055
+
+
+;HL9 > HL8
+5300
+.beacon 31; -1; ; 065070
+
+6075
+.beacon 31; -1; ; 050055
+
+
+;HL8 > HL7
+6100
+.beacon 31; -1; ; 065070
+
+6400
+.beacon 31; -1; ; 045050
+
+6820
+.beacon 31; -1; ; 050055
+
+
+;HL7 > HL6
+6900
+.beacon 31; -1; ; 055060
+
+7400
+.beacon 31; -1; ; 045050
+
+7600
+.beacon 31; -1; ; 050055
+
+
+;HL6 > HL5
+7700
+.beacon 31; -1; ; 025030
+
+8000
+.beacon 31; -1; ; 055060
+
+8420
+.beacon 31; -1; ; 050055
+
+
+;HL5 > HL4
+8430
+.beacon 31; -1; ; 055060
+
+9020
+.beacon 31; -1; ; 050055
+
+
+;HL4 > HL3
+9130
+.beacon 31; -1; ; 055060
+
+9500
+.beacon 31; -1; ; 050055
+
+9650
+.beacon 31; -1; ; 020025
+
+9755
+.beacon 31; -1; ; 015020
+
+
+;HL3 > HL2
+9760
+.beacon 31; -1; ; 055060
+
+9885
+.beacon 31; -1; ; 040045
+
+10000
+.beacon 31; -1; ; 030035
+
+10120
+.beacon 31; -1; ; 015020
+
+
+;HL2 > HL1
+10180
+.beacon 31; -1; ; 055060
+
+10675
+.beacon 31; -1; ; 035040
+
+
+; -- STATION STOP BEACONS --
+; Provides stopping position for ATO. Also used for dropping speed code to 0 at stations.
+; Located 500, 25, and 2 meters from stop point.
+
+0
+.beacon 33; -1; ; 500
+245
+.beacon 33; -1; ; 25
+267.67
+.beacon 33; -1; ; 2
+270
+; stop point HL16
+
+
+520
+.beacon 33; -1; ; 500
+995
+.beacon 33; -1; ; 25
+1017.67
+.beacon 33; -1; ; 2
+1020
+; stop point HL15
+
+
+1185
+.beacon 33; -1; ; 500
+1660
+.beacon 33; -1; ; 25
+1682.67
+.beacon 33; -1; ; 2
+1685
+; stop point HL14
+
+
+1870
+.beacon 33; -1; ; 500
+2345
+.beacon 33; -1; ; 25
+2367.67
+.beacon 33; -1; ; 2
+2370
+; stop point HL13
+
+
+2620
+.beacon 33; -1; ; 500
+3095
+.beacon 33; -1; ; 25
+3117.67
+.beacon 33; -1; ; 2
+3120
+; stop point HL12
+
+
+3570
+.beacon 33; -1; ; 500
+4045
+.beacon 33; -1; ; 25
+4067.67
+.beacon 33; -1; ; 2
+4070
+; stop point HL11
+
+
+4145
+.beacon 33; -1; ; 500
+4620
+.beacon 33; -1; ; 25
+4642.67
+.beacon 33; -1; ; 2
+4645
+; stop point HL10
+
+
+4820
+.beacon 33; -1; ; 500
+5295
+.beacon 33; -1; ; 25
+5317.67
+.beacon 33; -1; ; 2
+5320
+; stop point HL9
+
+
+5670
+.beacon 33; -1; ; 500
+6145
+.beacon 33; -1; ; 25
+6167.67
+.beacon 33; -1; ; 2
+6170
+; stop point HL8
+
+
+6495
+.beacon 33; -1; ; 500
+6970
+.beacon 33; -1; ; 25
+6992.67
+.beacon 33; -1; ; 2
+6995
+; stop point HL7
+
+
+7357
+.beacon 33; -1; ; 500
+7832
+.beacon 33; -1; ; 25
+7854.67
+.beacon 33; -1; ; 2
+7857
+; stop point HL6
+
+
+8005
+.beacon 33; -1; ; 500
+8480
+.beacon 33; -1; ; 25
+8502.67
+.beacon 33; -1; ; 2
+8505
+; stop point HL5
+
+
+8595
+.beacon 33; -1; ; 500
+9070
+.beacon 33; -1; ; 25
+9092.67
+.beacon 33; -1; ; 2
+9095
+; stop point HL4
+
+
+9255
+.beacon 33; -1; ; 500
+9730
+.beacon 33; -1; ; 25
+9752.67
+.beacon 33; -1; ; 2
+9755
+; stop point HL3
+
+
+9670
+.beacon 33; -1; ; 500
+10145
+.beacon 33; -1; ; 25
+10167.67
+.beacon 33; -1; ; 2
+10170
+; stop point HL2
+
+
+10445
+.beacon 33; -1; ; 500
+10920
+.beacon 33; -1; ; 25
+10942.67
+.beacon 33; -1; ; 2
+10945
+; stop point HL1

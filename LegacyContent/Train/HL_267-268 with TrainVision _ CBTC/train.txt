@@ -1,0 +1,9 @@
+SMRTG C651B (CBTC-compatible)
+Set 267 - 268
+
+Constructed: 2019
+
+Maximum speed: 90km/h
+Service speed: 80km/h
+
+Modified by: SMRTG Virtual

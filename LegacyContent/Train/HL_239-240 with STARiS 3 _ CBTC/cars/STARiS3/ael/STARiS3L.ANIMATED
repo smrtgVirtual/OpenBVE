@@ -1,0 +1,47 @@
+[Object]
+States = starislt1.csv, starislt2.csv, starislt3.csv, starislt4.csv, starislt5.csv, starislt6.csv, starislt7.csv, starislt8.csv, starislt9.csv, starislt9.csv, starislt9.csv
+StateFunction = if[klaxon == 2, mod[value + 1, 21],-1]
+refreshrate = 0.65
+Position = 0.001,0,0
+
+;AE1;
+[Object]
+States = ae01lt.csv, ae01ltb.csv
+StateFunction = if[destination==1400,value==0,-1]
+refreshrate = 0.8
+
+;AE2 Nxt;
+[Object]
+States = ae02nxtlt.csv, ae02nxtltb.csv
+StateFunction = if[destination==1401,value==0,-1]
+refreshrate = 0.8
+
+;AE2;
+[Object]
+States = ae02lt.csv
+StateFunction = if[destination==1402,0,-1]
+refreshrate = 0.8
+
+;AE3 Nxt;
+[Object]
+States = ae03nxtlt.csv, ae03nxtltb.csv
+StateFunction = if[destination==1403,value==0,-1]
+refreshrate = 0.8
+
+;AE3;
+[Object]
+States = ae03lt.csv
+StateFunction = if[destination==1404,0,-1]
+refreshrate = 0.8
+
+;AE4 Nxt;
+[Object]
+States = ae04nxtlt.csv, ae04nxtltb.csv
+StateFunction = if[destination==1405,value==0,-1]
+refreshrate = 0.8
+
+;AE4;
+[Object]
+States = ae04lt.csv, ae04ltb.csv
+StateFunction = if[destination==1406,value==0,-1]
+refreshrate = 0.8

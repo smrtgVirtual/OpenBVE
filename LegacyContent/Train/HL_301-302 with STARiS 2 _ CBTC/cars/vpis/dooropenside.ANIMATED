@@ -1,0 +1,12 @@
+[Object]
+States = blanks.csv, openr.csv
+StateFunction = if[klaxon==2,0,if[rightdoorstarget==1&rightdoors!=0&leftdoors == 0,1,0]]
+
+[Object]
+States = blanks.csv, openl.csv
+StateFunction = if[klaxon==2,0,if[leftdoorstarget==1&leftdoors !=0&rightdoors == 0,1,0]]
+
+[Object]
+States = blanks.csv, openb.csv
+StateFunction = if[klaxon==2,0,if[rightdoorstarget==1&leftdoorstarget==1&leftdoors!=0 & rightdoors!=0,1,0]]
+

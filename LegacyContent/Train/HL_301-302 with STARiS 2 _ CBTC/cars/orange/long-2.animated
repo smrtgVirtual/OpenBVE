@@ -1,0 +1,9 @@
+[Include]
+long-2.csv
+Position = 0,0,0
+
+;Handgrips;
+
+[Include]
+handgripsMaroonShort.animated
+Position = 0.95,-0.734,0.05

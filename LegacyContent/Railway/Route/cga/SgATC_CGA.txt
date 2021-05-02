@@ -1,0 +1,53 @@
+; CGA beacons
+; This file contains two sections: speed limit beacons, and station stop beacons. 
+; Details on beacons: https://github.com/joeyfoo/SgATC/wiki/Beacons
+
+; -- SPEED LIMIT BEACONS --
+; Provides speed limits for ATP
+
+;CG2 Changi Airport
+0
+.beacon 31; -1; ; 065070
+
+840
+.beacon 31; -1; ; 080085
+
+;CG1 Expo
+5050
+.beacon 31; -1; ; 080085
+
+7052
+.beacon 32; -1; ; 200065070
+
+7252
+.beacon 31; -1; ; 065070
+
+;EW4 Tanah Merah
+7950
+.beacon 31; -1; ; 000020
+
+
+
+
+; -- STATION STOP BEACONS --
+; Provides stopping position for ATO. Also used for dropping speed code to 0 at stations.
+; Located 500, 25, and 2 meters from stop point.
+
+4550
+.beacon 33; -1; ; 500
+5025
+.beacon 33; -1; ; 25
+5047.67
+.beacon 33; -1; ; 2
+5050 
+; stop point
+
+7450
+.beacon 33; -1; ; 500
+7925
+.beacon 33; -1; ; 25
+7947.67
+.beacon 33; -1; ; 2
+7950
+; stop point
+

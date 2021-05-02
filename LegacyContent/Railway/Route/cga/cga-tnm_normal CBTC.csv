@@ -1,0 +1,1117 @@
+Options.ObjectVisibility 1
+
+With Route
+Route.Comment SMRT Changi Airport Branch Line
+Route.Timetable SMRT Changi Airport Branch Line
+Route.Change 0
+Route.Gauge 1435
+Route.Image cga.png
+
+With Train
+Train.Folder 131-132
+Train.Run(1).Set 1
+Train.Run(2).Set 1
+Train.Run(3).Set 2
+Train.Run(4).Set 2
+Train.Run(5).Set 2
+Train.Run(6).Set 2
+Train.Run(7).Set 1
+Train.Run(8).Set 2
+Train.Run(9).Set 1
+Train.Run(10).Set 1
+Train.Run(11).Set 2
+Train.Run(12).Set 2
+Train.Run(13).Set 2
+Train.Run(14).Set 2
+Train.Run(15).Set 2
+Train.Run(101).Set 1
+Train.Run(102).Set 1
+Train.Run(103).Set 2
+Train.Run(104).Set 2
+Train.Run(105).Set 2
+Train.Run(106).Set 2
+Train.Run(107).Set 1
+Train.Run(109).Set 1
+Train.Run(110).Set 1
+Train.Run(111).Set 2
+Train.Run(112).Set 2
+Train.Run(113).Set 2
+Train.Run(114).Set 2
+Train.Run(115).Set 2
+
+
+With Structure
+
+;Wall;
+Structure.WallL(0) cga\tunnel\wall1_l.csv
+Structure.WallR(0) cga\tunnel\wall1_r.csv
+Structure.WallL(1) cga\tunnel\wall2_l.csv
+Structure.WallR(1) cga\tunnel\wall2_r.csv
+Structure.WallL(2) cga\viaduct\wall1_l.csv
+Structure.WallR(2) cga\viaduct\wall1_r.csv
+Structure.WallL(3) cga\viaduct\wall2_l.csv
+Structure.WallR(3) cga\viaduct\wall2_r.csv
+Structure.WallL(4) cga\viaduct\wall3_l.csv
+Structure.WallR(4) cga\viaduct\wall3_r.csv
+Structure.WallL(5) cga\tunnel\out_l.csv
+Structure.WallR(5) cga\tunnel\out_r.csv
+Structure.WallL(6) cga\viaduct\wall4_l.csv
+Structure.WallR(6) cga\viaduct\wall4_r.csv
+Structure.WallL(16) cga\tunnel\int_l.csv
+Structure.WallR(16) cga\tunnel\int1_r.csv
+Structure.WallR(17) cga\tunnel\int_r.csv
+Structure.WallL(17) cga\tunnel\int1_l.csv
+
+
+;Mods;
+Structure.WallL(7) cga\viaduct\support.csv
+Structure.WallR(7) cga\viaduct\wall4_r.csv
+Structure.WallL(8) cga\viaduct\wall4_l.csv
+Structure.WallR(8) cga\viaduct\support.csv
+
+;Tracks;
+Structure.Rail(1) cga\track\track1.csv
+Structure.Rail(2) cga\track\track2.csv
+Structure.Rail(3) cga\track\track3.csv
+Structure.Rail(4) cga\track\track4.csv
+Structure.Rail(5) cga\track\track5.csv
+Structure.Rail(6) cga\track\track6.csv
+Structure.Rail(7) cga\track\track.csv
+Structure.Rail(8) cga\nothing.csv
+Structure.Rail(9) cga\track\out1.csv
+Structure.Rail(10) cga\track\out2.csv
+Structure.Rail(11) cga\track\track7.csv
+Structure.Rail(12) cga\track\track8.csv
+Structure.Rail(13) cga\track\xover.csv
+Structure.Rail(14) cga\track\left.csv
+Structure.Rail(15) cga\track\right.csv
+
+;Old Tracks;
+Structure.Rail(101) cga\track\old\track1.csv
+Structure.Rail(102) cga\track\old\track2.csv
+Structure.Rail(103) cga\track\old\track3.csv
+Structure.Rail(104) cga\track\old\track4.csv
+Structure.Rail(105) cga\track\old\track5.csv
+Structure.Rail(106) cga\track\old\track6.csv
+Structure.Rail(107) cga\track\old\track.csv
+Structure.Rail(109) cga\track\old\out1.csv
+Structure.Rail(110) cga\track\old\out2.csv
+Structure.Rail(111) cga\track\old\track7.csv
+Structure.Rail(112) cga\track\old\track8.csv
+Structure.Rail(113) cga\track\old\xover.csv
+Structure.Rail(114) cga\track\old\left.csv
+Structure.Rail(115) cga\track\old\right.csv
+
+;Signs;
+Structure.Freeobj(2) cga\signs\-1.csv
+Structure.Freeobj(3) cga\signs\-2.csv
+Structure.Freeobj(4) cga\signs\+1.csv
+Structure.Freeobj(5) cga\signs\+2.csv
+Structure.Freeobj(32) cga\signs\60_atc.csv
+Structure.Freeobj(33) cga\signs\65_atc.csv
+Structure.Freeobj(34) cga\signs\70_atc.csv
+Structure.Freeobj(35) cga\signs\75_atc.csv
+
+;Changi Airport Station;
+Structure.Freeobj(40) cga\cga\tunnel_wall.ANIMATED
+Structure.Freeobj(42) cga\cga\psd.ANIMATED
+
+;Expo Station;
+Structure.Freeobj(6) cga\xpo\xpo1.csv
+Structure.Freeobj(7) cga\xpo\xpo2.csv
+Structure.Freeobj(8) cga\xpo\xpo3.csv
+Structure.Freeobj(9) cga\xpo\xpo4.csv
+Structure.Freeobj(10) cga\xpo\xpo5.csv
+
+;Pure Pebbles;
+Structure.Freeobj(11) cga\misc\peb1.csv
+Structure.Freeobj(12) cga\misc\peb2.csv
+
+;Crossover;
+Structure.Freeobj(13) cga\misc\long1.csv
+Structure.Freeobj(14) cga\misc\long2.csv
+Structure.Freeobj(15) cga\misc\long3.csv
+
+;Tanah Merah Station;
+Structure.Freeobj(20) cga\tnm\tnm1.csv
+
+;HHPSD
+;left doors
+Structure.Freeobj(81) cga\hhpsd\ewl\left\psd_c1.ANIMATED
+Structure.Freeobj(82) cga\hhpsd\ewl\left\psd_c2.ANIMATED
+Structure.Freeobj(83) cga\hhpsd\ewl\left\psd_c3.ANIMATED
+Structure.Freeobj(84) cga\hhpsd\ewl\left\psd_c4.ANIMATED
+Structure.Freeobj(85) cga\hhpsd\ewl\left\psd_c5.ANIMATED
+Structure.Freeobj(86) cga\hhpsd\ewl\left\psd_c6.ANIMATED
+Structure.Freeobj(87) cga\hhpsd\ewl\left\psd.ANIMATED
+;right doors
+Structure.Freeobj(91) cga\hhpsd\ewl\right\psd_c1.ANIMATED
+Structure.Freeobj(92) cga\hhpsd\ewl\right\psd_c2.ANIMATED
+Structure.Freeobj(93) cga\hhpsd\ewl\right\psd_c3.ANIMATED
+Structure.Freeobj(94) cga\hhpsd\ewl\right\psd_c4.ANIMATED
+Structure.Freeobj(95) cga\hhpsd\ewl\right\psd_c5.ANIMATED
+Structure.Freeobj(96) cga\hhpsd\ewl\right\psd_c6.ANIMATED
+
+;Ground;
+Structure.Ground(1).Load cga\floor\floor1.csv
+
+With Texture
+;Sky;
+Texture.Background(1).Load cga\bg\sky1.bmp
+
+With Track
+0
+Track.Sta CG2 Changi Airport; 14.5955;15.0010;;L;;1;;45;100;;
+Track.Railtype 0;2
+Track.Limit 65;0;0
+Track.RailStart 3;-20;0;1
+.Destination 0;-1;1700;-1701;1;
+
+3.4
+Track.Freeobj 0;42
+
+25
+Track.Stop 0;5;5
+Track.Freeobj 0;40
+
+25.1
+Track.Announce cga\xpogo.wav
+
+25.7
+.Destination 0;-1;1701;1700;1;
+
+50
+Track.Wall 0;0;1
+Track.Wall 3;0;1
+
+75
+.Destination 0;-1;1705;1704;1;
+
+125
+Track.RailStart 1;0;0;2
+Track.RailStart 2;-20;0;2
+Track.Wall 3;-1;1
+Track.Wall 2;1;1
+
+150
+Track.RailType 0;1
+Track.Turn -0.02
+Track.Rail 3;-20
+Track.Rail 2;-19
+
+174
+Track.Limit 65;0;0
+.Destination 0;-1;1701;1700;1;
+
+175
+Track.Signal -2; CG4; 2.2; 3
+Track.Limit 65;1;0
+Track.Turn -0.02
+Track.RailType 3;1
+Track.Rail 1;0.5
+Track.Rail 2;-17
+Track.Rail 3;-19.5
+Track.Wall 0;-1;1
+Track.Wall 1;1;1+
+
+200
+Track.Rail 1;1.5
+Track.Rail 2;-15
+Track.Rail 3;-18.5
+
+225
+Track.Rail 1;2.5
+Track.Rail 2;-13
+Track.Rail 3;-17.5
+
+250
+Track.Rail 1;3.5
+Track.Rail 2;-11
+Track.Rail 3;-16.5
+
+275
+Track.Rail 1;4.5
+Track.Rail 2;-9
+Track.Rail 3;-15.5
+
+300
+Track.Wall 0;0;1
+Track.Wall 1;0;1
+Track.Wall 2;0;1
+Track.Wall 3;0;1
+Track.Rail 1;5.5
+Track.Rail 2;-7
+Track.Rail 3;-14.5
+
+325
+Track.Rail 1;6.5
+Track.Rail 2;-5
+Track.Rail 3;-13.5
+Track.Wall 0;1;1
+Track.Wall 2;-1;1
+
+350
+Track.Rail 1;7.5
+Track.Rail 2;-3
+Track.Rail 3;-12.5
+Track.Railtype 0;2
+Track.Railtype 2;1
+
+375
+Track.Rail 1;8.5
+Track.Rail 2;-1
+Track.Rail 3;-11.5
+Track.Wall 0;0;17
+Track.Wall 2;0;16
+Track.Railtype 0;7
+Track.Railtype 2;7
+
+400
+Track.Rail 1;9.5
+Track.Rail 2;1
+Track.Rail 3;-10.5
+Track.Railtype 0;1
+Track.Railtype 2;2
+Track.Wall 0;-1;1
+Track.Wall 2;1;1
+
+425
+Track.Rail 1;10.5
+Track.Rail 2;3
+Track.Rail 3;-9.5
+Track.Railtype 2;1
+Track.Railtype 0;2
+
+
+450
+Track.Rail 1;11.5
+Track.Rail 25
+Track.Rail 3;-8.5
+Track.Rail 2;5
+Track.Wall 0;0;1
+Track.Wall 2;0;1
+
+475
+Track.Rail 2;7
+Track.Rail 1;12.5
+Track.Rail 3;-7.5
+Track.Wall 2;-1;1
+Track.Wall 1;1;1
+
+500
+Track.Rail 1;13.5
+Track.Rail 2;9
+Track.Rail 3;-6.5
+
+525
+Track.Rail 1;14.5
+Track.Rail 2;11
+Track.Rail 3;-5.5
+Track.Wall 3;-1;1
+Track.Wall 0;1;1
+
+
+550
+Track.Rail 1;15.5
+Track.Rail 2;13
+Track.Rail 3;-4.5
+
+575
+Track.Rail 1;16.5
+Track.Rail 2;15
+Track.Rail 3;-3.5
+
+600
+Track.Rail 1;17.5
+Track.Rail 2;17
+Track.Rail 3;-2.5
+
+625
+Track.Rail 1;18.5
+Track.Rail 2;18.5
+Track.Railend 2
+Track.Rail 3;-1.5
+Track.Wall 1;0;1
+
+650
+Track.Rail 1;19.5
+Track.Rail 3;-0.5
+Track.Turn 0.02
+
+675
+Track.Rail 1;20
+Track.Rail 3;0
+Track.Railend 3
+Track.Turn 0.04
+Track.Wall 0;0;1
+Track.Turn 0.02
+
+699
+Track.Limit 80;0;0
+
+700
+Track.Railtype 0;1
+Track.Limit 80;-1;0
+Track.Signal -2; CG2; -2.2; 3
+
+750
+Track.Wall 0;0;0
+Track.Wall 1;0;0
+
+900
+Track.Curve -900
+
+1500
+Track.Curve 0
+Track.Pitch 3
+
+1700
+Track.Pitch 0
+
+2200
+Track.Pitch -3
+
+2400
+Track.Pitch 0
+
+2500
+Track.Curve 750
+
+3000
+Track.Curve 0
+Track.Pitch 3
+
+3200
+Track.Pitch 0
+Track.Curve -750
+
+3700
+Track.Curve 0
+
+4000
+Track.Wall 0;0;1
+Track.Wall 1;0;1
+Track.Pitch 9
+Track.Height 0
+
+4025
+Track.Ground 1
+
+4050
+Track.Back 1
+
+4400
+Track.Relay -2.2;3
+
+4475
+Track.Wall 0;0;5
+Track.Wall 1;0;5
+Track.Railtype 0;9
+Track.Railtype 1;10
+
+4500
+Track.Wall 0;0;3
+Track.Wall 1;0;3
+Track.Railtype 0;5
+Track.Railtype 1;6
+
+4525
+Track.Railtype 0;3
+Track.Railtype 1;4
+
+4550
+Track.Wall 0;0;2
+Track.Wall 1;0;4
+
+4800
+Track.Pitch 0
+Track.Height 7.2
+Track.Wall 0;-1;2
+Track.Wall 1;1;4
+Track.Freeobj 0;6
+
+4825
+Track.Freeobj 0;7
+
+4850
+Track.Freeobj 0;7
+
+4875
+Track.Freeobj 0;8
+Track.Announce cga\xpoarr.wav
+.Destination 0;-1;1706;1705;1;
+
+4898
+Track.Limit 80
+
+4899
+Track.Limit 80;-1;0
+
+4900
+Track.Signal -2; XPO4; -2.2; -1
+Track.Sta CG1 Expo;15.0530;15.0535;;R;;1;;20;100;;
+Track.Freeobj 0;9
+
+
+4925
+Track.Freeobj 0;9
+
+4950
+Track.Freeobj 0;9
+
+4975
+Track.Freeobj 0;9
+.Destination 0;-1;1702;1701;1;
+
+5000
+Track.Freeobj 0;9
+
+5025
+Track.Freeobj 0;10
+
+5050
+Track.Stop 0;5;5
+Track.Wall 0;0;2
+Track.Wall 1;0;4
+
+;HHPSD
+4914.62,
+.Freeobj 1;81;-0.1
+.Freeobj 0;91;-0.1
+4937.37,
+.Freeobj 1;82;-0.1
+.Freeobj 0;92;-0.1
+4960.12,
+.Freeobj 1;83;-0.1
+.Freeobj 0;93;-0.1
+4982.87,
+.Freeobj 1;84;-0.1
+.Freeobj 0;94;-0.1
+5005.62,
+.Freeobj 1;85;-0.1
+.Freeobj 0;95;-0.1
+5028.47,
+.Freeobj 1;86;-0.1
+.Freeobj 0;96;-0.1
+
+
+5051
+Track.Limit 80;-1;0
+
+5051.5
+.Destination 0;-1;1703;1702;1;
+Track.Announce cga\nxt_tnm.wav
+
+5075
+Track.Curve 800
+Track.Signal -2; XPO5; -2.2; -1
+
+5085
+.Destination 0;-1;1707;1706;1;
+
+5125
+Track.Rail 1;19
+
+5150
+Track.Rail 1;18
+
+5200
+Track.Rail 1;17
+
+5225
+Track.Rail 1;16
+
+5250
+Track.Rail 1;15
+
+5275
+Track.Rail 1;14
+
+5300
+Track.Rail 1;13
+.Destination 0;-1;1703;1702;1;
+
+5325
+Track.Rail 1;12
+
+5350
+Track.Rail 1;11
+
+5375
+Track.Rail 1;10
+
+5400
+Track.Rail 1;9
+
+5425
+Track.Rail 1;8
+
+5450
+Track.Rail 1;7
+
+5475
+Track.Rail 1;6
+
+5500
+Track.Rail 1;5
+
+5525
+Track.Rail 1;4
+Track.Curve 0
+
+5550
+Track.Railtype 0;11
+Track.Limit 80
+
+5575
+Track.Signal -2; CHD1; -2.2; -1
+Track.Railtype 0;13
+Track.RailStart 3;0;0;14
+Track.Wall 3;-1;2
+Track.Wall 1;1;4
+Track.Turn 0.02
+Track.Limit 80;1;1
+Track.Wallend 0
+
+5600
+Track.Rail 3;-0.5
+Track.Rail 1;3.5
+Track.Turn 0.02
+
+5625
+Track.Rail 3;-1.5
+Track.Rail 1;2.5
+Track.Railtype 1;12
+Track.Railtype 3;5
+
+5650
+Track.Rail 3;-2.5
+Track.Rail 1;1.5
+Track.Railtype 1;15
+Track.Railtype 3;3
+
+5675
+Track.Rail 3;-3.5
+Track.Rail 1;0.5
+Track.Turn -0.02
+
+5700
+Track.Signal -2; CHD2; 2.2; -1
+Track.Rail 3;-4
+Track.Rail 1;0
+Track.Railend 1
+Track.Turn -0.02
+Track.Wall 0;1;4
+Track.Railtype 0;6
+
+5725
+Track.Railend 3
+Track.Railstart 1;-4;0;5
+Track.Railtype 1;3
+Track.Wall 0;0;4
+Track.Wall 1;0;2
+Track.Railtype 0;4
+
+5775
+Track.Rail 1;;1
+
+5800
+Track.Rail 1;;2
+
+5825
+Track.Rail 1;;3
+
+5850
+Track.Rail 1;;4
+
+5875
+Track.Pitch -10
+Track.Rail 1;;5
+
+5900
+Track.Rail 1;-5
+
+5925
+Track.Rail 1;-6
+
+5950
+Track.Rail 1;-8
+
+5975
+Track.Rail 1;-10
+Track.Rail 1;;5
+
+6000
+Track.Rail 1;-12
+
+6025
+Track.Rail 1;-13
+
+6050
+Track.Rail 1;-14
+
+6075
+Track.Rail 1;-15
+
+6100
+Track.Rail 1;-16
+
+6125
+Track.Rail 1;-17
+
+6150
+Track.Railstart 5;-22;-3;3
+Track.Wall 5;0;2
+
+6175
+Track.Rail 5;-16;-2
+
+
+6200
+Track.Rail 5;-10;-1
+
+
+6225
+Track.Rail 5;-4;0
+Track.Wall 0;1;4
+Track.Wall 5;-1;2
+Track.Signal -2; CHD3; -2.2; -1
+
+
+6250
+Track.Rail 5;-3.5;
+
+
+6275
+Track.Railtype 0;12
+Track.Rail 5;-2.5
+Track.Railtype 5;11
+
+
+6300
+Track.Railtype 0;15
+Track.Rail 5;-1.5
+Track.Railtype 5;14
+
+6325
+Track.Rail 5;-0.5
+
+6350
+Track.Rail 5;0
+Track.Railend 5
+Track.Wall 0;0;4
+Track.Railtype 0;106
+
+6200
+Track.Railstart 4;51;0;103
+Track.Wall 4;0;4
+Track.Railstart 3;45;6;103
+Track.Wall 3;0;2
+
+6225
+Track.Rail 3;39
+Track.Rail 4;45
+
+6250
+Track.Rail 3;33
+Track.Rail 4;38
+
+6275
+Track.Rail 3;27
+Track.Rail 4;32
+
+6300
+Track.Rail 3;21
+Track.Rail 4;26
+
+6325
+Track.Rail 4;23
+Track.Curve -800
+Track.Rail 3;15
+
+6350
+Track.Rail 3;9
+Track.Rail 4;20
+
+6375
+Track.Rail 3;3
+Track.Rail 4;14
+Track.Railtype 0;104
+
+6400
+Track.Rail 3;-3
+Track.Rail 4;8
+Track.Wall 0;0;6
+
+6425
+Track.Rail 3;-5
+Track.Rail 4;4
+
+6450
+Track.Rail 3;-7
+Track.Curve 0
+Track.Pitch 0
+
+6475
+Track.Pitch 2
+Track.Rail 3;;5
+Track.Rail 1;;5
+
+6499
+Track.Limit 80
+
+6500
+Track.Rail 3;;4
+Track.Pitch 0
+Track.Pitch 10
+Track.Height 5
+Track.Rail 1;;4
+Track.Limit 80;-1;0
+
+6525
+Track.Rail 3;;3
+Track.Rail 1;;3
+
+6550
+Track.Rail 3;;2
+Track.Rail 1;-16;2
+
+6575
+Track.Rail 3;-6;1
+Track.Rail 1;-14;1
+
+6600
+Track.Rail 3;-5;0
+Track.Rail 1;-12;0
+Track.Pitch 0
+Track.Height 7
+
+6625
+Track.Rail 3;-4
+Track.Rail 1;-10
+
+6650
+Track.Rail 1;-8
+Track.Wall 1;-1;2
+Track.Wall 3;1;7
+Track.Railtype 1;11
+Track.Railtype 3;112
+Track.Wall 3;0;7
+
+6675
+Track.Rail 1;-6
+Track.Railtype 1;14
+Track.Railtype 3;115
+
+6700
+Track.Rail 1;-5
+
+6725
+Track.Rail 1;-4.5
+
+6750
+Track.Rail 1;-4
+Track.Railend 1
+Track.Railtype 3;105
+Track.Wall 3;0;2
+Track.Wall 0;0;8
+Track.Wall 4;1;4
+Track.Railtype 0;112
+Track.Signal -2; TNM1; 2.2; -1
+
+6775
+Track.Railtype 3;103
+Track.Railtype 0;114
+Track.Railstart 5;0;0;113
+Track.Wallend 5
+Track.Limit 80;1;-1
+
+6800
+Track.Rail 5;0.5
+Track.Railtype 4;104
+
+6825
+Track.Rail 5;1.5
+Track.Railtype 4;112
+Track.Railtype 0;105
+
+6850
+Track.Rail 5;2.5
+Track.Railtype 4;115
+Track.Railtype 0;103
+
+6875
+Track.Rail 5;3.5
+
+6900
+Track.Rail 5;4
+Track.Railend 5
+Track.Railtype 4;105
+Track.Railtype 0;104
+Track.Wall 0;0;6
+Track.Wall 4;0;4
+
+6925
+Track.Railtype 4;103
+Track.Curve 2000
+
+6975
+Track.Freeobj 0;11
+
+7000
+Track.Rail 3;-5
+Track.Rail 4;5
+
+7025
+Track.Rail 3;-6
+Track.Rail 4;6
+
+7050
+Track.Rail 3;-7
+Track.Rail 4;7
+
+7075
+Track.Rail 3;-8
+Track.Rail 4;8
+
+7100
+Track.Rail 3;-9
+Track.Rail 4;9
+
+7125
+Track.Rail 3;-10
+Track.Rail 4;10
+
+
+7150
+Track.Rail 3;-11
+Track.Rail 4;11
+Track.Freeobj 0;12
+
+7175
+Track.Rail 3;-12
+Track.Rail 4;12
+
+7200
+Track.Rail 3;-13
+Track.Rail 4;13
+
+7225
+Track.Rail 3;-14
+Track.Rail 4;14
+
+7250
+Track.Rail 3;-15
+Track.Rail 4;15
+
+7252
+Track.Limit 65;1;0
+
+7275
+Track.Curve 0
+Track.Railtype 3;111
+
+7300
+Track.Wall 3;-1;2
+Track.Wall 4;1;4
+Track.Wall 0;1;8
+Track.Freeobj 0;13
+Track.Railtype 3;114
+Track.Railstart 5;-15;0;15
+
+7325
+Track.Freeobj 0;14
+Track.Rail 5;-14.5
+
+7350
+Track.Freeobj 0;14
+Track.Rail 5;-13.5
+Track.Railtype 3;105
+Track.Railtype 5;106
+Track.Railtype 4;112
+
+7375
+Track.Rail 5;-12.5
+Track.Railtype 3;103
+Track.Railtype 5;104
+Track.Railtype 4;115
+Track.Railstart 6;15;0;114
+Track.Freeobj 0;14
+
+7400
+Track.Rail 5;-11.5
+Track.Rail 6;14.5
+Track.Freeobj 0;14
+Track.Announce cga\tnm.wav
+.Destination 0;-1;1708;1707;1;
+
+7425
+Track.Rail 5;-10.5
+Track.Rail 6;13.5
+Track.Railtype 4;106
+Track.Railtype 6;105
+Track.Freeobj 0;14
+
+7450
+Track.Rail 5;-9.5
+Track.Rail 6;12.5
+Track.Railtype 4;104
+Track.Railtype 6;103
+Track.Freeobj 0;14
+
+7475
+Track.Rail 5;-8.5
+Track.Rail 6;11.5
+Track.Railtype 5;103
+Track.Freeobj 0;14
+
+7500
+Track.Rail 5;-7.5
+Track.Rail 6;10.5
+Track.Freeobj 0;14
+
+7525
+Track.Rail 5;-6.5
+Track.Rail 6;9.5
+Track.Freeobj 0;14
+
+7550
+Track.Rail 5;-5.5
+Track.Rail 6;8.5
+Track.Railtype 6;104
+Track.Freeobj 0;14
+
+7575
+Track.Rail 5;-4.5
+Track.Rail 6;7.5
+Track.Freeobj 0;14
+Track.Signal -2; TNM2; -2.2; -1
+
+7600
+Track.Rail 5;-3.5
+Track.Rail 6;6.5
+Track.Freeobj 0;14
+
+7625
+Track.Rail 5;-2.5
+Track.Rail 6;5.5
+Track.Railtype 0;112
+Track.Railtype 5;111
+Track.Freeobj 0;14
+Track.Signal -2; TNM3; 2.2; -1
+
+7650
+Track.Rail 5;-1.5
+Track.Rail 6;4.5
+Track.Railtype 0;115
+Track.Railtype 5;114
+Track.Freeobj 0;14
+
+7675
+Track.Rail 5;-0.5
+Track.Rail 6;3.5
+Track.Freeobj 0;14
+
+7700
+Track.Rail 5;0
+Track.Rail 6;2.5
+Track.Railtype 6;112
+Track.Railend 5
+Track.Railtype 0;114
+Track.Freeobj 0;14
+
+7725
+Track.Rail 6;1.5
+Track.Railtype 6;115
+Track.Freeobj 0;14
+
+7750
+Track.Rail 6;0.5
+Track.Freeobj 0;15
+
+7775
+Track.Rail 6;0
+Track.Railend 6
+Track.Railtype 0;105
+Track.Wall 0;0;6
+Track.Wall 3;0;2
+Track.Wall 4;0;4
+.Destination 0;-1;1704;1703;1;
+
+7799
+Track.Limit 80
+
+7800
+Track.Railtype 0;103
+Track.Sta EW4 Tanah Merah;15.0915;;;B;;1;;20;100;;
+Track.Wall 0;1;8
+Track.Wall 3;-1;2
+Track.Wall 4;1;4
+Track.Freeobj 0;20
+Track.Freeobj 3;20
+Track.Signal -2; TNM4; -2.2; -1
+
+7825
+Track.Freeobj 0;20
+Track.Freeobj 3;20
+
+7850
+Track.Freeobj 0;20
+Track.Freeobj 3;20
+
+7875
+Track.Freeobj 0;20
+Track.Freeobj 3;20
+
+7900
+Track.Freeobj 0;20
+Track.Freeobj 3;20
+
+7925
+Track.Freeobj 0;20
+Track.Freeobj 3;20
+
+7950
+Track.Stop 0;5;5
+Track.Wall 0;0;6
+Track.Wall 3;0;2
+Track.Wall 4;0;4
+Track.Signal -2; TNM3; -2.2; -1
+
+;HHPSD
+
+7814.62,
+Track.Freeobj 0;91;-0.1
+Track.Freeobj 4;81,
+Track.Freeobj 3;91;-0.1
+
+7837.37,
+Track.Freeobj 0;92;-0.1
+Track.Freeobj 4;82,
+Track.Freeobj 3;92;-0.1
+
+7860.12,
+Track.Freeobj 0;93;-0.1
+Track.Freeobj 4;83,
+Track.Freeobj 3;93;-0.1
+
+7882.87,
+Track.Freeobj 0;94;-0.1
+Track.Freeobj 4;84,
+Track.Freeobj 3;94;-0.1
+
+7905.62,
+Track.Freeobj 0;95;-0.1
+Track.Freeobj 4;85,
+Track.Freeobj 3;95;-0.1
+
+7928.47,
+Track.Freeobj 0;96;-0.1
+Track.Freeobj 4;86,
+Track.Freeobj 3;96;-0.1
+
+7947.65
+Track.Freeobj 0;87,
+
+
+$include(SgATC_CGA.txt)

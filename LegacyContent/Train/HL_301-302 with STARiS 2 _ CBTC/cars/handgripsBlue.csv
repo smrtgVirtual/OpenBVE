@@ -1,0 +1,95 @@
+﻿CreateMeshBuilder
+AddVertex, -0.075, -0.15, 0
+AddVertex, 0.075, -0.15, 0
+AddVertex, 0.075, -0.3, 0
+AddVertex, -0.075, -0.3, 0
+AddFace, 0,1,2,3
+AddFace, 3,2,1,0
+
+LoadTexture, handgrips_bottomBlue.png
+SetEmissiveColor, 255, 255, 255
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 0, 0, 255
+
+CreateMeshBuilder
+AddVertex, 0, -0.14, 0.02
+AddVertex, 0, -0.14, -0.02
+AddVertex, 0, -0.16, -0.02
+AddVertex, 0, -0.16, 0.02
+AddFace, 0,1,2,3
+AddFace, 3,2,1,0
+
+LoadTexture, handgrips_ringBlue.png
+SetEmissiveColor, 255, 255, 255
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 0, 0, 255
+
+CreateMeshBuilder
+AddVertex, -0.03, 0, 0.01
+AddVertex, -0.03, 0, -0.01
+AddVertex, 0, -0.15, -0.01
+AddVertex, 0, -0.15, 0.01
+AddFace, 0,1,2,3
+AddFace, 3,2,1,0
+
+LoadTexture, handgrips_strap.png
+SetEmissiveColor, 255, 255, 255
+SetTextureCoordinates, 0, 0, 0.1
+SetTextureCoordinates, 1, 1, 0.1
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 0, 0, 255
+
+CreateMeshBuilder
+AddVertex, 0.03, 0, 0.01
+AddVertex, 0.03, 0, -0.01
+AddVertex, 0, -0.15, -0.01
+AddVertex, 0, -0.15, 0.01
+AddFace, 0,1,2,3
+AddFace, 3,2,1,0
+
+LoadTexture, handgrips_strap.png
+SetEmissiveColor, 255, 255, 255
+SetTextureCoordinates, 0, 0, 0.1
+SetTextureCoordinates, 1, 1, 0.1
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 0, 0, 255
+
+CreateMeshBuilder
+AddVertex, 0, 0.026, 0.01
+AddVertex, 0, 0.026, -0.01
+AddVertex, 0.03, 0, -0.01
+AddVertex, 0.03, 0, 0.01
+AddFace, 0,1,2,3
+AddFace, 3,2,1,0
+
+LoadTexture, handgrips_strap.png
+SetEmissiveColor, 255, 255, 255
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 0.1
+SetTextureCoordinates, 3, 0, 0.1
+SetDecalTransparentColor, 0, 0, 255
+
+CreateMeshBuilder
+AddVertex, 0, 0.026, 0.01
+AddVertex, 0, 0.026, -0.01
+AddVertex, -0.03, 0, -0.01
+AddVertex, -0.03, 0, 0.01
+AddFace, 0,1,2,3
+AddFace, 3,2,1,0
+
+LoadTexture, handgrips_strap.png
+SetEmissiveColor, 255, 255, 255
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 0.1
+SetTextureCoordinates, 3, 0, 0.1
+SetDecalTransparentColor, 0, 0, 255

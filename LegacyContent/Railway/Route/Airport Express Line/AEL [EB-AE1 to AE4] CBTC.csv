@@ -1,0 +1,2116 @@
+;made with RouteBuilder 1.4.2 (2005-06-05) - visit http://routebuilder.bve-routes.com/,
+with Route,
+.Comment $chr(13)$chr(10)EB: AE1 to AE4 AE1 Stadium - AE4 East Harbour$chr(13)$chr(10)Created by Nickgoh45$chr(13)$chr(10)-----------------------$chr(13)$chr(10)Made with Route Builder,
+.Timetable EB: AE1 to AE4,
+.Change 0,
+.Gauge 1435,
+.DeveloperId 0,
+.Image ael.png,
+,
+With Options,
+.objectvisibility 1,
+,
+with Train,
+.Folder 131-132,
+.Run(0) 2,
+.Run(1) 3,
+.Run(2) 2,
+.Run(3) 3,
+.Run(4) 3,
+.Run(5) 3,
+.Run(6) 3,
+.Run(7) 2,
+.Run(8) 2,
+,
+with Structure,
+.rail(0) Airport Express Line\tracks\ogr.b3d,
+.rail(1) Airport Express Line\tracks\ugr.b3d,
+.rail(2) Airport Express Line\tracks\track0.b3d,
+.rail(3) Airport Express Line\tracks\ugl.b3d,
+.rail(4) Airport Express Line\tracks\ugr_160.b3d,
+.rail(5) Airport Express Line\tracks\ugr_-160.b3d,
+.rail(6) Airport Express Line\tracks\ugr_-300.b3d,
+.rail(7) Airport Express Line\tracks\ogl.b3d,
+.rail(8) Airport Express Line\tracks\ogr_160.b3d,
+.ground(0) Airport Express Line\grounds\empty.b3d,
+.ground(1) Airport Express Line\grounds\uground1.b3d,
+.ground(2) Airport Express Line\grounds\concrete1.b3d,
+.ground(3) Airport Express Line\grounds\grass3.b3d,
+.ground(4) Airport Express Line\grounds\concrete3_low10.b3d,
+.freeobj(0) Airport Express Line\platforms\platform1L.b3d,
+.freeobj(1) Airport Express Line\platforms\platform1CL.b3d,
+.freeobj(2) Airport Express Line\walls\uground_wall3_r.b3d,
+.freeobj(3) Airport Express Line\tracks\ogl.b3d,
+.freeobj(4) Airport Express Line\platforms\platform1R.b3d,
+.freeobj(5) Airport Express Line\platforms\platform1CR.b3d,
+.freeobj(6) Airport Express Line\walls\uground_wall3_l.b3d,
+.freeobj(7) Airport Express Line\signals\signal_dummy1.b3d,
+.freeobj(8) Airport Express Line\signals\signal_dummy2.b3d,
+.freeobj(9) Airport Express Line\signals\signal_dummy3.b3d,
+.freeobj(10) Airport Express Line\roofs\yellow_style.csv,
+.freeobj(11) Airport Express Line\walls\wall_concrete_high_l.B3D,
+.freeobj(12) Airport Express Line\exitsigns\exitsign1.csv,
+;.freeobj(13) Airport Express Line\,
+.freeobj(14) Airport Express Line\maps\hlmap.csv,
+.freeobj(15) Airport Express Line\signals\signal_post.b3d,
+.freeobj(16) Airport Express Line\walls\uground_wall2_l.b3d,
+.freeobj(17) Airport Express Line\walls\uground_wall2_r.b3d,
+.freeobj(18) Airport Express Line\tracks\ugl.b3d,
+.freeobj(19) Airport Express Line\tracks\switch_uglLL.b3d,
+.freeobj(20) Airport Express Line\tracks\ugr.b3d,
+.freeobj(21) Airport Express Line\walls\wall_brick3_high_l.B3D,
+.freeobj(22) Airport Express Line\tracks\ugr_160.b3d,
+.freeobj(23) Airport Express Line\tracks\ugl_-160.b3d,
+.freeobj(24) Airport Express Line\tracks\ugl_160.b3d,
+.freeobj(25) Airport Express Line\roofs\specialglass_style.csv,
+.freeobj(26) Airport Express Line\walls\glassfence.b3d,
+.freeobj(27) Airport Express Line\tracks\ogr.b3d,
+;.freeobj(28) Airport Express Line\,
+.freeobj(29) Airport Express Line\roofs\specialglass_style_end2.csv,
+.freeobj(30) Airport Express Line\roofs\yellow_style_end.csv,
+.freeobj(31) Airport Express Line\fhpsd\doornumber\doornumberLH.ANIMATED,
+.freeobj(32) Airport Express Line\fhpsd\doornumber\doornumberRH.ANIMATED,
+.freeobj(33) Airport Express Line\fhpsd\doornumber\doornumberLT.ANIMATED,
+.freeobj(34) Airport Express Line\roofs\specialglass_style_sign1.csv,
+.freeobj(35) Airport Express Line\walls\bluelivery.csv,
+.freeobj(36) Airport Express Line\platforms\platform7R.b3d,
+.freeobj(37) Airport Express Line\platforms\platform7CR.b3d,
+.freeobj(38) Airport Express Line\platforms\platform7L.b3d,
+.freeobj(39) Airport Express Line\platforms\platform7CL.b3d,
+.freeobj(40) Airport Express Line\roofs\specialglass_style_end.csv,
+.freeobj(41) Airport Express Line\tracks\ugr_-160.b3d,
+.freeobj(42) Airport Express Line\roads\highway1.b3d,
+.freeobj(43) Airport Express Line\buildings\building51.b3d,
+.freeobj(44) Airport Express Line\buildings\Hochhaus_mod1.b3d,
+.freeobj(45) Airport Express Line\buildings\Hochhaus_mod2.b3d,
+.freeobj(46) Airport Express Line\buildings\Hochhaus_mod3.b3d,
+.freeobj(47) Airport Express Line\buildings\House_mod_long3.b3d,
+.freeobj(48) Airport Express Line\walls\open_tiles_concrete_l.b3d,
+.freeobj(49) Airport Express Line\walls\wirenet_Wall2_l.b3d,
+.freeobj(50) Airport Express Line\walls\dike_wall_forest_high_7_r.b3d,
+.freeobj(51) Airport Express Line\walls\open_tiles_concrete_r.b3d,
+.freeobj(52) Airport Express Line\buildings\haus1.b3d,
+.freeobj(53) Airport Express Line\buildings\haus_ge1.b3d,
+.freeobj(54) Airport Express Line\buildings\threeside.b3d,
+.freeobj(55) Airport Express Line\roads\place1.b3d,
+.freeobj(56) Airport Express Line\buildings\House.b3d,
+.freeobj(57) Airport Express Line\walls\forest_nofloor_l.b3d,
+.freeobj(58) Airport Express Line\tracks\ogl_160.b3d,
+.freeobj(59) Airport Express Line\plants\deepforest1.b3d,
+.freeobj(60) Airport Express Line\tracks\brown.b3d,
+.freeobj(61) Airport Express Line\plants\Tree1.b3d,
+.freeobj(62) Airport Express Line\plants\trees3.b3d,
+.freeobj(63) Airport Express Line\plants\bush1.b3d,
+.freeobj(64) Airport Express Line\tracks\switch_brownLR.b3d,
+.freeobj(65) Airport Express Line\tracks\brown-150.b3d,
+.freeobj(66) Airport Express Line\misc\lampstand1.b3d,
+.freeobj(67) Airport Express Line\platforms\roof1R.b3d,
+.freeobj(68) Airport Express Line\platforms\roof1CR.b3d,
+.freeobj(69) Airport Express Line\platforms\roof1L.b3d,
+.freeobj(70) Airport Express Line\platforms\roof1CL.b3d,
+.freeobj(71) Airport Express Line\tracks\brown150.b3d,
+.freeobj(72) Airport Express Line\tracks\switch_brownRL.b3d,
+.freeobj(73) Airport Express Line\hhpsd\ae4back.b3d,
+;.freeobj(74) Airport Express Line\,
+.freeobj(75) Airport Express Line\roofs\airport_style.csv,
+.freeobj(76) Airport Express Line\misc\faregate2.csv,
+.freeobj(77) Airport Express Line\misc\faregate.csv,
+.freeobj(78) Airport Express Line\roofs\airport_style_end.csv,
+;.freeobj(79) Airport Express Line\,
+.freeobj(80) Airport Express Line\walls\wirenet_Wall2_r.b3d,
+.freeobj(81) Airport Express Line\grounds\concrete5.b3d,
+.freeobj(82) Airport Express Line\walls\bridge_concrete1_fence_l.b3d,
+.freeobj(83) Airport Express Line\walls\bridge_concrete1_fence_r.b3d,
+.freeobj(84) Airport Express Line\buildings\House2.b3d,
+.freeobj(85) Airport Express Line\buildings\haus2.b3d,
+.freeobj(86) Airport Express Line\tracks\ogl_-160.b3d,
+.freeobj(87) Airport Express Line\tracks\switch_ogrLR.b3d,
+.freeobj(88) Airport Express Line\tracks\switch_oglRL.b3d,
+.freeobj(89) Airport Express Line\roofs\interchange1_style.csv,
+.freeobj(90) Airport Express Line\EHA\ael_1.csv,
+.freeobj(91) Airport Express Line\EHA\efl_1.csv,
+.freeobj(92) Airport Express Line\EHA\ael_3.csv,
+.freeobj(93) Airport Express Line\EHA\efl_3.csv,
+.freeobj(94) Airport Express Line\platforms\platform8L.b3d,
+.freeobj(95) Airport Express Line\platforms\platform8CL.b3d,
+.freeobj(96) Airport Express Line\platforms\platform8R.b3d,
+.freeobj(97) Airport Express Line\platforms\platform8CR.b3d,
+.freeobj(98) Airport Express Line\EHA\ael_2.csv,
+.freeobj(99) Airport Express Line\EHA\efl_2.csv,
+.freeobj(100) Airport Express Line\EHA\ael_4.csv,
+.freeobj(101) Airport Express Line\EHA\efl_4.csv,
+.freeobj(102) Airport Express Line\buildings\House_mod_long2.b3d,
+.freeobj(103) Airport Express Line\misc\prelli.b3d,
+.freeobj(104) Airport Express Line\tracks\track0.b3d,
+.freeobj(105) Airport Express Line\demoroute1\escalator.ANIMATED,
+.freeobj(106) Airport Express Line\demoroute1\escalator_backward.ANIMATED,
+.freeobj(107) Airport Express Line\fhpsd\AE1\left\psd.ANIMATED,
+.freeobj(108) Airport Express Line\fhpsd\AE1\right\psd.ANIMATED,
+.freeobj(109) Airport Express Line\fhpsd\AE2\left\psd.ANIMATED,
+.freeobj(110) Airport Express Line\fhpsd\AE2\right\psd.ANIMATED,
+.freeobj(111) Airport Express Line\fhpsd\AE3\left\psd.ANIMATED,
+.freeobj(112) Airport Express Line\fhpsd\AE3\right\psd.ANIMATED,
+.freeobj(113) Airport Express Line\hhpsd\left\psd.ANIMATED,
+.freeobj(114) Airport Express Line\hhpsd\right\psd.ANIMATED,
+.freeobj(115) Airport Express Line\exits\WB Exit.csv,
+.freeobj(116) Airport Express Line\walls\uground_wallstation_b_r.b3d,
+.freeobj(117) Airport Express Line\walls\uground_wallstation_b_l.b3d,
+.freeobj(118) Airport Express Line\walls\uground_wallstation_f_r.b3d,
+.freeobj(119) Airport Express Line\walls\uground_wallstation_f_l.b3d,
+.freeobj(120) Airport Express Line\walls\uground_wallae3_b_r.b3d,
+.freeobj(121) Airport Express Line\walls\uground_wallae3_b_l.b3d,
+.freeobj(122) Airport Express Line\walls\uground_wallae3_f_r.b3d,
+.freeobj(123) Airport Express Line\walls\uground_wallae3_f_l.b3d,
+.freeobj(124) Airport Express Line\maps\aelmap\ae1\aelmapae1.csv,
+.freeobj(125) Airport Express Line\maps\aelmap\ae2\aelmapae2.csv,
+.freeobj(126) Airport Express Line\maps\aelmap\ae3\aelmapae3.csv,
+.freeobj(149) Airport Express Line\hhpsd\efl\left\psd.ANIMATED,
+.freeobj(150) Airport Express Line\hhpsd\efl\right\psd.ANIMATED,
+,
+.freeobj(129) Airport Express Line\signs\directionl4r3.csv,
+.freeobj(130) Airport Express Line\signs\directionl4r4.csv,
+,
+.freeobj(131) Airport Express Line\tunnelwallsigns\signsAE1L.ANIMATED,
+.freeobj(141) Airport Express Line\tunnelwallsigns\signsAE1R.ANIMATED,
+.freeobj(132) Airport Express Line\tunnelwallsigns\signsAE2L.ANIMATED,
+.freeobj(142) Airport Express Line\tunnelwallsigns\signsAE2R.ANIMATED,
+.freeobj(133) Airport Express Line\tunnelwallsigns\signsAE3L.ANIMATED,
+.freeobj(143) Airport Express Line\tunnelwallsigns\signsAE3R.ANIMATED,
+.freeobj(134) Airport Express Line\adverts\tunneladvertL1.ANIMATED,
+.freeobj(144) Airport Express Line\adverts\tunneladvertR1.ANIMATED,
+.freeobj(135) Airport Express Line\adverts\tunneladvertL2.ANIMATED,
+.freeobj(145) Airport Express Line\adverts\tunneladvertR2.ANIMATED,
+.freeobj(146) Airport Express Line\adverts\tunneladvertR3.ANIMATED,
+,
+with Texture,
+texture.background(0) Airport Express Line\backgrounds\bluesky1.bmp,
+texture.background(1) Airport Express Line\backgrounds\black.bmp,
+texture.background(2) Airport Express Line\backgrounds\ael.bmp,
+,
+with Track,
+0, .freeobj 0;4;-12;0;0
+0, .freeobj 0;5;-12;0;0
+0, .freeobj 0;3;-12;0;0
+0, .freeobj 0;1;0;0;0
+0, .freeobj 0;2;0;0;0
+,
+,
+,
+0, .freeobj 0;6;-12;0;0
+,
+0, .freeobj 0;0;0;0;0
+0, .back 0
+0, .ground 0
+0, .adhesion 255
+0, .limit 50;0;0
+0, .railtype 0;0
+0, .curve 0
+0, .Sta AE1 Stadium;13.5915;14.0000;1;-1;1;0;;20;100;
+0, .Destination 0;-1;1400;-1401;1;
+0, .fog 25;425;224;224;224
+0.000001, .freeobj 0;10;-10;0;0
+6, .freeobj 0;14;-6;0;0
+7.2, .freeobj 0;124;-6;0;0
+7.2, .freeobj 0;130;-6;0;0
+16.6, .freeobj 0;108;-12;0
+16.6, .freeobj 0;107;0;0
+16.6, .freeobj 0;31;0;0
+16.6, .freeobj 0;32;-12;0
+19, .stop 1
+19, .stop 0
+19, .freeobj 0;131;-12;0;0
+19, .freeobj 0;141;0;0;0
+19, .freeobj 0;134;-12;0;0
+19, .freeobj 0;145;0;0;0
+25, .freeobj 0;105;-4.5;1.18
+25, .freeobj 0;105;-5.5;1.18
+25, .freeobj 0;106;-6.5;1.18
+25, .freeobj 0;106;-7.5;1.18
+24.40000069, .freeobj 0;12;-6.9;4.4;0
+25, .Destination 0;-1;1401;1400;1;
+25, .freeobj 0;18;-12;0;0
+25, .freeobj 0;119;0;0;0
+25, .freeobj 0;17;0;0;0
+25, .freeobj 0;16;-12;0;0
+25, .freeobj 0;118;-12;0;0
+25, .signal -2;Signal 1;2.3;3;2
+25, .freeobj 0;15;2.3;0;0
+25, .curve 0
+25, .pitch 0
+25, .railtype 0;1
+25.000001, .freeobj 0;10;-10;0;0
+49, .freeobj 0;30;-10;0;0;0
+50, .freeobj 0;17;0;0;4.5886
+50, .freeobj 0;16;0;0;0;0
+50, .freeobj 0;17;-12;0;4.5886
+50, .freeobj 0;16;-12;0;4.5886
+50, .freeobj 0;18;-12;0;4.5886
+50, .pitch 0
+50, .curve -157
+50, .freeobj 0;15;-2.3;0;180
+50, .announce ..\object\Airport Express Line\sounds\AE2 Next.wav
+50, .rail 1;0;0;2    ;id=0
+50, .freeobj 0;19;0;0;4.5
+50, .railtype 0;2
+75, .freeobj 0;17;-10;0;9.2069
+75, .freeobj 0;20;2;0;9.2069
+75, .freeobj 0;17;2;0;9.2069
+75, .freeobj 0;16;-10;0;9.2069
+75, .curve 0
+75, .railend 1;4
+75, .pitch 0
+75, .freeobj 0;18;-10;0;9.2069
+75, .freeobj 0;16;0;0;0
+75, .railtype 0;3
+100, .freeobj 0;20;6;0;9.2069
+100, .freeobj 0;16;6;0;9.2069
+100, .freeobj 0;17;6;0;9.2069
+100, .freeobj 0;16;-6;0;9.2069
+100, .pitch 0
+100, .curve 0
+100, .railtype 0;1
+100, .freeobj 0;18;-6;0;9.2069
+100, .freeobj 0;17;0;0;0
+100.5391645, .freeobj 0;21;6.213;0;9
+125, .freeobj 0;17;0;0;0
+125, .freeobj 0;17;10;0;4.5886
+125, .freeobj 0;16;10;0;4.5886
+125, .freeobj 0;20;10;0;4.5886
+125, .back 1
+125, .curve 157
+125, .pitch 0
+125, .rail 2;0;0;2    ;id=0
+125, .railtype 0;2
+150, .freeobj 0;20;12;0;0
+150, .freeobj 0;17;0;0;0
+150, .freeobj 0;17;12;0;0
+150, .freeobj 0;16;12;0;0
+150, .freeobj 0;16;0;0;0
+150, .freeobj 0;19;0;0;180
+150, .railend 2;4
+150, .freeobj 0;17;0;0;180.0268
+150, .curve 0
+150, .railtype 0;3
+150, .pitch 0
+150, .back 0
+175, .freeobj 0;22;12;0;0
+175, .freeobj 0;17;0;0;0
+175, .freeobj 0;17;12;0;0
+175, .freeobj 0;16;12;0;0
+175, .pitch 0
+175, .limit 90;0;0
+175, .curve 157
+175, .signal -2;Signal 2;2.3;3;2
+175, .freeobj 0;16;0;0;0
+175, .railtype 0;4
+175, .freeobj 0;15;2.3;0;0
+200, .freeobj 0;18;12;0;0
+200, .freeobj 0;17;0;0;0
+200, .freeobj 0;17;12;0;0
+200, .freeobj 0;16;12;0;0
+200, .curve 0
+200, .freeobj 0;8;9.7;3;180
+200, .freeobj 0;15;9.7;0;180
+200, .freeobj 0;16;0;0;0
+200, .railtype 0;1
+200, .pitch 0
+225, .freeobj 0;18;12;0;0
+225, .freeobj 0;16;12;0;0
+225, .freeobj 0;17;12;0;0
+225, .pitch 0
+225, .curve 0
+225, .railtype 0;1
+225, .freeobj 0;17;0;0;0
+225, .freeobj 0;16;0;0;0
+250, .freeobj 0;18;12;0;0
+250, .freeobj 0;16;12;0;0
+250, .freeobj 0;17;12;0;0
+250, .curve -750
+250, .pitch 0
+250, .railtype 0;1
+250, .freeobj 0;17;0;0;0
+250, .freeobj 0;16;0;0;0
+275, .freeobj 0;18;12;0;0
+275, .freeobj 0;16;12;0;0
+275, .freeobj 0;17;12;0;0
+275, .pitch 0
+275, .curve -500
+275, .railtype 0;5
+275, .freeobj 0;17;0;0;0
+275, .freeobj 0;16;0;0;0
+300, .freeobj 0;23;12;0;0
+300, .freeobj 0;16;12;0;0
+300, .freeobj 0;17;12;0;0
+300, .pitch -5
+300, .curve -500
+300, .railtype 0;1
+300, .freeobj 0;17;0;0;0
+300, .freeobj 0;16;0;0;0
+325, .freeobj 0;18;12;0;0
+325, .freeobj 0;16;12;0;0
+325, .freeobj 0;17;12;0;0
+325, .pitch -5
+325, .curve -750
+325, .railtype 0;1
+325, .freeobj 0;17;0;0;0
+325, .freeobj 0;16;0;0;0
+350, .railtype 0;1
+350, .freeobj 0;18;12;0;0
+350, .curve 0
+350, .limit 110;0;0
+350, .pitch -5
+350, .ground 1
+375, .freeobj 0;18;12;0;0
+375, .curve 0
+375, .pitch -5
+375, .railtype 0;1
+400, .freeobj 0;18;12;0;0
+400, .curve 0
+400, .pitch -5
+400, .railtype 0;1
+425, .freeobj 0;18;12;0;0
+425, .curve 0
+425, .pitch -5
+425, .railtype 0;1
+450, .freeobj 0;18;12;0;0
+450, .pitch -5
+450, .curve 0
+450, .railtype 0;1
+475, .freeobj 0;18;12;0;0
+475, .curve 0
+475, .pitch -5
+475, .railtype 0;1
+500, .freeobj 0;18;12;0;0
+500, .curve 0
+500, .pitch -5
+500, .railtype 0;1
+525, .freeobj 0;18;12;0;0
+525, .curve 0
+525, .pitch -5
+525, .railtype 0;1
+550, .freeobj 0;18;12;0;0
+550, .curve 0
+550, .pitch -5
+550, .railtype 0;1
+575, .freeobj 0;18;12;0;0
+575, .pitch -5
+575, .curve 0
+575, .railtype 0;1
+600, .freeobj 0;18;12;0;0
+600, .curve 0
+600, .pitch -5
+600, .railtype 0;1
+625, .freeobj 0;18;12;0;0
+625, .curve 0
+625, .pitch -5
+625, .railtype 0;1
+650, .freeobj 0;18;12;0;0
+650, .curve 0
+650, .pitch -5
+650, .railtype 0;1
+675, .freeobj 0;18;12;0;0
+675, .curve 0
+675, .pitch 0
+675, .railtype 0;1
+700, .freeobj 0;18;12;0;0
+700, .curve 0
+700, .pitch 5
+700, .railtype 0;1
+725, .freeobj 0;18;12;0;0
+725, .curve 0
+725, .pitch 10
+725, .railtype 0;1
+750, .freeobj 0;18;12;0;0
+750, .curve 0
+750, .pitch 5
+750, .railtype 0;1
+775, .freeobj 0;18;12;0;0
+775, .pitch 5
+775, .curve 0
+775, .railtype 0;1
+800, .freeobj 0;18;12;0;0
+800, .curve 0
+800, .pitch 0
+800, .railtype 0;1
+825, .freeobj 0;18;12;0;0
+825, .curve 0
+825, .pitch 0
+825, .railtype 0;1
+850, .freeobj 0;18;12;0;0
+850, .curve 0
+850, .pitch 0
+850, .railtype 0;1
+875, .freeobj 0;18;12;0;0
+875, .curve 0
+875, .pitch 0
+875, .railtype 0;1
+900, .freeobj 0;18;12;0;0
+900, .curve 0
+900, .pitch 0
+900, .railtype 0;1
+925, .freeobj 0;17;0;0;0
+925, .freeobj 0;16;0;0;0
+925, .freeobj 0;24;12;0;0
+925, .freeobj 0;17;12;0;0
+925, .freeobj 0;16;12;0;0
+925, .ground 0
+925, .limit 80;0;0
+925, .curve 325
+925, .pitch 5
+925, .railtype 0;1
+925, .freeobj 0;15;2.3;0;0
+925, .signal -2;Signal 5;2.3;3;2
+950, .freeobj 0;18;12;0;0
+950, .freeobj 0;17;0;0;0
+950, .freeobj 0;17;12;0;0
+950, .freeobj 0;16;12;0;0
+950, .freeobj 0;16;0;0;0
+950, .freeobj 0;8;9.7;3;180
+950, .freeobj 0;15;9.7;0;180
+950, .curve 0
+950, .railtype 0;1
+950, .pitch 10
+975, .freeobj 0;18;12;0;0
+975, .freeobj 0;16;12;0;0
+975, .freeobj 0;17;12;0;0
+975, .freeobj 0;17;0;0;0
+975, .pitch 15
+975, .curve 0
+975, .freeobj 0;16;0;0;0
+975, .railtype 0;1
+1000, .freeobj 0;23;12;0;0
+1000, .freeobj 0;16;12;0;0
+1000, .freeobj 0;17;12;0;0
+1000, .freeobj 0;17;0;0;0
+1000, .pitch 10
+1000, .curve -350
+1000, .freeobj 0;16;0;0;0
+1000, .railtype 0;1
+1025, .railtype 0;1
+1025, .freeobj 0;18;11.9986;0;0
+1025, .pitch 5
+1025, .curve -500
+1025, .limit 110;0;0
+1025, .ground 1
+1050, .freeobj 0;18;11.9986;0;0
+1050, .railtype 0;1
+1050, .curve 0
+1050, .pitch 0
+1075, .freeobj 0;18;11.9986;0;0
+1075, .railtype 0;1
+1075, .curve 0
+1075, .pitch 0
+1100, .freeobj 0;18;11.9986;0;0
+1100, .railtype 0;1
+1100, .curve 0
+1100, .pitch 0
+1125, .freeobj 0;18;11.9986;0;0
+1125, .railtype 0;1
+1125, .curve 0
+1125, .pitch 0
+1150, .freeobj 0;18;11.9986;0;0
+1150, .railtype 0;1
+1150, .curve 0
+1150, .pitch 0
+1175, .freeobj 0;18;11.9986;0;0
+1175, .railtype 0;1
+1175, .curve 0
+1175, .pitch 0
+1200, .freeobj 0;18;11.9986;0;0
+1200, .railtype 0;1
+1200, .curve 0
+1200, .pitch 0
+1225, .freeobj 0;18;11.9986;0;0
+1225, .railtype 0;1
+1225, .curve 0
+1225, .pitch 0
+1250, .freeobj 0;18;11.9986;0;0
+1250, .railtype 0;1
+1250, .curve 0
+1250, .pitch 0
+1275, .freeobj 0;18;11.9986;0;0
+1275, .railtype 0;1
+1275, .curve 0
+1275, .pitch 0
+1300, .freeobj 0;18;11.9986;0;0
+1300, .railtype 0;1
+1300, .curve 0
+1300, .pitch 0
+1325, .freeobj 0;18;11.9986;0;0
+1325, .railtype 0;1
+1325, .curve 0
+1325, .pitch 0
+1350, .freeobj 0;18;11.9986;0;0
+1350, .railtype 0;1
+1350, .curve 0
+1350, .pitch 0
+1375, .freeobj 0;18;11.9986;0;0
+1375, .railtype 0;1
+1375, .curve 0
+1375, .pitch 0
+1400, .freeobj 0;18;11.9986;0;0
+1400, .railtype 0;1
+1400, .curve 0
+1400, .pitch 0
+1425, .freeobj 0;18;11.9986;0;0
+1425, .railtype 0;1
+1425, .curve 0
+1425, .pitch 0
+1450, .freeobj 0;18;11.9986;0;0
+1450, .railtype 0;1
+1450, .curve 0
+1450, .pitch 0
+1475, .freeobj 0;18;11.9986;0;0
+1475, .railtype 0;1
+1475, .curve 0
+1475, .pitch 0
+1500, .freeobj 0;18;11.9986;0;0
+1500, .railtype 0;1
+1500, .curve 0
+1500, .pitch 0
+1525, .freeobj 0;18;11.9986;0;0
+1525, .railtype 0;1
+1525, .curve 0
+1525, .pitch 0
+1550, .freeobj 0;18;12;0;0
+1550, .freeobj 0;17;0;0;0
+1550, .freeobj 0;17;12;0;0
+1550, .freeobj 0;16;12;0;0
+1550, .freeobj 0;16;0;0;0
+1550, .limit 85;0;0
+1550, .curve 0
+1550, .ground 0
+1550, .railtype 0;1
+1550, .pitch -5
+1575, .freeobj 0;23;12;0;0
+1575, .freeobj 0;16;12;0;0
+1575, .freeobj 0;17;12;0;0
+1575, .freeobj 0;17;0;0;0
+1575, .pitch -10
+1575, .curve -350
+1575, .freeobj 0;16;0;0;0
+1575, .railtype 0;1
+1600, .freeobj 0;18;12;0;0
+1600, .freeobj 0;16;12;0;0
+1600, .freeobj 0;17;12;0;0
+1600, .freeobj 0;17;0;0;0
+1600, .pitch -15
+1600, .curve 0
+1600, .freeobj 0;16;0;0;0
+1600, .railtype 0;1
+1625, .freeobj 0;18;12;0;0
+1625, .freeobj 0;16;12;0;0
+1625, .freeobj 0;17;12;0;0
+1625, .freeobj 0;17;0;0;0
+1625, .pitch -20
+1625, .curve 0
+1625, .freeobj 0;16;0;0;0
+1625, .railtype 0;1
+1650, .freeobj 0;18;12;0;0
+1650, .freeobj 0;16;12;0;0
+1650, .freeobj 0;17;12;0;0
+1650, .freeobj 0;17;0;0;0
+1650, .pitch -15
+1650, .curve 0
+1650, .freeobj 0;16;0;0;0
+1650, .railtype 0;1
+1675, .freeobj 0;24;12;0;0
+1675, .freeobj 0;16;12;0;0
+1675, .freeobj 0;17;12;0;0
+1675, .freeobj 0;17;0;0;0
+1675, .pitch -10
+1675, .curve 350
+1675, .freeobj 0;16;0;0;0
+1675, .railtype 0;1
+1700, .freeobj 0;18;12;0;0
+1700, .freeobj 0;117;12;0;0
+1700, .freeobj 0;17;12;0;0
+1700, .freeobj 0;116;0;0;0
+1700, .pitch -5
+1700, .curve 0
+1700, .freeobj 0;16;0;0;0
+1700, .railtype 0;1
+1725, .freeobj 0;4;0;0;0
+1725, .freeobj 0;5;0;0;0
+1725, .freeobj 0;15;2.3;0;0
+1725, .railtype 0;7
+1725, .freeobj 0;6;0;0;0
+1725, .freeobj 0;1;12;0;0
+1725, .freeobj 0;2;12;0;0
+1725, .freeobj 0;27;12;0;0
+1725, .freeobj 0;0;12;0;0
+1725, .curve 0
+1725, .freeobj 0;8;9.7;3;180
+1725, .freeobj 0;15;9.7;0;180
+1625, .announce ..\object\Airport Express Line\sounds\AE2 Arrive.wav
+1625, .Destination 0;-1;1402;1401;1;
+1725, .signal -2;Signal 7;2.3;3;2
+1725, .pitch 0
+1725.1, .freeobj 0;25;-2;0;0
+1725.233332, .freeobj 0;26;9.4667;5;0
+1725.233333, .freeobj 0;26;3.4667;5;0
+1725.8, .freeobj 0;29;2;0;0
+1750, .freeobj 0;27;12;0;0
+1750, .freeobj 0;6;0;0;0
+1750, .freeobj 0;5;0;0;0
+1750, .freeobj 0;1;12;0;0
+1750, .freeobj 0;0;12;0;0
+1750, .freeobj 0;2;12;0;0
+1750, .freeobj 0;4;0;0;0
+1750, .curve 0
+1750, .pitch 0
+1750, .railtype 0;7
+1750.1, .freeobj 0;25;-2;0;0
+1750.233332, .freeobj 0;26;9.4667;5;0
+1750.233333, .freeobj 0;26;3.4667;5;0
+1759.35, .freeobj 0;125;6;0;0
+1759.35, .freeobj 0;129;6;0;0
+1760.55, .freeobj 0;14;6;0;0
+1775, .freeobj 0;27;12;0;0
+1775, .freeobj 0;5;0;0;0
+1775, .freeobj 0;6;0;0;0
+1775, .freeobj 0;2;12;0;0
+1775, .freeobj 0;1;12;0;0
+1775, .freeobj 0;0;12;0;0
+1775, .freeobj 0;4;0;0;0
+1775, .curve 0
+1775, .pitch 0
+1775, .railtype 0;7
+1775.233333, .freeobj 0;26;9.4667;5;0
+1775.1, .freeobj 0;25;-2;0;0
+1775.233333, .freeobj 0;26;3.4667;5;0
+1800, .freeobj 0;27;12;0;0
+1800, .freeobj 0;5;0;0;0
+1800, .freeobj 0;6;0;0;0
+1800, .freeobj 0;2;12;0;0
+1800, .freeobj 0;1;12;0;0
+1800, .freeobj 0;0;12;0;0
+1800, .freeobj 0;4;0;0;0
+1800, .curve 0
+1800, .pitch 0
+1800, .railtype 0;7
+1800, .freeobj 0;14;6;0;0
+1800.233333, .freeobj 0;26;9.4667;5;0
+1800.1, .freeobj 0;25;-2;0;0
+1800.233333, .freeobj 0;26;3.4667;5;0
+1825, .freeobj 0;27;12;0;0
+1825, .freeobj 0;5;0;0;0
+1825, .freeobj 0;6;0;0;0
+1825, .freeobj 0;2;12;0;0
+1825, .freeobj 0;1;12;0;0
+1825, .freeobj 0;0;12;0;0
+1825, .freeobj 0;4;0;0;0
+1825, .curve 0
+1825, .pitch 0
+1825, .railtype 0;7
+1825.233333, .freeobj 0;26;9.4667;5;0
+1825.1, .freeobj 0;25;-2;0;0
+1825.233333, .freeobj 0;26;3.4667;5;0
+1839.65, .freeobj 0;14;6;0;0
+1840.85, .freeobj 0;125;6;0;0
+1840.85, .freeobj 0;129;6;0;0
+1850, .freeobj 0;5;0;0;0
+1850, .freeobj 0;6;0;0;0
+1850, .railtype 0;7
+1850, .freeobj 0;4;0;0;0
+1850, .freeobj 0;1;12;0;0
+1850, .freeobj 0;2;12;0;0
+1850, .freeobj 0;27;12;0;0
+1850, .freeobj 0;0;12;0;0
+1730, .Sta AE2 Exhibition Centre;14.0218;14.0248;1;1;1;0;..\object\Airport Express Line\sounds\mindthegap.wav;15;100;
+1850, .pitch 0
+1850, .curve 0
+1850, ;.Marker Airport Express Line\marker\stationmarker_stop.bmp;1000
+1850.233333, .freeobj 0;26;9.4667;5;0
+1850.1, .freeobj 0;34;-2;0;0
+1850.233333, .freeobj 0;26;3.4667;5;0
+1867.6, .freeobj 0;109;12
+1867.6, .freeobj 0;33;12
+1867.6, .freeobj 0;32;0
+1867.6, .freeobj 0;110
+1870, .stop 1
+1870, .stop 0
+1870, .freeobj 0;132;0;0;0
+1870, .freeobj 0;142;12;0;0
+1870, .freeobj 0;135;0;0;0
+1870, .freeobj 0;144;12;0;0
+1875, .freeobj 0;118;0;0;0
+1875, .freeobj 0;36;0;0;0
+1875, .freeobj 0;37;0;0;0
+1875, .freeobj 0;16;0;0;0
+1875, .freeobj 0;119;12;0;0
+1875, .freeobj 0;17;12;0;0
+1875, .freeobj 0;39;12;0;0
+1875, .freeobj 0;18;12;0;0
+1875, .freeobj 0;38;12;0;0
+1875, .curve 0
+1875, .pitch 0
+1875, .railtype 0;1
+1875, .Destination 0;-1;1403;1402;1;
+1875.099999, .freeobj 0;35;8;0;0
+1875.233333, .freeobj 0;26;9.4667;5;0
+1875.1, .freeobj 0;35;4;0;0
+1875.1, .freeobj 0;25;-2;0;0
+1875.2, .freeobj 0;26;3.5;5;0
+1900, .freeobj 0;17;0;0;0
+1900, .freeobj 0;16;0;0;0
+1900, .railtype 0;1
+1900, .freeobj 0;17;12;0;0
+1900, .freeobj 0;16;12;0;0
+1900, .freeobj 0;18;12;0;0
+1900, .freeobj 0;15;2.3;0;0
+1900, .limit 110;0;0
+1900, .curve 0
+1900, .pitch 5
+1900, .signal -2;Signal 9;2.3;3;2
+1900, .announce ..\object\Airport Express Line\sounds\AE3 Next.wav
+1900.1, .freeobj 0;25;-2;0;0
+1924.7, .freeobj 0;40;-2;0;0
+1925, .freeobj 0;18;12;0;0
+1925, .freeobj 0;17;0;0;0
+1925, .freeobj 0;17;12;0;0
+1925, .freeobj 0;16;12;0;0
+1925, .pitch 10
+1925, .curve 0
+1925, .freeobj 0;16;0;0;0
+1925, .railtype 0;1
+1950, .freeobj 0;23;12;0;-9.2069
+1950, .freeobj 0;17;0;0;0
+1950, .freeobj 0;17;12;0;-9.2069
+1950, .freeobj 0;16;12;0;-9.2069
+1950, .pitch 15
+1950, .curve 157
+1950, .freeobj 0;16;0;0;0
+1950, .railtype 0;4
+1950.984853, .freeobj 0;21;8.5487;0;-5
+1951.024726, .freeobj 0;21;9.0471;0;-5
+1951.064599, .freeobj 0;21;9.5455;0;-5
+1951.104471, .freeobj 0;21;10.0439;0;-5
+1975, .freeobj 0;16;0;0;0
+1975, .freeobj 0;24;8;0;-9.2069
+1975, .freeobj 0;17;8;0;-9.2069
+1975, .curve -157
+1975, .pitch 20
+1975, .railtype 0;5
+2000, .freeobj 0;16;0;0;0
+2000, .freeobj 0;18;4;0;0
+2000, .freeobj 0;17;4;0;0
+2000, .curve 0
+2000, .pitch 15
+2000, .railtype 0;1
+2025, .freeobj 0;16;0;0;0
+2025, .freeobj 0;18;4;0;0
+2025, .freeobj 0;17;4;0;0
+2025, .curve 0
+2025, .pitch 10
+2025, .railtype 0;1
+2050, .freeobj 0;16;0;0;0
+2050, .freeobj 0;18;4;0;0
+2050, .freeobj 0;17;4;0;0
+2050, .curve 0
+2050, .pitch 5
+2050, .railtype 0;1
+2075, .freeobj 0;16;0;0;0
+2075, .freeobj 0;18;4;0;0
+2075, .freeobj 0;17;4;0;0
+2075, .curve 0
+2075, .pitch 0
+2075, .railtype 0;1
+2100, .freeobj 0;16;0;0;0
+2100, .freeobj 0;24;4;0;4.5886
+2100, .freeobj 0;17;4;0;4.5886
+2100, .curve 0
+2100, .pitch 0
+2100, .railtype 0;1
+2125, .freeobj 0;18;6;0;9.2069
+2125, .freeobj 0;17;0;0;0
+2125, .freeobj 0;17;6;0;9.2069
+2125, .freeobj 0;16;6;0;9.2069
+2125, .pitch 0
+2125, .curve 0
+2125, .freeobj 0;16;0;0;0
+2125, .railtype 0;1
+2125.546428, .freeobj 0;21;6.3857;0;0
+2150, .freeobj 0;23;10;0;4.5886
+2150, .freeobj 0;17;0;0;0
+2150, .freeobj 0;17;10;0;4.5886
+2150, .freeobj 0;16;10;0;4.5886
+2150, .pitch 0
+2150, .curve 0
+2150, .freeobj 0;16;0;0;0
+2150, .railtype 0;1
+2175, .freeobj 0;18;12;0;0
+2175, .freeobj 0;17;0;0;0
+2175, .freeobj 0;17;12;0;0
+2175, .freeobj 0;16;12;0;0
+2175, .pitch 0
+2175, .curve 0
+2175, .freeobj 0;16;0;0;0
+2175, .railtype 0;1
+2200, .freeobj 0;18;12;0;0
+2200, .freeobj 0;17;0;0;0
+2200, .freeobj 0;17;12;0;0
+2200, .freeobj 0;16;12;0;0
+2200, .pitch 0
+2200, .curve 0
+2200, .freeobj 0;16;0;0;0
+2200, .railtype 0;1
+2225, .freeobj 0;18;12;0;0
+2225, .freeobj 0;17;0;0;0
+2225, .freeobj 0;17;12;0;0
+2225, .freeobj 0;16;12;0;0
+2225, .pitch 0
+2225, .curve 0
+2225, .freeobj 0;16;0;0;0
+2225, .railtype 0;1
+2250, .freeobj 0;18;12;0;0
+2250, .freeobj 0;16;12;0;0
+2250, .freeobj 0;17;12;0;0
+2250, .railtype 0;1
+2250, .curve 0
+2250, .ground 1
+2250, .pitch 0
+2275, .freeobj 0;18;12;0;0
+2275, .freeobj 0;16;12;0;0
+2275, .freeobj 0;17;12;0;0
+2275, .curve 0
+2275, .pitch 0
+2275, .railtype 0;1
+2300, .freeobj 0;18;12;0;0
+2300, .freeobj 0;16;12;0;0
+2300, .freeobj 0;17;12;0;0
+2300, .curve 0
+2300, .pitch 0
+2300, .railtype 0;1
+2325, .freeobj 0;18;12;0;0
+2325, .freeobj 0;16;12;0;0
+2325, .freeobj 0;17;12;0;0
+2325, .curve 0
+2325, .pitch 0
+2325, .railtype 0;1
+2350, .freeobj 0;18;12;0;0
+2350, .freeobj 0;16;12;0;0
+2350, .freeobj 0;17;12;0;0
+2350, .curve 0
+2350, .pitch 0
+2350, .railtype 0;1
+2375, .freeobj 0;18;12;0;0
+2375, .freeobj 0;16;12;0;0
+2375, .freeobj 0;17;12;0;0
+2375, .curve 0
+2375, .pitch 0
+2375, .railtype 0;1
+2400, .freeobj 0;18;12;0;0
+2400, .freeobj 0;16;12;0;0
+2400, .freeobj 0;17;12;0;0
+2400, .curve 0
+2400, .pitch 0
+2400, .railtype 0;1
+2425, .freeobj 0;18;12;0;0
+2425, .freeobj 0;16;12;0;0
+2425, .freeobj 0;17;12;0;0
+2425, .curve 0
+2425, .pitch 0
+2425, .railtype 0;1
+2450, .freeobj 0;18;12;0;0
+2450, .freeobj 0;16;12;0;0
+2450, .freeobj 0;17;12;0;0
+2450, .curve 0
+2450, .pitch 0
+2450, .railtype 0;1
+2475, .railtype 0;1
+2475, .freeobj 0;20;12;0;0
+2475, .curve 0
+2475, .pitch 0
+2500, .railtype 0;1
+2500, .freeobj 0;20;12;0;0
+2500, .curve 0
+2500, .pitch 0
+2525, .railtype 0;1
+2525, .freeobj 0;41;10.7711;0;0
+2525, .pitch 0
+2525, .curve -300
+2525, .back 2
+2550, .railtype 0;1
+2550, .pitch 0
+2550, .curve 0
+2575, .railtype 0;1
+2575, .freeobj 0;20;12;0;0
+2575, .curve 0
+2575, .pitch 0
+2600, .freeobj 0;17;0;0;0
+2600, .freeobj 0;16;0;0;0
+2600, .freeobj 0;18;12;0;0
+2600, .freeobj 0;17;12;0;0
+2600, .freeobj 0;16;12;0;0
+2600, .fog 25;325;224;224;224
+2600, .curve 700
+2600, .ground 0
+2600, .railtype 0;1
+2600, .pitch 0
+2625, .freeobj 0;18;12;0;0
+2625, .freeobj 0;17;0;0;0
+2625, .freeobj 0;17;12;0;0
+2625, .freeobj 0;16;12;0;0
+2625, .freeobj 0;16;0;0;0
+2625, .fog 25;225;224;224;224
+2625, .curve 500
+2625, .railtype 0;1
+2625, .pitch 0
+2650, .freeobj 0;18;12;0;-4.5886
+2650, .freeobj 0;17;0;0;0
+2650, .freeobj 0;17;12;0;-4.5886
+2650, .freeobj 0;16;12;0;-4.5886
+2650, .freeobj 0;16;0;0;0
+2650, .fog 25;175;224;224;224
+2650, .curve 350
+2650, .railtype 0;1
+2650, .pitch 0
+2675, .freeobj 0;18;10;0;-9.2069
+2675, .freeobj 0;17;0;0;0
+2675, .freeobj 0;17;10;0;-9.2069
+2675, .freeobj 0;16;10;0;-9.2069
+2675, .freeobj 0;16;0;0;0
+2675, .fog 25;125;224;224;224
+2675, .curve 0
+2675, .railtype 0;1
+2675, .pitch 0
+2700, .freeobj 0;17;0;0;0
+2700, .freeobj 0;16;0;0;0
+2700, .freeobj 0;17;6;0;-4.5886
+2700, .freeobj 0;18;6;0;-4.5886
+2700, .fog 25;115;224;224;224
+2700, .curve -350
+2700, .railtype 0;1
+2700, .pitch 5
+2723.615326, .freeobj 0;42;-20.1845;0;-5
+2725, .freeobj 0;17;0;0;0
+2725, .freeobj 0;16;0;0;0
+2725, .freeobj 0;17;4;0;0
+2725, .freeobj 0;18;4;0;0
+2725, .fog 25;85;224;224;224
+2725, .curve -500
+2725, .railtype 0;1
+2725, .pitch 10
+2740.249736, .freeobj 0;43;17.763;0;0
+2743.949742, .freeobj 0;44;-41.637;0;0
+2750, .freeobj 0;17;0;0;0
+2750, .freeobj 0;16;0;0;0
+2750, .freeobj 0;17;4;0;0
+2750, .freeobj 0;18;4;0;0
+2750, .railtype 0;1
+2750, .curve -700
+2750, .fog 25;65;224;224;224
+2750, .pitch 15
+2750.14974, .freeobj 0;42;-20.237;0;0
+2760.349743, .freeobj 0;45;-45.337;0;0
+2775, .freeobj 0;17;0;0;0
+2775, .freeobj 0;16;0;0;0
+2775, .freeobj 0;17;4;0;0
+2775, .freeobj 0;18;4;0;0
+2775, .railtype 0;1
+2775, .curve 0
+2775, .fog 25;55;224;224;224
+2775, .pitch 10
+2775.14974, .freeobj 0;42;-20.237;0;0
+2789.149744, .freeobj 0;46;-63.637;0;0
+2789.249742, .freeobj 0;47;-44.537;0;0
+2800, .freeobj 0;16;0;0;0
+2800, .railtype 0;1
+2800, .freeobj 0;18;4;0;0
+2800, .freeobj 0;17;0;0;0
+2800, .curve 0
+2800, .freeobj 0;17;4;0;0
+2800, .pitch 5
+2800, .fog 25;525;224;224;224
+2800.14974, .freeobj 0;42;-20.237;0;0
+2825, .freeobj 0;49;0;0;0
+2825, .freeobj 0;48;0;0;0
+2825, .freeobj 0;3;4;0;0
+2825, .freeobj 0;51;4;0;0
+2825, .freeobj 0;50;4;0;0
+2825, .railtype 0;0
+2825, .fog 25;1025;224;224;224
+2825, .curve 0
+2825, .pitch 0
+2825, .ground 2
+2825.14974, .freeobj 0;42;-20.237;0;0
+2830.249742, .freeobj 0;45;-42.637;0;0
+2839.349742, .freeobj 0;52;-44.537;0;0
+2850, .freeobj 0;3;4;0;0
+2850, .freeobj 0;49;0;0;0
+2850, .freeobj 0;51;4;0;0
+2850, .freeobj 0;50;4;0;0
+2850, .freeobj 0;48;0;0;0
+2850, .curve 0
+2850, .pitch 0
+2850, .railtype 0;0
+2850.14974, .freeobj 0;42;-20.237;0;0
+2858.849743, .freeobj 0;45;-54.437;0;0
+2861.149742, .freeobj 0;53;-44.737;0;0
+2869.749744, .freeobj 0;54;-63.937;0;0
+2875, .freeobj 0;3;4;0;0
+2875, .freeobj 0;49;0;0;0
+2875, .freeobj 0;51;4;0;0
+2875, .freeobj 0;50;4;0;0
+2875, .freeobj 0;48;0;0;0
+2875, .curve 0
+2875, .pitch 0
+2875, .railtype 0;0
+2875.14974, .freeobj 0;42;-20.237;0;0
+2886.849742, .freeobj 0;44;-42.537;0;0
+2897.499743, .freeobj 0;52;-45.4037;0;0
+2900, .freeobj 0;49;0;0;0
+2900, .freeobj 0;3;4;0;0
+2900, .freeobj 0;50;4;0;0
+2900, .railtype 0;0
+2900, .curve 0
+2900, .pitch 0
+2900.19974, .freeobj 0;42;-20.2037;0;0
+2911.699744, .freeobj 0;45;-55.7037;0;0
+2925, .freeobj 0;49;0;0;0
+2925, .freeobj 0;3;4;0;0
+2925, .freeobj 0;50;4;0;0
+2925, .railtype 0;0
+2925, .curve 0
+2925, .pitch 0
+2925.19974, .freeobj 0;42;-20.2037;0;0
+2930.699742, .freeobj 0;43;-43.9037;0;0
+2950, .railtype 0;0
+2950, .freeobj 0;49;0;0;0
+2950, .freeobj 0;3;4;0;0
+2950, .freeobj 0;50;4;0;0
+2950, .curve 0
+2950, .pitch 0
+2950.19974, .freeobj 0;42;-20.2037;0;0
+2956.299742, .freeobj 0;47;-41.7037;0;0
+2966.399744, .freeobj 0;45;-59.9037;0;0
+2975, .freeobj 0;49;0;0;0
+2975, .freeobj 0;3;4;0;0
+2975, .freeobj 0;50;4;0;0
+2975, .railtype 0;0
+2975, .curve 0
+2975, .pitch 0
+2975.155296, .freeobj 0;55;-20.1148;0;0
+2987.655297, .freeobj 0;42;-32.1148;0;-90
+2987.6553, .freeobj 0;42;-57.1148;0;-90
+2987.655302, .freeobj 0;42;-82.1148;0;-90
+3000, .freeobj 0;49;0;0;0
+3000, .freeobj 0;3;4;0;0
+3000, .freeobj 0;50;4;0;0
+3000, .curve 500
+3000, .pitch 0
+3000, .railtype 0;0
+3002.398154, .freeobj 0;53;-27.6291;0;-90
+3002.398156, .freeobj 0;52;-47.4863;0;-90
+3009.112437, .freeobj 0;43;-14.772;0;0
+3021.255297, .freeobj 0;46;-32.0577;0;0
+3021.68387, .freeobj 0;56;-50.2005;0;0
+3022.112443, .freeobj 0;44;-66.4863;0;0
+3025, .freeobj 0;49;0;0;0
+3025, .freeobj 0;57;0;0;0
+3025, .freeobj 0;50;4;0;0
+3025, .freeobj 0;58;4;0;0
+3025, .ground 3
+3025, .curve 200
+3025, .railtype 0;8
+3025, .pitch 0
+3041.768534, .freeobj 0;59;-19.3135;0;-5
+3050, .freeobj 0;60;-234;0;0
+3050, .freeobj 0;49;0;0;0
+3050, .freeobj 0;50;4;0;0
+3050, .freeobj 0;3;4;0;0
+3050, .pitch 0
+3050, .curve 0
+3050, .freeobj 0;57;0;0;0
+3050, .railtype 0;0
+3069.771729, .freeobj 0;62;-23.6209;0;-54
+3070.324695, .freeobj 0;63;-3.8891;0;-9
+3075, .freeobj 0;64;230;0;-4.5886
+3075, .freeobj 0;16;0;0;0
+3075, .freeobj 0;23;4;0;0
+3075, .freeobj 0;17;4;0;0
+3075, .freeobj 0;50;4;0;0
+3075, .freeobj 0;57;0;0;0
+3075, .fog 25;825;224;224;224
+3075, .curve -200
+3075, .railtype 0;5
+3075, .pitch -10
+3075, .ground 0
+3075.431174, .freeobj 0;61;-5.4295;0;-9
+3086.784458, .freeobj 0;59;-18.9148;-0.5;-1
+3100, .freeobj 0;60;226;0;-9.2069
+3100, .freeobj 0;60;228;0;0
+3100, .freeobj 0;18;4;0;0
+3100, .freeobj 0;17;4;0;0
+3100, .freeobj 0;50;4;0;0
+3100, .pitch -15
+3100, .curve -500
+3100, .railtype 0;1
+3100, .freeobj 0;16;0;0;0
+3100, .freeobj 0;57;0;0;0
+3125, .freeobj 0;18;4;0;0
+3125, .freeobj 0;16;0;0;0
+3125, .freeobj 0;17;4;0;0
+3125, .freeobj 0;50;4;0;0
+3125, .railtype 0;1
+3125, .pitch -20
+3125, .curve 0
+3125, .freeobj 0;57;0;0;0
+3150, .freeobj 0;16;0;0;0
+3150, .freeobj 0;57;0;0;0
+3150, .freeobj 0;17;4;0;0
+3150, .freeobj 0;18;4;0;0
+3150, .railtype 0;1
+3150, .freeobj 0;60;228;0;180
+3150, .freeobj 0;60;218;0;170.7931
+3150, .pitch -20
+3150, .curve 500
+3175, .freeobj 0;57;0;0;0
+3175, .freeobj 0;16;0;0;0
+3175, .freeobj 0;17;4;0;0
+3175, .freeobj 0;18;4;0;0
+3175, .railtype 0;1
+3175, .freeobj 0;60;228;0;180
+3175, .freeobj 0;65;216;0;175.4114
+3175, .pitch -15
+3175, .curve 400
+3200, .pitch -10
+3200, .curve 250
+3200, .railtype 0;1
+3200, .freeobj 0;17;4;0;0
+3200, .freeobj 0;24;4;0;0
+3200, .freeobj 0;57;0;0;0
+3200, .freeobj 0;16;0;0;0
+3200, .freeobj 0;5;228;0;175.4382
+3200, .freeobj 0;60;228;0;175.4382
+3200, .freeobj 0;4;228;0;175.4382
+3200, .freeobj 0;66;222;0;180
+3200, .freeobj 0;1;216;0;175.4382
+3200, .freeobj 0;0;216;0;175.4382
+3200, .freeobj 0;60;216;0;175.4382
+3225, .pitch -5
+3225, .fog 25;625;224;224;224
+3225, .curve 400
+3225, .freeobj 0;18;4;0;0
+3225, .freeobj 0;17;4;0;0
+3225, .freeobj 0;16;0;0;0
+3225, .railtype 0;1
+3225, .freeobj 0;57;0;0;0
+3225, .freeobj 0;67;226;0;170.8497
+3225, .freeobj 0;68;226;0;170.8497
+3225, .freeobj 0;5;226;0;170.8497
+3225, .freeobj 0;4;226;0;170.8497
+3225, .freeobj 0;60;226;0;170.8497
+3225, .freeobj 0;69;214;0;170.8497
+3225, .freeobj 0;70;214;0;170.8497
+3225, .freeobj 0;1;214;0;170.8497
+3225, .freeobj 0;60;214;0;170.8497
+3225, .freeobj 0;0;214;0;170.8497
+3250, .freeobj 0;16;0;0;0
+3250, .freeobj 0;60;-222;0;0
+3250, .freeobj 0;57;0;0;0
+3250, .pitch 0
+3250, .railtype 0;1
+3250, .freeobj 0;5;-210;0;0
+3250, .freeobj 0;18;4;0;0
+3250, .freeobj 0;17;4;0;0
+3250, .freeobj 0;4;-210;0;0
+3250, .freeobj 0;0;-222;0;0
+3250, .freeobj 0;1;-222;0;0
+3250, .freeobj 0;60;-210;0;0
+3250, .fog 25;425;224;224;224
+3250, .freeobj 0;67;222;0;180
+3250, .freeobj 0;68;222;0;180
+3250, .freeobj 0;66;216;0;180
+3250, .freeobj 0;60;222;0;180
+3250, .freeobj 0;4;222;0;180
+3250, .freeobj 0;5;222;0;180
+3250, .freeobj 0;69;210;0;180
+3250, .freeobj 0;70;210;0;180
+3250, .curve -400
+3250, .freeobj 0;60;210;0;180
+3250, .freeobj 0;0;210;0;180
+3250, .freeobj 0;1;210;0;180
+3275, .freeobj 0;71;206;0;0
+3275, .freeobj 0;60;218;0;-4.5886
+3275, .freeobj 0;17;4;0;0
+3275, .freeobj 0;23;4;0;0
+3275, .freeobj 0;16;0;0;0
+3275, .pitch 0
+3275, .curve -250
+3275, .freeobj 0;57;0;0;0
+3275, .railtype 0;5
+3300, .freeobj 0;60;206;0;9.2069
+3300, .freeobj 0;17;0;0;0
+3300, .freeobj 0;60;216;0;0
+3300, .freeobj 0;17;4;0;0
+3300, .freeobj 0;18;4;0;0
+3300, .pitch 0
+3300, .curve -400
+3300, .railtype 0;1
+3300, .freeobj 0;16;0;0;0
+3300, .freeobj 0;57;0;0;0
+3325, .freeobj 0;60;216;0;0
+3325, .freeobj 0;17;0;0;0
+3325, .freeobj 0;60;210;0;9.2069
+3325, .freeobj 0;17;4;0;0
+3325, .freeobj 0;18;4;0;0
+3325, .pitch 0
+3325, .curve -500
+3325, .railtype 0;1
+3325, .freeobj 0;16;0;0;0
+3325, .freeobj 0;57;0;0;0
+3350, .freeobj 0;17;0;0;0
+3350, .freeobj 0;16;0;0;0
+3350, .freeobj 0;17;4;0;0
+3350, .freeobj 0;18;4;0;0
+3350, .pitch 0
+3350, .curve 0
+3350, .freeobj 0;57;0;0;0
+3350, .railtype 0;1
+3375, .freeobj 0;17;0;0;0
+3375, .freeobj 0;16;0;0;0
+3375, .freeobj 0;60;216;0;0
+3375, .freeobj 0;17;4;0;0
+3375, .freeobj 0;18;4;0;0
+3375, .curve 0
+3375, .freeobj 0;72;216;0;180
+3375, .pitch 10
+3375, .freeobj 0;57;0;0;0
+3375, .railtype 0;1
+3400, .freeobj 0;17;0;0;0
+3400, .freeobj 0;16;0;0;0
+3400, .freeobj 0;17;4;0;0
+3400, .freeobj 0;18;4;0;0
+3400, .pitch 15
+3400, .curve -500
+3400, .freeobj 0;57;0;0;0
+3400, .railtype 0;1
+3425, .freeobj 0;17;0;0;0
+3425, .freeobj 0;16;0;0;0
+3425, .freeobj 0;17;4;0;0
+3425, .freeobj 0;20;4;0;0
+3425, .pitch 10
+3425, .curve -300
+3425, .freeobj 0;57;0;0;0
+3425, .railtype 0;1
+3450, .freeobj 0;17;0;0;0
+3450, .freeobj 0;16;0;0;0
+3450, .freeobj 0;17;4;0;9.2069
+3450, .freeobj 0;22;4;0;9.2069
+3450, .pitch 10
+3450, .curve -200
+3450, .freeobj 0;57;0;0;0
+3450, .railtype 0;1
+3475, .freeobj 0;41;8;0;9.2069
+3475, .freeobj 0;17;0;0;0
+3475, .freeobj 0;17;8;0;9.2069
+3475, .freeobj 0;16;8;0;9.2069
+3475, .freeobj 0;16;0;0;0
+3475, .pitch 10
+3475, .curve -300
+3475, .freeobj 0;57;0;0;0
+3475, .railtype 0;1
+3500, .freeobj 0;20;12;0;0
+3500, .freeobj 0;17;0;0;0
+3500, .freeobj 0;17;12;0;0
+3500, .freeobj 0;16;12;0;0
+3500, .freeobj 0;16;0;0;0
+3500, .pitch 10
+3500, .curve 0
+3500, .freeobj 0;57;0;0;0
+3500, .railtype 0;1
+3525, .freeobj 0;120;0;0;0
+3525, .freeobj 0;16;0;0;0
+3525, .freeobj 0;20;12;0;0
+3525, .freeobj 0;17;12;0;0
+3525, .freeobj 0;121;12;0;0
+3525, .pitch 5
+3525, .curve 0
+3525, .freeobj 0;57;0;0;0
+3525, .railtype 0;1
+3525.099738, .freeobj 0;10;1.9963;0;0
+3550, .freeobj 0;105;4.5;1.18;180;0;0
+3550, .freeobj 0;105;5.5;1.18;180;0;0
+3550, .freeobj 0;106;6.5;1.18;180;0;0
+3550, .freeobj 0;106;7.5;1.18;180;0;0
+3550, .freeobj 0;27;12;0;0
+3550, .freeobj 0;0;12;0;0
+3550, .freeobj 0;6;0;0;0
+3550, .freeobj 0;1;12;0;0
+3550, .freeobj 0;2;12;0;0
+3550, .freeobj 0;69;12;0;0
+3550, .freeobj 0;70;12;0;0
+3550, .signal -2;Signal 10;2.3;3;2
+3550, .freeobj 0;15;2.3;0;0
+3550, .curve 0
+3550, .pitch 0
+3550, .railtype 0;7
+3550, .freeobj 0;67;0;0;0
+3550, .freeobj 0;68;0;0;0
+3550, .freeobj 0;4;0;0;0
+3550, .freeobj 0;5;0;0;0
+3562.199737, .freeobj 0;14;5.8963;0;0
+3575, .freeobj 0;0;12;0;0
+3575, .freeobj 0;1;12;0;0
+3575, .freeobj 0;27;12;0;0
+3575, .freeobj 0;2;12;0;0
+3575, .freeobj 0;69;12;0;0
+3575, .freeobj 0;70;12;0;0
+3575, .railtype 0;7
+3575, .freeobj 0;4;0;0;0
+3575, .curve 0
+3575, .pitch 0
+3575, .freeobj 0;68;0;0;0
+3575, .freeobj 0;6;0;0;0
+3575, .freeobj 0;5;0;0;0
+3575, .freeobj 0;67;0;0;0
+3595.599738, .freeobj 0;76;2.0852;0;0
+3595.599738, .freeobj 0;77;4.2852;0;0
+3596.599737, .freeobj 0;77;7.4852;0;-180
+3596.599737, .freeobj 0;76;9.6852;0;-180
+3600, .freeobj 0;27;12;0;0
+3600, .freeobj 0;6;0;0;0
+3600, .freeobj 0;0;12;0;0
+3600, .freeobj 0;2;12;0;0
+3600, .freeobj 0;1;12;0;0
+3600, .freeobj 0;5;0;0;0
+3600, .pitch 0
+3600, .curve 0
+3600, .freeobj 0;4;0;0;0
+3600, .railtype 0;7
+3600.083865, .freeobj 0;75;1.9852;0;0
+3600.583865, .freeobj 0;78;1.9852;0;0
+3625, .freeobj 0;27;12;0;0
+3625, .freeobj 0;6;0;0;0
+3625, .freeobj 0;5;0;0;0
+3625, .freeobj 0;2;12;0;0
+3625, .freeobj 0;1;12;0;0
+3625, .freeobj 0;0;12;0;0
+3625, .pitch 0
+3625, .curve 0
+3625, .announce ..\object\Airport Express Line\sounds\AE3 Arrive.wav
+3625, .Destination 0;-1;1404;1403;1;
+3625, .freeobj 0;4;0;0;0
+3625, .railtype 0;7
+3625.083865, .freeobj 0;75;1.9852;0;0
+3622.8, .freeobj 0;126;6;0;0
+3622.8, .freeobj 0;129;6;0;0
+3624, .freeobj 0;14;6;0;0
+3650, .freeobj 0;27;12;0;0
+3650, .freeobj 0;6;0;0;0
+3650, .freeobj 0;0;12;0;0
+3650, .freeobj 0;2;12;0;0
+3650, .freeobj 0;1;12;0;0
+3650, .freeobj 0;5;0;0;0
+3650, .pitch 0
+3650, .curve 0
+3650, .freeobj 0;4;0;0;0
+3650, .railtype 0;7
+3650.083865, .freeobj 0;75;1.9852;0;0
+3670, .freeobj 0;14;6;0;0
+3675, .freeobj 0;27;12;0;0
+3675, .freeobj 0;6;0;0;0
+3675, .freeobj 0;0;12;0;0
+3675, .freeobj 0;2;12;0;0
+3675, .freeobj 0;1;12;0;0
+3675, .freeobj 0;5;0;0;0
+3675, .pitch 0
+3675, .curve 0
+3675, .freeobj 0;4;0;0;0
+3675, .railtype 0;7
+3675.083865, .freeobj 0;75;1.9852;0;0
+3700, .freeobj 0;27;12;0;0
+3700, .freeobj 0;6;0;0;0
+3700, .freeobj 0;0;12;0;0
+3700, .freeobj 0;2;12;0;0
+3700, .freeobj 0;1;12;0;0
+3700, .freeobj 0;5;0;0;0
+3700, .pitch 0
+3700, .curve 0
+3700, .freeobj 0;4;0;0;0
+3700, .railtype 0;7
+3700.083865, .freeobj 0;75;1.9852;0;0
+3715, .freeobj 0;14;6;0;0
+3716.2, .freeobj 0;126;6;0;0
+3716.2, .freeobj 0;129;6;0;0
+3725, .freeobj 0;6;0;0;0
+3725, .freeobj 0;5;0;0;0
+3725, .freeobj 0;4;0;0;0
+3725, .freeobj 0;27;12;0;0
+3725, .freeobj 0;2;12;0;0
+3725, .freeobj 0;1;12;0;0
+3725, .freeobj 0;0;12;0;0
+3725, .railtype 0;7
+3600, .Sta AE3 Airport;14.0449;14.0529;1;1;1;0;..\object\Airport Express Line\sounds\mindthegap.wav;15;100;
+3725, .pitch 0
+3725, .curve 0
+3725, ;.Marker Airport Express Line\marker\stationmarker_stop.bmp;1000
+3725.083865, .freeobj 0;75;1.9852;0;0
+3737.6, .freeobj 0;111;12
+3737.6, .freeobj 0;33;12
+3737.6, .freeobj 0;32;0
+3737.6, .freeobj 0;112
+3740, .stop 0
+3740, .stop 1
+3740, .freeobj 0;133;0;0;0
+3740, .freeobj 0;143;12;0;0
+3740, .freeobj 0;134;0;0;0
+3740, .freeobj 0;146;12;0;0
+3750, .freeobj 0;0;12;0;0
+3750, .freeobj 0;1;12;0;0
+3750, .freeobj 0;27;12;0;0
+3750, .freeobj 0;2;12;0;0
+3750, .freeobj 0;69;12;0;0
+3750, .freeobj 0;70;12;0;0
+3750, .railtype 0;7
+3750, .freeobj 0;4;0;0;0
+3750, .curve 0
+3750, .pitch 0
+3750, .freeobj 0;68;0;0;0
+3750, .freeobj 0;6;0;0;0
+3750, .freeobj 0;5;0;0;0
+3750, .freeobj 0;67;0;0;0
+3750.283865, .freeobj 0;78;1.9852;0;0
+3755.283865, .freeobj 0;76;2.0852;0;0
+3755.283865, .freeobj 0;77;4.3852;0;0
+3756.283864, .freeobj 0;76;9.7852;0;-180
+3756.283864, .freeobj 0;77;7.5852;0;-180
+3756, .Destination 0;-1;1405;1404;1;
+3775, .freeobj 0;0;12;0;0
+3775, .freeobj 0;1;12;0;0
+3775, .freeobj 0;27;12;0;0
+3775, .freeobj 0;2;12;0;0
+3775, .freeobj 0;69;12;0;0
+3775, .freeobj 0;70;12;0;0
+3775, .freeobj 0;6;0;0;0
+3765, .announce ..\object\Airport Express Line\sounds\AE4 Next.wav
+3775, .railtype 0;7
+3775, .curve 0
+3775, .pitch 0
+3775, .freeobj 0;67;0;0;0
+3775, .freeobj 0;68;0;0;0
+3775, .freeobj 0;4;0;0;0
+3775, .freeobj 0;5;0;0;0
+3786.699737, .freeobj 0;14;5.9963;0;0
+3800, .freeobj 0;105;4.5;1.18
+3800, .freeobj 0;105;5.5;1.18
+3800, .freeobj 0;106;6.5;1.18
+3800, .freeobj 0;106;7.5;1.18
+3800, .freeobj 0;16;0;0;0
+3800, .freeobj 0;15;2.3;0;0
+3800, .railtype 0;1
+3800, .freeobj 0;122;0;0;0
+3800, .freeobj 0;17;12;0;0
+3800, .freeobj 0;123;12;0;0
+3800, .freeobj 0;20;12;0;0
+3800, .fog 25;225;224;224;224
+3800, .curve 0
+3800, .signal -2;Signal 11;2.3;3;2
+3800, .pitch 10
+3800.099738, .freeobj 0;10;1.9963;0;0
+3825, .freeobj 0;20;12;0;0
+3825, .freeobj 0;17;0;0;0
+3825, .freeobj 0;17;12;0;0
+3825, .freeobj 0;16;12;0;0
+3825, .freeobj 0;16;0;0;0
+3825, .fog 25;125;224;224;224
+3825, .curve 0
+3825, .railtype 0;1
+3825, .pitch 20
+3850, .freeobj 0;20;12;0;0
+3850, .freeobj 0;17;0;0;0
+3850, .freeobj 0;17;12;0;0
+3850, .freeobj 0;16;12;0;0
+3850, .freeobj 0;16;0;0;0
+3850, .fog 25;75;224;224;224
+3850, .curve 0
+3850, .railtype 0;1
+3850, .pitch 30
+3875, .freeobj 0;20;12;0;0
+3875, .freeobj 0;17;0;0;0
+3875, .freeobj 0;17;12;0;0
+3875, .freeobj 0;16;12;0;0
+3875, .freeobj 0;16;0;0;0
+3875, .fog 25;45;224;224;224
+3875, .curve 0
+3875, .railtype 0;1
+3875, .pitch 40
+3900, .freeobj 0;20;12;0;0
+3900, .freeobj 0;17;0;0;0
+3900, .freeobj 0;17;12;0;0
+3900, .freeobj 0;16;12;0;0
+3900, .freeobj 0;16;0;0;0
+3900, .fog 25;26;224;224;224
+3900, .curve 0
+3900, .railtype 0;1
+3900, .pitch 30
+3925, .freeobj 0;20;12;0;0
+3925, .freeobj 0;17;0;0;0
+3925, .freeobj 0;17;12;0;0
+3925, .freeobj 0;16;12;0;0
+3925, .pitch 20
+3925, .curve 0
+3925, .freeobj 0;16;0;0;0
+3925, .railtype 0;1
+3950, .freeobj 0;49;0;0;0
+3950, .railtype 0;0
+3950, .freeobj 0;80;12;0;0
+3950, .freeobj 0;3;12;0;0
+3950, .fog 25;525;224;224;224
+3950, .curve 0
+3950, .pitch 10
+3950, .ground 2
+3975, .freeobj 0;49;0;0;0
+3975, .freeobj 0;3;12;0;0
+3975, .freeobj 0;80;12;0;0
+3975, .railtype 0;0
+3975, .curve 0
+3975, .fog 25;1025;224;224;224
+3975, .pitch 20
+4000, .freeobj 0;83;0;0;0
+4000, .freeobj 0;82;0;0;0
+4000, .freeobj 0;3;12;0;0
+4000, .freeobj 0;83;12;0;0
+4000, .freeobj 0;82;12;0;0
+4000, .ground 0
+4000, .curve 0
+4000, .railtype 0;0
+4000, .pitch 10
+4000.099737, .freeobj 0;81;12.7391;-0.4;0
+4010.766406, .freeobj 0;43;-12.737;-1.1;0
+4025, .freeobj 0;3;12;0;0
+4025, .freeobj 0;83;0;0;0
+4025, .freeobj 0;83;12;0;0
+4025, .freeobj 0;82;12;0;0
+4025, .freeobj 0;82;0;0;0
+4025, .curve 0
+4025, .pitch 0
+4025, .railtype 0;0
+4025.099737, .freeobj 0;81;12.7391;-1.4;0
+4036.899734, .freeobj 0;44;44.663;-1.5;0
+4039.699739, .freeobj 0;46;-13.8037;-1.5;0
+4050, .freeobj 0;3;12;0;0
+4050, .freeobj 0;83;0;0;0
+4050, .freeobj 0;83;12;0;0
+4050, .freeobj 0;82;12;0;0
+4050, .freeobj 0;82;0;0;0
+4050, .curve 0
+4050, .pitch 0
+4050, .railtype 0;0
+4050.099737, .freeobj 0;81;12.7391;-2.4;0
+4063.766401, .freeobj 0;46;42.663;-2.5;0
+4069.099739, .freeobj 0;84;-13.6037;-2.5;0
+4075, .freeobj 0;3;12;0;0
+4075, .freeobj 0;83;0;0;0
+4075, .freeobj 0;83;12;0;0
+4075, .freeobj 0;82;12;0;0
+4075, .freeobj 0;82;0;0;0
+4075, .curve 0
+4075, .pitch 0
+4075, .railtype 0;0
+4075.099737, .freeobj 0;81;12.7391;-3.4;0
+4089.699736, .freeobj 0;43;23.9963;-3.5;0
+4091.766408, .freeobj 0;56;-32.137;-3.5;0
+4100, .freeobj 0;3;12;0;0
+4100, .freeobj 0;83;0;0;0
+4100, .freeobj 0;83;12;0;0
+4100, .freeobj 0;82;12;0;0
+4100, .freeobj 0;82;0;0;0
+4100, .curve 0
+4100, .pitch 0
+4100, .railtype 0;0
+4100.099737, .freeobj 0;81;12.7391;-4.4;0
+4113.614019, .freeobj 0;84;46.663;-4.5;0
+4113.69974, .freeobj 0;43;-20.0037;-4.6;0
+4125, .freeobj 0;3;12;0;0
+4125, .freeobj 0;83;0;0;0
+4125, .freeobj 0;83;12;0;0
+4125, .freeobj 0;82;12;0;0
+4125, .freeobj 0;82;0;0;0
+4125, .curve 0
+4125, .pitch 0
+4125, .railtype 0;0
+4125.099737, .freeobj 0;81;12.6891;-5.4;0
+4131.166401, .freeobj 0;85;39.463;-5.5;0
+4136.614016, .freeobj 0;45;81.663;-5.5;0
+4149.566408, .freeobj 0;45;-32.337;-6;0
+4150, .freeobj 0;3;12;0;0
+4150, .freeobj 0;83;0;0;0
+4150, .freeobj 0;83;12;0;0
+4150, .freeobj 0;82;12;0;0
+4150, .freeobj 0;82;0;0;0
+4150, .curve 0
+4150, .pitch 0
+4150, .railtype 0;0
+4150.03307, .freeobj 0;81;12.6558;-6.4;0
+4160.766406, .freeobj 0;45;-14.537;-6.5;0
+4163.499735, .freeobj 0;43;28.3963;-6.5;0
+4175, .freeobj 0;27;-42;0;9.2069
+4175, .freeobj 0;83;12;0;0
+4175, .freeobj 0;82;12;0;0
+4175, .freeobj 0;83;-38;0;9.2069
+4175, .freeobj 0;3;-38;0;9.2069
+4175, .freeobj 0;82;-42;0;9.2069
+4175, .freeobj 0;3;12;0;0
+4175, .pitch 0
+4175, .curve 0
+4175, .railtype 0;0
+4175, .freeobj 0;83;0;0;0
+4175, .freeobj 0;82;0;0;0
+4175.099737, .freeobj 0;81;12.6296;-7.4;0
+4176.766407, .freeobj 0;54;-16.537;-7.5;0
+4176.766407, .freeobj 0;44;-24.937;-7.5;0
+4190.933069, .freeobj 0;46;24.7296;-8;0
+4200, .freeobj 0;27;-38;0;9.2069
+4200, .freeobj 0;83;12;0;0
+4200, .freeobj 0;82;12;0;0
+4200, .freeobj 0;83;-34;0;9.2069
+4200, .freeobj 0;3;-34;0;9.2069
+4200, .freeobj 0;82;-38;0;9.2069
+4200, .freeobj 0;3;12;0;0
+4200, .pitch 0
+4200, .curve 0
+4200, .railtype 0;0
+4200, .freeobj 0;83;0;0;0
+4200, .freeobj 0;82;0;0;0
+4200.099737, .freeobj 0;81;12.6963;-8.4;0
+4203.614018, .freeobj 0;54;57.663;-8.5;0
+4209.566406, .freeobj 0;46;-11.737;-7.5;0
+4225, .freeobj 0;83;12;0;0
+4225, .freeobj 0;82;12;0;0
+4225, .freeobj 0;3;12;0;0
+4225, .freeobj 0;27;-34;0;9.2069
+4225, .freeobj 0;83;-30;0;9.2069
+4225, .freeobj 0;3;-30;0;9.2069
+4225, .freeobj 0;82;-34;0;9.2069
+4225, .pitch 0
+4225, .ground 4
+4225, .curve 0
+4225, .freeobj 0;83;0;0;0
+4225, .freeobj 0;82;0;0;0
+4225, .railtype 0;0
+4225.099737, .freeobj 0;81;12.6963;-9.4;0
+4250, .freeobj 0;27;-30;0;9.2069
+4250, .freeobj 0;83;12;0;0
+4250, .freeobj 0;82;12;0;0
+4250, .freeobj 0;83;-26;0;9.2069
+4250, .freeobj 0;3;-26;0;9.2069
+4250, .freeobj 0;82;-30;0;9.2069
+4250, .railtype 0;0
+4250, .pitch 0
+4250, .curve 0
+4250, .freeobj 0;3;12;0;0
+4250, .freeobj 0;83;0;0;0
+4250, .freeobj 0;82;0;0;0
+4253.614026, .freeobj 0;85;-16.337;-10;0
+4261.599733, .freeobj 0;44;46.5963;-10;0
+4273.766402, .freeobj 0;43;27.663;-10;0
+4275, .freeobj 0;83;12;0;-4.5886
+4275, .freeobj 0;82;12;0;-4.5886
+4275, .freeobj 0;86;12;0;-4.5886
+4275, .freeobj 0;27;-26;0;9.2069
+4275, .freeobj 0;83;-22;0;9.2069
+4275, .freeobj 0;3;-22;0;9.2069
+4275, .freeobj 0;82;-26;0;9.2069
+4275, .signal -2;Signal 12;2.3;3;2
+4275, .pitch 0
+4275, .curve 0
+4275, .freeobj 0;15;2.3;0;0
+4275, .freeobj 0;83;0;0;0
+4275, .freeobj 0;82;0;0;0
+4275, .railtype 0;0
+4286.199742, .freeobj 0;45;-40.0037;-10;0
+4299.614029, .freeobj 0;54;-51.337;-10;0
+4300, .freeobj 0;27;-22;0;9.2069
+4300, .freeobj 0;83;10;0;-9.2069
+4300, .freeobj 0;82;10;0;-9.2069
+4300, .freeobj 0;83;-18;0;9.2069
+4300, .freeobj 0;3;-18;0;9.2069
+4300, .freeobj 0;82;-22;0;9.2069
+4300, .railtype 0;0
+4300, .pitch 0
+4300, .curve 0
+4300, .freeobj 0;3;10;0;-9.2069
+4300, .freeobj 0;83;0;0;0
+4300, .freeobj 0;82;0;0;0
+4306.614019, .freeobj 0;53;45.663;-10;0
+4311.999736, .freeobj 0;44;21.3963;-10;0
+4325, .freeobj 0;27;-18;0;9.2069
+4325, .freeobj 0;83;6;0;-9.2069
+4325, .freeobj 0;82;-18;0;9.2069
+4325, .freeobj 0;83;-14;0;4.5886
+4325, .freeobj 0;86;-14;0;4.5886
+4325, .pitch 0
+4325, .curve 0
+4325, .railtype 0;7
+4325, .freeobj 0;27;6;0;-9.2069
+4325, .freeobj 0;82;0;0;0
+4340.399742, .freeobj 0;44;-36.0037;-10;0
+4350, .rail 3;0;0;2    ;id=0
+4350, .freeobj 0;82;0;0;0
+4350, .railtype 0;2
+4350, .pitch 0
+4350, .curve 0
+4358.899736, .freeobj 0;44;21.9487;-10;0
+4363.433074, .freeobj 0;46;-29.7704;-10;0
+4375, .railtype 0;0
+4150, .announce ..\object\Airport Express Line\sounds\AE4 Arrive.wav
+4150, .Destination 0;-1;1406;1405;1;
+4375, .freeobj 0;82;0;0;0
+;4210, .Destination 0;-1;1407;1406;1;
+4375, .freeobj 0;82;-12;0;0
+4375, .freeobj 0;83;-12;0;0
+4375, .freeobj 0;83;0;0;0
+4375, .freeobj 0;27;-12;0;0
+4375, .pitch 0
+4375, .freeobj 0;82;0;0;175.4114
+4375, .railend 3;4
+4375, .freeobj 0;87;0;0;180
+4375, .freeobj 0;83;-12;0;184.5886
+4375, .curve 0
+4375, .freeobj 0;82;-12;0;180
+4375, .freeobj 0;88;-12;0;180
+4391.9, .freeobj 0;105;3.6;-3.8
+4391.9, .freeobj 0;105;4.6;-3.8
+4391.9, .freeobj 0;106;5.6;-3.8
+4391.9, .freeobj 0;106;6.6;-3.8
+4391.9, .freeobj 0;105;-15.5;-3.8
+4391.9, .freeobj 0;105;-16.5;-3.8
+4391.9, .freeobj 0;106;-17.5;-3.8
+4391.9, .freeobj 0;106;-18.5;-3.8
+4396.999735, .freeobj 0;45;32.3963;-10;0
+4398.999742, .freeobj 0;44;-35.0037;-10;0
+4400, .freeobj 0;73;0;0;0
+4400, .freeobj 0;82;0;0;0
+4400, .railtype 0;0
+4400, .freeobj 0;115
+4400, .freeobj 0;115;-21.5;0
+4400, .freeobj 0;94;0;0;0
+4400, .freeobj 0;95;0;0;0
+4400, .freeobj 0;97;-12;0;0
+4400, .freeobj 0;82;-12;0;0
+4400, .freeobj 0;83;-12;0;0
+4400, .freeobj 0;83;0;0;0
+4400, .freeobj 0;27;-12;0;0
+4400, .freeobj 0;96;-12;0;0
+4400, .freeobj 0;15;2.3;0;0
+4400, .curve 0
+4400, .pitch 0
+4400, .signal -2;Signal 13;2.3;3;2
+4400.099738, .freeobj 0;90;3.1963;0;0
+4400.099738, .freeobj 0;92;-3.2037;0;0
+4400.099739, .freeobj 0;93;-8.8037;0;0
+4400.09974, .freeobj 0;89;-18.0037;0;0
+4400.09974, .freeobj 0;91;-15.2037;0;0
+4400.199737, .freeobj 0;26;7.4963;1.17;0
+4400.19974, .freeobj 0;26;-19.2037;1.17;0
+4406.614017, .freeobj 0;46;68.663;-10;0
+4425, .freeobj 0;82;0;0;0
+4425, .freeobj 0;83;0;0;0
+4425, .freeobj 0;94;0;0;0
+4425, .freeobj 0;95;0;0;0
+4425, .freeobj 0;27;-12;0;0
+4425, .freeobj 0;82;-12;0;0
+4425, .freeobj 0;83;-12;0;0
+4425, .freeobj 0;96;-12;0;0
+4425, .freeobj 0;97;-12;0;0
+4425, .railtype 0;0
+4425, .curve 0
+4425, .pitch 0
+4425.099738, .freeobj 0;100;-3.2037;0;0
+4425.099738, .freeobj 0;98;3.1963;0;0
+4425.099739, .freeobj 0;101;-8.8037;0;0
+4425.09974, .freeobj 0;99;-15.2037;0;0
+4425.09974, .freeobj 0;89;-18.0037;0;0
+4425.199737, .freeobj 0;26;7.4963;1.17;0
+4425.19974, .freeobj 0;26;-19.2037;1.17;0
+4428.614029, .freeobj 0;45;-47.337;-10;0
+4436.899739, .freeobj 0;14;-6.1037;0;0
+4442.599735, .freeobj 0;45;30.8963;-10;0
+4450, .freeobj 0;94;0;0;0
+4450, .railtype 0;0
+4450, .pitch 0
+4450, .freeobj 0;83;0;0;0
+4450, .freeobj 0;27;-12;0;0
+4450, .freeobj 0;95;0;0;0
+4450, .freeobj 0;82;0;0;0
+4450, .curve 0
+4450, .freeobj 0;83;-12;0;0
+4450, .freeobj 0;82;-12;0;0
+4450, .freeobj 0;96;-12;0;0
+4450, .freeobj 0;97;-12;0;0
+4450.099738, .freeobj 0;90;3.1963;0;0
+4450.099738, .freeobj 0;92;-3.2037;0;0
+4450.099739, .freeobj 0;93;-8.8037;0;0
+4450.09974, .freeobj 0;91;-15.2037;0;0
+4450.09974, .freeobj 0;89;-18.0037;0;0
+4450.199737, .freeobj 0;26;7.4963;1.17;0
+4450.19974, .freeobj 0;26;-19.2037;1.17;0
+4453.399741, .freeobj 0;44;-34.0037;-10;0
+4475, .freeobj 0;95;0;0;0
+4475, .freeobj 0;94;0;0;0
+4475, .railtype 0;0
+4475, .freeobj 0;82;0;0;0
+4475, .freeobj 0;96;-12;0;0
+4475, .freeobj 0;97;-12;0;0
+4475, .freeobj 0;83;0;0;0
+4475, .freeobj 0;27;-12;0;0
+4475, .pitch 0
+4475, .freeobj 0;83;-12;0;0
+4475, .freeobj 0;82;-12;0;0
+4475, .curve 0
+4475.099738, .freeobj 0;92;-3.2037;0;0
+4475.099738, .freeobj 0;90;3.1963;0;0
+4475.099739, .freeobj 0;93;-8.8037;0;0
+4475.09974, .freeobj 0;89;-18.0037;0;0
+4475.09974, .freeobj 0;91;-15.2037;0;0
+4475.199737, .freeobj 0;26;7.4963;1.17;0
+4475.19974, .freeobj 0;26;-19.2037;1.17;0
+4484.614018, .freeobj 0;102;55.663;-10;0
+4492.852122, .freeobj 0;47;-33.337;-10;0
+4500, .freeobj 0;82;0;0;0
+4500, .freeobj 0;83;0;0;0
+4500, .freeobj 0;94;0;0;0
+4500, .freeobj 0;95;0;0;0
+4500, .freeobj 0;27;-12;0;0
+4500, .freeobj 0;82;-12;0;0
+4500, .freeobj 0;83;-12;0;0
+4500, .freeobj 0;96;-12;0;0
+4500, .freeobj 0;97;-12;0;0
+4500, .railtype 0;0
+4500, .Destination 0;-1;1406;1405;1;
+4500, .curve 0
+4500, .pitch 0
+4500.099738, .freeobj 0;100;-3.2037;0;0
+4500.099738, .freeobj 0;98;3.1963;0;0
+4500.099739, .freeobj 0;101;-8.8037;0;0
+4500.09974, .freeobj 0;99;-15.2037;0;0
+4500.09974, .freeobj 0;89;-18.0037;0;0
+4500.199737, .freeobj 0;26;7.4963;1.17;0
+4500.19974, .freeobj 0;26;-19.2037;1.17;0
+4506.399735, .freeobj 0;44;25.5963;-10;0
+4511.399739, .freeobj 0;14;-6.2037;0;0
+4525, .freeobj 0;95;0;0;0
+4525, .freeobj 0;82;0;0;0
+4525, ;.Marker Airport Express Line\marker\stationmarker_stop.bmp;1000
+4525, .railtype 0;0
+4525, .freeobj 0;94;0;0;0
+4525, .freeobj 0;97;-12;0;0
+4525, .freeobj 0;82;-12;0;0
+4525, .freeobj 0;83;-12;0;0
+4525, .freeobj 0;83;0;0;0
+4525, .freeobj 0;27;-12;0;0
+4525, .freeobj 0;96;-12;0;0
+4525, .pitch 0
+4525, .curve 0
+4404, .Sta AE4 East Harbour;14.0645;;3;B;1;0;;240;100;
+4525.099738, .freeobj 0;92;-3.2037;0;0
+4525.099738, .freeobj 0;90;3.1963;0;0
+4525.099739, .freeobj 0;93;-8.8037;0;0
+4525.09974, .freeobj 0;91;-15.2037;0;0
+4525.09974, .freeobj 0;89;-18.0037;0;0
+4525.199737, .freeobj 0;26;7.4963;1.17;0
+4525.19974, .freeobj 0;26;-19.2037;1.17;0
+4537.423546, .freeobj 0;54;16.9487;-10;0
+4541.6, .freeobj 0;113;-0.1
+4541.6, .freeobj 0;114;0.1
+4541.6, .freeobj 0;149;-12.1
+4541.6, .freeobj 0;150;-11.9
+4544, .stop 0
+4544, .stop 1
+4545.614029, .freeobj 0;46;-49.337;-10;0
+4550, .freeobj 0;82;0;0;0
+4550, .freeobj 0;95;0;0;0
+4550, .freeobj 0;94;0;0;0
+4550, .freeobj 0;96;-12;0;0
+4550, .freeobj 0;27;-12;0;0
+4550, .freeobj 0;83;0;0;0
+4550, .freeobj 0;97;-12;0;0
+4550, .freeobj 0;82;-12;0;0
+4550, .freeobj 0;83;-12;0;0
+4550, .railtype 0;0
+4550, .pitch 0
+4550, .curve 0
+4550.09974, .freeobj 0;89;-18.0037;0;0
+4550.199737, .freeobj 0;26;7.4963;1.17;0
+4550.19974, .freeobj 0;26;-19.2037;1.17;0
+4575, .freeobj 0;27;-12;0;0
+4575, .freeobj 0;83;0;0;0
+4575, .freeobj 0;83;-12;0;0
+4575, .freeobj 0;82;-12;0;0
+4575, .pitch 0
+4575, .curve 0
+4575, .freeobj 0;82;0;0;0
+4575, .railtype 0;0
+4582.599733, .freeobj 0;43;49.5963;-10;0
+4598.423551, .freeobj 0;43;-34.4799;-10;0
+4600, .freeobj 0;27;-12;0;0
+4600, .freeobj 0;83;0;0;0
+4600, .freeobj 0;83;-12;0;0
+4600, .freeobj 0;82;-12;0;0
+4600, .pitch 0
+4600, .curve 0
+4600, .freeobj 0;82;0;0;0
+4600, .railtype 0;0
+4623, .buffer
+4603.199736, .freeobj 0;44;19.9963;-10;0
+4620.198945, .freeobj 0;103;-11.7291;0;0
+4620.232278, .freeobj 0;103;0.3042;0;0
+4625, .freeobj 0;104;-12;0;0
+4625, .freeobj 0;83;0;0;0
+4625, .freeobj 0;83;-12;0;0
+4625, .freeobj 0;82;-12;0;0
+4625, .pitch 0
+4625, .curve 0
+4625, .freeobj 0;82;0;0;0
+4625, .railtype 0;2
+4643.614022, .freeobj 0;45;24.663;-10;0
+4649.799741, .freeobj 0;44;-26.0037;-10;0
+4650, .railtype 0;2
+4650, .freeobj 0;104;-12;0;0
+4650, .curve 0
+4650, .pitch 0
+4665.566406, .freeobj 0;43;-5.937;-10;0
+,
+;ratis,
+With Structure,
+;towards eha,
+.freeobj(1000) Airport Express Line\ratis\ratisheadeha.ANIMATED, ;stoppoint-35m
+.freeobj(1010) Airport Express Line\ratis\ratistaileha.ANIMATED, ;stoppoint-105m
+.freeobj(1001) Airport Express Line\ratis\ratisheadeha1.ANIMATED,
+.freeobj(1011) Airport Express Line\ratis\ratistaileha1.ANIMATED,
+.freeobj(1002) Airport Express Line\ratis\ratisheadeha2.ANIMATED,
+.freeobj(1012) Airport Express Line\ratis\ratistaileha2.ANIMATED,
+.freeobj(1003) Airport Express Line\ratis\ratisheadeha3.ANIMATED,
+.freeobj(1013) Airport Express Line\ratis\ratistaileha3.ANIMATED,
+.freeobj(1004) Airport Express Line\ratis\ratisheadeha4.ANIMATED,
+.freeobj(1014) Airport Express Line\ratis\ratistaileha4.ANIMATED,
+.freeobj(1005) Airport Express Line\ratis\ratisheadeha5.ANIMATED,
+.freeobj(1015) Airport Express Line\ratis\ratistaileha5.ANIMATED,
+.freeobj(1006) Airport Express Line\ratis\ratisheadeha6.ANIMATED,
+.freeobj(1016) Airport Express Line\ratis\ratistaileha6.ANIMATED,
+.freeobj(1007) Airport Express Line\ratis\ratisheadeha7.ANIMATED,
+.freeobj(1017) Airport Express Line\ratis\ratistaileha7.ANIMATED,
+.freeobj(1008) Airport Express Line\ratis\ratisheadeha8.ANIMATED,
+.freeobj(1018) Airport Express Line\ratis\ratistaileha8.ANIMATED,
+.freeobj(1009) Airport Express Line\ratis\ratisheadeha9.ANIMATED,
+.freeobj(1019) Airport Express Line\ratis\ratistaileha9.ANIMATED,
+.freeobj(10010) Airport Express Line\ratis\ratisheadeha10.ANIMATED,
+.freeobj(10110) Airport Express Line\ratis\ratistaileha10.ANIMATED,
+;for opposite platform,
+.freeobj(1020) Airport Express Line\ratis\oppositeplat\sta.ANIMATED, ;green and white
+.freeobj(1021) Airport Express Line\ratis\oppositeplat\sta1.ANIMATED,
+.freeobj(1022) Airport Express Line\ratis\oppositeplat\sta2.ANIMATED,
+.freeobj(1023) Airport Express Line\ratis\oppositeplat\sta3.ANIMATED,
+.freeobj(1024) Airport Express Line\ratis\oppositeplat\sta4.ANIMATED,
+.freeobj(1025) Airport Express Line\ratis\oppositeplat\sta5.ANIMATED,
+.freeobj(1026) Airport Express Line\ratis\oppositeplat\sta6.ANIMATED,
+.freeobj(1027) Airport Express Line\ratis\oppositeplat\sta7.ANIMATED,
+.freeobj(1028) Airport Express Line\ratis\oppositeplat\sta8.ANIMATED,
+.freeobj(1029) Airport Express Line\ratis\oppositeplat\sta9.ANIMATED,
+.freeobj(10210) Airport Express Line\ratis\oppositeplat\sta10.ANIMATED,
+.freeobj(1030) Airport Express Line\ratis\oppositeplat\staarrblank.ANIMATED, ;arriving in
+.freeobj(1031) Airport Express Line\ratis\oppositeplat\staarr1.ANIMATED,
+.freeobj(1032) Airport Express Line\ratis\oppositeplat\staarr2.ANIMATED,
+.freeobj(1033) Airport Express Line\ratis\oppositeplat\staarr3.ANIMATED,
+.freeobj(1034) Airport Express Line\ratis\oppositeplat\staarr4.ANIMATED,
+.freeobj(1035) Airport Express Line\ratis\oppositeplat\staarr5.ANIMATED,
+.freeobj(1036) Airport Express Line\ratis\oppositeplat\staarr6.ANIMATED,
+.freeobj(1037) Airport Express Line\ratis\oppositeplat\staarr7.ANIMATED,
+.freeobj(1038) Airport Express Line\ratis\oppositeplat\staarr8.ANIMATED,
+.freeobj(1039) Airport Express Line\ratis\oppositeplat\staarr9.ANIMATED,
+.freeobj(10310) Airport Express Line\ratis\oppositeplat\staarr10.ANIMATED,
+;for stadium departing at 14.0000,
+.freeobj(1040) Airport Express Line\ratis\stadium\ratis50400eha.ANIMATED,
+.freeobj(1041) Airport Express Line\ratis\stadium\ratis50400eha1.ANIMATED,
+.freeobj(1042) Airport Express Line\ratis\stadium\ratis50400eha2.ANIMATED,
+.freeobj(1043) Airport Express Line\ratis\stadium\ratis50400eha3.ANIMATED,
+.freeobj(1044) Airport Express Line\ratis\stadium\ratis50400eha4.ANIMATED,
+.freeobj(1045) Airport Express Line\ratis\stadium\ratis50400eha5.ANIMATED,
+.freeobj(1046) Airport Express Line\ratis\stadium\ratis50400eha6.ANIMATED,
+.freeobj(1047) Airport Express Line\ratis\stadium\ratis50400eha7.ANIMATED,
+.freeobj(1048) Airport Express Line\ratis\stadium\ratis50400eha8.ANIMATED,
+.freeobj(1049) Airport Express Line\ratis\stadium\ratis50400eha9.ANIMATED,
+.freeobj(10410) Airport Express Line\ratis\stadium\ratis50400eha10.ANIMATED,
+.freeobj(10411) Airport Express Line\ratis\stadium\nosvc.ANIMATED, ;no service
+;east harbour departing at 14.1000 towards stadium platform a,
+.freeobj(1051) Airport Express Line\ratis\eastharbour\ratisa51000headsta.ANIMATED,
+.freeobj(1061) Airport Express Line\ratis\eastharbour\ratisa51000tailsta.ANIMATED,
+;east harbour departing at 14.1000 towards stadium platform b,
+.freeobj(1052) Airport Express Line\ratis\eastharbour\ratisb51000headsta.ANIMATED,
+.freeobj(1062) Airport Express Line\ratis\eastharbour\ratisb51000tailsta.ANIMATED,
+;east harbour evergreen fields line,
+;clock,
+.freeobj(1101) Airport Express Line\ratis\ratisclock\normalhead.animated,
+.freeobj(1102) Airport Express Line\ratis\ratisclock\normaltail.animated,
+.freeobj(1103) Airport Express Line\ratis\ratisclock\stu.animated,
+.freeobj(1104) Airport Express Line\ratis\ratisclock\ehahead.animated,
+.freeobj(1105) Airport Express Line\ratis\ratisclock\ehatail.animated,
+.freeobj(1106) Airport Express Line\ratis\ratisclock\oppositeplat.animated,
+,
+With Track,
+;Stadium 19,
+0, .freeobj 0;10410;-6.69;-0.4
+0.2, .freeobj 0;10410;-0.29;-0.4;180
+0, .freeobj 0;1103;-6.69;-0.4
+0.2, .freeobj 0;1103;-0.29;-0.4;180
+0, .freeobj 0;10411;-11.71;-0.4
+0.2, .freeobj 0;10411;-5.31;-0.4;180
+,
+;Exhibition Centre 1870,
+1835, .freeobj 0;10010;0.29;-0.4
+1835.2, .freeobj 0;10010;6.69;-0.4;180
+1835, .freeobj 0;1101;0.29;-0.4
+1835.2, .freeobj 0;1101;6.69;-0.4;180
+1835, .freeobj 0;1031;5.31;-0.4
+1835.2, .freeobj 0;1031;11.71;-0.4;180
+1835, .freeobj 0;1106;5.31;-0.4
+1835.2, .freeobj 0;1106;11.71;-0.4;180
+1765, .freeobj 0;10110;0.29;-0.4
+1765.2, .freeobj 0;10110;6.69;-0.4;180
+1765, .freeobj 0;1102;0.29;-0.4
+1765.2, .freeobj 0;1102;6.69;-0.4;180
+1765, .freeobj 0;1031;5.31;-0.4
+1765.2, .freeobj 0;1031;11.71;-0.4;180
+1765, .freeobj 0;1106;5.31;-0.4
+1765.2, .freeobj 0;1106;11.71;-0.4;180
+,
+;Airport 3740,
+3705, .freeobj 0;10010;0.29;-0.4
+3705.2, .freeobj 0;10010;6.69;-0.4;180
+3705, .freeobj 0;1101;0.29;-0.4
+3705.2, .freeobj 0;1101;6.69;-0.4;180
+3705, .freeobj 0;1037;5.31;-0.4
+3705.2, .freeobj 0;1037;11.71;-0.4;180
+3705, .freeobj 0;1106;5.31;-0.4
+3705.2, .freeobj 0;1106;11.71;-0.4;180
+3635, .freeobj 0;10110;0.29;-0.4
+3635.2, .freeobj 0;10110;6.69;-0.4;180
+3635, .freeobj 0;1101;0.29;-0.4
+3635.2, .freeobj 0;1101;6.69;-0.4;180
+3635, .freeobj 0;1037;5.31;-0.4
+3635.2, .freeobj 0;1037;11.71;-0.4;180
+3635, .freeobj 0;1106;5.31;-0.4
+3635.2, .freeobj 0;1106;11.71;-0.4;180
+,
+;East Harbour 4544,
+4509, .freeobj 0;1051;-0.5;-0.05
+4509.2, .freeobj 0;1051;5.9;-0.05;180
+4509, .freeobj 0;1052;-6.9;-0.05
+4509.2, .freeobj 0;1052;-0.5;-0.05;180
+4509, .freeobj 0;1104;-0.5;-0.05
+4509.2, .freeobj 0;1104;5.9;-0.05;180
+4509, .freeobj 0;1104;-6.9;-0.05
+4509.2, .freeobj 0;1104;-0.5;-0.05;180
+4439, .freeobj 0;1061;-0.5;-0.05
+4439.2, .freeobj 0;1061;5.9;-0.05;180
+4439, .freeobj 0;1062;-6.9;-0.05
+4439.2, .freeobj 0;1062;-0.5;-0.05;180
+4439, .freeobj 0;1105;-0.5;-0.05
+4439.2, .freeobj 0;1105;5.9;-0.05;180
+4439, .freeobj 0;1105;-6.9;-0.05
+4439.2, .freeobj 0;1105;-0.5;-0.05;180
+
+$include(SgATC_AEL.txt)
